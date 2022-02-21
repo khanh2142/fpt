@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Đổi mật khẩu</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+  </head>
+  <body ng-app="myApp">
+    <div class="container pt-5" ng-controller="resetPassword">
+      <div class="row">
+        <h3>Đổi mật khẩu</h3>
+      </div>
+      <div class="row">
+        <div class="col-4 res-col">
+          <form>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label"
+                >Tên đăng nhập</label
+              >
+              <input
+                type="text"
+                class="form-control"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+                ng-model="username"
+              />
+            </div>
+
+            <button
+              type="submit"
+              class="btn btn-warning"
+              ng-click="checkUsername()"
+            >
+              Tiếp tục
+            </button>
+          </form>
+        </div>
+
+        <div class="col-4 d-none res-col">
+          <form>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label"
+                >Nhập mật khẩu cũ</label
+              >
+              <input
+                type="password"
+                class="form-control"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+                ng-model="password"
+              />
+            </div>
+
+            <button
+              type="submit"
+              class="btn btn-warning"
+              ng-click="checkUserpass()"
+            >
+              Tiếp tục
+            </button>
+          </form>
+        </div>
+
+        <div class="col-4 d-none res-col">
+          <form>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label"
+                >Nhập mật khẩu mới</label
+              >
+              <input
+                type="password"
+                class="form-control"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+                ng-model="newPassword"
+              />
+            </div>
+
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label"
+                >Nhập lại mật khẩu mới</label
+              >
+              <input
+                type="password"
+                class="form-control"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+                ng-model="newRepeatPassword"
+              />
+            </div>
+
+            <button
+              type="submit"
+              class="btn btn-warning"
+              ng-click="checkUserNewPass()"
+            >
+              Tiếp tục
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="col-md-2">
+        <a href="trang-chu.html" class="btn btn-info mt-5">Trang chủ</a>
+      </div>
+    </div>
+
+    <script src="./js/angularJS.min.js"></script>
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/popper.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="./db/students.json"></script>
+
+    <script>
+      const app = angular.module("myApp", []);
+
+      const resetPassword = ($scope, $http) => {
+        const box = document.querySelectorAll(".res-col");
+
+        const api =
+          "https://621394e389fad53b1ff9c97c.mockapi.io/api/sinhvien/sinhvien";
+
+        let id;
+        let currentPass;
+
+        $scope.checkUsername = () => {
+          fetch(api)
+            .then((res) => {
+              return res.json();
+            })
+            .then((data) => {
+              const username = $scope.username;
+
+              console.log(username);
+
+              let check = 0;
+              data.forEach((item) => {
+                console.log(item.username);
+                if (item.username === username) {
+                  check++;
+                  id = item.id;
+                }
+              });
+
+              if (check != 0) {
+                box[0].classList.add("d-none");
+                box[1].classList.remove("d-none");
+              } else {
+                alert("Tài khoản không chính xác...");
+              }
+            });
+        };
+
+        $scope.checkUserpass = () => {
+          fetch(api)
+            .then((res) => {
+              return res.json();
+            })
+            .then((data) => {
+              const password = $scope.password;
+              currentPass = password;
+
+              let check = 0;
+              data.forEach((item) => {
+                if (item.password === password) {
+                  check++;
+                }
+              });
+
+              if (check != 0) {
+                box[1].classList.add("d-none");
+                box[2].classList.remove("d-none");
+              } else {
+                alert("Mật khẩu không chính xác...");
+              }
+            });
+        };
+
+        $scope.checkUserNewPass = () => {
+          const newPass = $scope.newPassword;
+          const newRepeatPass = $scope.newRepeatPassword;
+          if (newPass === newRepeatPass && newPass !== currentPass) {
+            fetch(api + "/" + id, {
+              method: "PUT",
+              headers: {
+                "Content-Type": "application/json",
+              },
+              body: JSON.stringify({ password: newPass }),
+            })
+              .then((res) => {
+                return res;
+              })
+              .then((data) => {
+                localStorage.removeItem("currentUser");
+                window.location.replace("dang-nhap.html");
+              });
+          } else {
+            if (newPass === currentPass) {
+              alert("Vui lòng không nhập mật khẩu cũ ...");
+            } else {
+              alert("Mật khẩu không trùng khớp ...");
+            }
+          }
+        };
+      };
+
+      app.controller("resetPassword", resetPassword);
+    </script>
+  </body>
+</html>
