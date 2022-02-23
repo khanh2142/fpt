@@ -1,0 +1,124 @@
+<div class="card">
+  <div class="card-body">
+    <h3 class="text-info">FPT Polytechnic</h3>
+    <h5 class="mt-3">
+      Với triết lý đào tạo “Thực học – Thực nghiệp”, Cao đẳng FPT Polytechnic
+      hướng tới đào tạo nguồn nhân lực chất lượng cao với phương pháp giảng dạy
+      qua dự án thật.
+    </h5>
+    <img src="images/images-body.png" class="img-fluid mt-3" alt="" />
+    <button type="button" class="btn btn-outline-warning mt-3">
+      Xem Thêm >
+    </button>
+    <img src="images/images-footer.jpg" class="img-fluid mt-3" alt="" />
+  </div>
+  <h3 class="ms-3 text-danger">
+    Đăng ký ngay để trở thành tân sinh viên của FPoly 2022
+  </h3>
+  <form action="" class="bg-warning mt-3">
+    <div class="row pb-3 mt-3">
+      <div class="col-6 ms-3">
+        <label for="fullname">Họ tên <span class="text-danger">*</span></label>
+        <input type="text" name="fullname" class="form-control" id="fullname" />
+
+        <label for="email" class="col-2"
+          >Email <span class="text-danger">*</span></label
+        >
+        <input type="email" name="email" class="form-control" id="email" />
+
+        <label for="dia-diem"
+          >Địa điểm học <span class="text-danger">*</span></label
+        >
+        <select class="form-select" name="dia-diem" id="dia-diem">
+          <option value="dia-diem-hoc">Địa điểm học*</option>
+          <option value="hanoi">Hà Nội</option>
+          <option value="danang">Đà Nẵng</option>
+          <option value="taynguyen">Tây Nguyên</option>
+          <option value="hcm">TP.Hồ Chí Minh</option>
+          <option value="cantho">Cần Thơ</option>
+          <option value="he9+">Hệ 9+</option>
+        </select>
+      </div>
+      <div class="col-5">
+        <label for="sdt"
+          >Số điện thoại <span class="text-danger">*</span></label
+        >
+        <input type="text" name="sdt" class="form-control" id="sdt" />
+
+        <label for="nganh-hoc"
+          >Ngành học <span class="text-danger">*</span></label
+        >
+        <select class="form-select" name="nganh-hoc" id="nganh-hoc">
+          <option value="chon-nganh-hoc">Chọn ngành học</option>
+          <option value="chua-xac-dinh">Chưa xác định ngành học</option>
+          <option value="tkdh">
+            Thiết kế đồ họa - Mỹ thuật đa phương tiện
+          </option>
+          <option value="tkweb">Thiết kế website</option>
+          <option value="udpm">Ứng dụng phần mềm</option>
+          <option value="ltmt">Lập trình máy tính - Thiết bị di động</option>
+          <option value="du-lich">Hướng dẫn viên du lịch</option>
+          <option value="nha-hang">Quản trị Nhà hàng</option>
+          <option value="khach-san">Quản trị Khách sạn</option>
+          <option value="mkt-sales">QTDN - Marketing & Sales</option>
+          <option value="digital-mkt">Digital & Online Marketing</option>
+          <option value="truyen-thong-PR">
+            Truyền thông(PR) & Tổ chức sự kiện
+          </option>
+          <option value="lam-dep">Ngành làm đẹp</option>
+          <option value="tu-dong-hoa">
+            CN ký thuật điều kiển và tự động hóa
+          </option>
+          <option value="ky-thuat-dien-tu">
+            Công nghệ kỹ thuật điện, điện tử
+          </option>
+          <option value="dien-cong-nghiep">Điện công nghiệp</option>
+          <option value="co-khi">Công nghệ kỹ thuật cơ khí</option>
+        </select>
+      </div>
+    </div>
+    <p class="ms-3">Mục chứa dấu (*) là những mục không được để trống!</p>
+    <button
+      class="btn btn-primary col-2 ms-3 mb-3"
+      type="button"
+      data-bs-toggle="modal"
+      data-bs-target="#dang-ky"
+    >
+      Đăng ký
+    </button>
+    <div
+      class="modal fade"
+      id="dang-ky"
+      tabindex="-1"
+      aria-labelledby="dang-ky"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h6 class="modal-title" id="dang-ky">Thông báo</h6>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            Đăng ký thành công, hồ sơ của bạn sẽ được xem xét và kiểm tra thông
+            tin, chúng tôi sẽ gửi đến bạn kết quả sớm nhất!
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </form>
+</div>

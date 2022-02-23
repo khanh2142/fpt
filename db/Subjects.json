@@ -1,0 +1,122 @@
+[
+  {
+    "sub_id": "ADAV",
+    "sub_name": "Lập trình Android nâng cao",
+    "sub_logo": "ADAV.jpg",
+    "id": 1
+  },
+  {
+    "sub_id": "ADBS",
+    "sub_name": "Lập trình Android cơ bản",
+    "sub_logo": "ADBS.jpg",
+    "id": 2
+  },
+  {
+    "sub_id": "ADTE",
+    "sub_name": "Kiểm thử và triển khai ứng dụng Android",
+    "sub_logo": "ADTE.jpg",
+    "id": 3
+  },
+  {
+    "sub_id": "ADUI",
+    "sub_name": "Thiết kế giao diện trên Android",
+    "sub_logo": "ADUI.jpg",
+    "id": 4
+  },
+  {
+    "sub_id": "ASNE",
+    "sub_name": "Lập trình ASP.NET",
+    "sub_logo": "ASNE.png",
+    "id": 5
+  },
+  {
+    "sub_id": "CLCO",
+    "sub_name": "Điện toán đám mây",
+    "sub_logo": "CLCO.jpg",
+    "id": 6
+  },
+  {
+    "sub_id": "DBAV",
+    "sub_name": "SQL Server",
+    "sub_logo": "DBAV.png",
+    "id": 7
+  },
+  {
+    "sub_id": "DBBS",
+    "sub_name": "Cơ sở dữ liệu",
+    "sub_logo": "DBBS.png",
+    "id": 8
+  },
+  {
+    "sub_id": "GAME",
+    "sub_name": "Lập trình game 2D",
+    "sub_logo": "GAME.png",
+    "id": 9
+  },
+  {
+    "sub_id": "HTCS",
+    "sub_name": "HTML5 và CSS3",
+    "sub_logo": "HTCS.jpg",
+    "id": 10
+  },
+  {
+    "sub_id": "INMA",
+    "sub_name": "Internet Marketing",
+    "sub_logo": "INMA.jpg",
+    "id": 11
+  },
+  {
+    "sub_id": "JAAV",
+    "sub_name": "Lập trình Java nâng cao",
+    "sub_logo": "JAAV.png",
+    "id": 12
+  },
+  {
+    "sub_id": "JABS",
+    "sub_name": "Lập trình hướng đối tượng với Java",
+    "sub_logo": "JABS.png",
+    "id": 13
+  },
+  {
+    "sub_id": "JSPR",
+    "sub_name": "Lập trình JavaScript",
+    "sub_logo": "JSPR.png",
+    "id": 14
+  },
+  {
+    "sub_id": "LAYO",
+    "sub_name": "Thiết kế layout",
+    "sub_logo": "LAYO.jpg",
+    "id": 15
+  },
+  {
+    "sub_id": "MOWE",
+    "sub_name": "Thiết kế web cho điện thoại di động",
+    "sub_logo": "MOWE.png",
+    "id": 16
+  },
+  {
+    "sub_id": "PHPP",
+    "sub_name": "Lập trình PHP",
+    "sub_logo": "PHPP.png",
+    "id": 17
+  },
+  {
+    "sub_id": "PMAG",
+    "sub_name": "Quản lý dự án với Agile",
+    "sub_logo": "PMAG.jpg",
+    "id": 18
+  },
+  {
+    "sub_id": "VBPR",
+    "sub_name": "Lập trình VB.NET",
+    "sub_logo": "VBPR.png",
+    "id": 19
+  },
+  {
+    "sub_id": "WEBU",
+    "sub_name": "Xây dựng trang web",
+    "sub_logo": "WEBU.jpg",
+    "id": 20
+  }
+]

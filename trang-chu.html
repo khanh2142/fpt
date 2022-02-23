@@ -9,7 +9,7 @@
   </head>
 
   <body ng-app="myApp">
-    <div class="container">
+    <div class="container" ng-controller="appController" ng-modal="sub_id">
       <!-- Header -->
       <header class="row">
         <img src="images/banner.png" alt="" class="col-12 img" />
@@ -32,7 +32,7 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link" href="gioi-thieu.html"
+                <a class="nav-link" href="#!gioi-thieu"
                   ><svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="16"
@@ -50,7 +50,7 @@
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="gop-y.html"
+                <a class="nav-link" href="#!gop-y"
                   ><svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="16"
@@ -67,7 +67,7 @@
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="hoi-dap.html">
+                <a class="nav-link" href="#!hoi-dap">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="16"
@@ -81,6 +81,45 @@
                       d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.496 6.033h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286a.237.237 0 0 0 .241.247zm2.325 6.443c.61 0 1.029-.394 1.029-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94 0 .533.425.927 1.01.927z"
                     /></svg
                   >Hỏi đáp</a
+                >
+              </li>
+              <li class="nav-item" ng-controller="admin">
+                <a class="nav-link" href="#" ng-click="adminPage()">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-person-badge"
+                    style="margin-bottom: 5px; margin-right: 2px"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M6.5 2a.5.5 0 0 0 0 1h3a.5.5 0 0 0 0-1h-3zM11 8a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"
+                    />
+                    <path
+                      d="M4.5 0A2.5 2.5 0 0 0 2 2.5V14a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2.5A2.5 2.5 0 0 0 11.5 0h-7zM3 2.5A1.5 1.5 0 0 1 4.5 1h7A1.5 1.5 0 0 1 13 2.5v10.795a4.2 4.2 0 0 0-.776-.492C11.392 12.387 10.063 12 8 12s-3.392.387-4.224.803a4.2 4.2 0 0 0-.776.492V2.5z"
+                    />
+                  </svg>
+                  Quản trị</a
+                >
+              </li>
+              <li class="nav-item" ng-controller="admin">
+                <a class="nav-link" href="#!thi">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-book"
+                    viewBox="0 0 16 16"
+                    style="margin-bottom: 5px; margin-right: 2px"
+                  >
+                    <path
+                      d="M1 2.828c.885-.37 2.154-.769 3.388-.893 1.33-.134 2.458.063 3.112.752v9.746c-.935-.53-2.12-.603-3.213-.493-1.18.12-2.37.461-3.287.811V2.828zm7.5-.141c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492V2.687zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783z"
+                    />
+                  </svg>
+                  Thi trắc nghiệm</a
                 >
               </li>
             </ul>
@@ -140,7 +179,9 @@
                 >
               </li>
               <li>
-                <a class="dropdown-item user-setting" href="doi-pass.html">Đổi mật khẩu</a>
+                <a class="dropdown-item user-setting" href="doi-pass.html"
+                  >Đổi mật khẩu</a
+                >
               </li>
               <li>
                 <a class="dropdown-item user-setting" href="#"
@@ -154,8 +195,8 @@
       <!-- Body -->
       <div class="row mt-3">
         <!-- artical -->
-        <article class="col-9">
-          <div class="card">
+        <article class="col-9" ng-view>
+          <!-- <div class="card">
             <div class="card-body">
               <h3 class="text-info">FPT Polytechnic</h3>
               <h5 class="mt-3">
@@ -302,7 +343,7 @@
                 </div>
               </div>
             </form>
-          </div>
+          </div> -->
         </article>
         <!-- aside -->
         <aside class="col-3">
@@ -324,24 +365,10 @@
               DANH MỤC MÔN HỌC
             </div>
             <div class="card-body">
-              <ul class="list-group">
-                <li class="list-group-item">Lập trình Android nâng cao</li>
-                <li class="list-group-item">Xây dựng trang web</li>
-                <li class="list-group-item">Cơ sở dữ liệu</li>
-                <li class="list-group-item">SQL Server</li>
-                <li class="list-group-item">Internet Marketing</li>
-                <li class="list-group-item">
-                  Lập trình hướng đối tượng với Java
+              <ul class="list-group" ng-controller="subjectController">
+                <li class="list-group-item" ng-repeat="item in subjects">
+                  {{item.sub_name}}
                 </li>
-                <li class="list-group-item">lập trình PHP</li>
-                <li class="list-group-item">Điện toán đám mây</li>
-                <li class="list-group-item">Lập trình Android cơ bản</li>
-                <li class="list-group-item">Lập trình game 2D</li>
-                <li class="list-group-item">Thiết kế giao diện trên Android</li>
-                <li class="list-group-item">
-                  Thiết kế web cho điện thoại di động
-                </li>
-                <li class="list-group-item">Lập trình ASP.NET</li>
               </ul>
             </div>
           </div>
@@ -589,6 +616,7 @@
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="./js/angularJS.min.js"></script>
+    <script src="./js/angular-route.js"></script>
 
     <script>
       let userSetting = document.querySelectorAll(".user-setting");
@@ -614,14 +642,166 @@
     </script>
 
     <script>
-      const app = angular.module("myApp", []);
+      const app = angular.module("myApp", ["ngRoute"]);
+
       const logout = function ($scope) {
         $scope.logout = function () {
           localStorage.removeItem("currentUser");
           window.location.replace("trang-chu.html");
         };
       };
+
+      app.controller("appController", ($scope, $http) => {
+        $scope.take_id = (sub_id) => {
+          console.log(sub_id);
+          $scope.sub_id = sub_id;
+        };
+      });
+
+      app.controller("admin", ($scope) => {
+        $scope.adminPage = () => {
+          const item = JSON.parse(localStorage.getItem("currentUser"));
+          if (item === null) {
+            alert("Vui lòng đăng nhập bằng tài khoản admin !");
+          } else {
+            if (item.role === "sv") {
+              alert("Sinh viên không thể thực hiện thao tác này !");
+            } else {
+              if (item.role === "admin") {
+                window.location.replace("admin.html");
+              }
+            }
+          }
+        };
+      });
+
+      app.controller("quizzController", ($scope, $http) => {
+        const api =
+          "https://621394e389fad53b1ff9c97c.mockapi.io/api/sinhvien/monhoc";
+        $http.get(api).then((res) => {
+          $scope.quizzs = res.data;
+        });
+
+        $scope.takeId = (sub_id) => {
+          console.log(sub_id);
+          localStorage.setItem("sub_id", JSON.stringify({ sub_id: sub_id }));
+        };
+      });
+
+      app.config(function ($routeProvider) {
+        $routeProvider
+          .when("/", {
+            templateUrl: "views/trang-chu.html",
+          })
+          .when("/gioi-thieu", {
+            templateUrl: "views/gioi-thieu.html",
+          })
+          .when("/gop-y", {
+            templateUrl: "views/gop-y.html",
+          })
+          .when("/hoi-dap", {
+            templateUrl: "views/hoi-dap.html",
+          })
+          .when("/thi", {
+            templateUrl: "views/thi.html",
+          })
+          .when("/ADAV", {
+            templateUrl: "views/trang-thi.html",
+            controller: "testController",
+          });
+      });
+
       app.controller("login", logout);
+
+      app.controller("subjectController", ($scope, $http) => {
+        const api =
+          "https://621394e389fad53b1ff9c97c.mockapi.io/api/sinhvien/monhoc";
+        $http.get(api).then((res) => {
+          $scope.subjects = res.data;
+        });
+      });
+
+      app.controller("testController", function ($scope, $http) {
+        let totalChoose = [];
+        $http.get("./db/sub_dummy.json").then((res) => {
+          const currentSubId = JSON.parse(localStorage.getItem("sub_id"));
+          res.data.forEach(function (item) {
+            if (item.sub_id === currentSubId.sub_id) {
+              $scope.question = item.quizz;
+              for (let i = 0; i < $scope.question.length; i++) {
+                totalChoose[i] = -1;
+              }
+            }
+          });
+          $scope.currentQuizz = 0;
+          $scope.prev = function () {
+            if ($scope.currentQuizz > 0) {
+              $scope.currentQuizz -= 1;
+            }
+
+            let answers = document.querySelectorAll(".answers");
+
+            let choosen = JSON.parse(localStorage.getItem("choose"));
+
+            console.log(choosen.totalChoose[$scope.currentQuizz]);
+
+            answers.forEach((item) => {
+              console.log(item.id);
+              if (item.id === choosen.totalChoose[$scope.currentQuizz]) {
+                console.log(choosen.totalChoose[$scope.currentQuizz]);
+              }
+            });
+          };
+          $scope.next = function () {
+            if ($scope.currentQuizz < $scope.question.length - 1) {
+              $scope.currentQuizz += 1;
+            }
+
+            let answers = document.querySelectorAll(".answers");
+
+            let choosen = JSON.parse(localStorage.getItem("choose"));
+
+            console.log(choosen.totalChoose[$scope.currentQuizz]);
+
+            answers.forEach((item) => {
+              console.log(item.id);
+              if (item.id === choosen.totalChoose[$scope.currentQuizz]) {
+                console.log(choosen.totalChoose[$scope.currentQuizz]);
+              }
+            });
+          };
+
+          $scope.check = function (id) {
+            let answers = document.querySelectorAll(".answers");
+
+            answers.forEach((item, index) => {
+              item.classList.remove("btn-success");
+              item.classList.remove("btn-warning");
+            });
+
+            answers.forEach((item) => {
+              item.classList.add("btn-success");
+            });
+
+            document.getElementById(id).classList.add("btn-warning");
+
+            let choose = id;
+
+            totalChoose[$scope.currentQuizz] = choose || -1;
+
+            localStorage.setItem("choose", JSON.stringify({ totalChoose }));
+          };
+
+          $scope.submit = function () {
+            totalChoose.forEach((item, index) => {
+              console.log(item, $scope.question[index].AnswerId);
+              if (item === $scope.question[index].AnswerId) {
+                console.log(index);
+              }
+            });
+          };
+        });
+      });
     </script>
   </body>
 </html>
