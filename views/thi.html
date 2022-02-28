@@ -6,11 +6,16 @@
       <div class="col-4 mb-3" ng-repeat="item in quizzs">
         <a
           class="btn btn-info"
-          style="min-height: 50px; width: 100%"
+          style="min-height: 50px; width: 100%; display: flex"
           href="#!{{item.sub_id}}"
-          ng-click="takeId(item.sub_id)"
+          ng-click="takeId(item.sub_id,item.sub_name)"
         >
-          {{item.sub_name}}
+          <img
+            src="../images/logos/{{item.sub_id}}.png"
+            alt=""
+            style="width: 50px"
+          />
+          <p class="text-center" style="width: 90%">{{item.sub_name}}</p>
         </a>
       </div>
     </div>

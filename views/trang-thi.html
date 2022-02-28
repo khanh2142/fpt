@@ -1,40 +1,18 @@
 <div class="card" ng-controller="testController">
   <div class="card-body" ng-modal="question">
     <h3 class="text-info text-center">Thi trắc nghiệm</h3>
-    <h5 class="mt-3 text-center">
-      Câu {{currentQuizz+1}} : {{question[currentQuizz].Text}}
-    </h5>
+    <h5 class="mt-3 text-center">Câu {{currentQuizz+1}} : {{question.Text}}</h5>
     <div class="row mt-5 pb-5 d-flex justify-content-center">
-      <div
-        class="col-3 mb-3"
-        ng-repeat="result in question[currentQuizz].Answers"
-      >
+      <div class="col-3 mb-3" ng-repeat="result in question.Answers">
         <div
           ng-click="check(result.Id)"
-          class="btn btn-success h-100 answers"
+          class="btn h-100 answers {{result.color}} {{result.status}}"
           style="min-height: 50px; width: 100%"
-          ng-modal="{{result.Id}}"
           id="{{result.Id}}"
         >
           {{result.Text}}
         </div>
       </div>
-    </div>
-    <div class="d-flex justify-content-center">
-      <button
-        class="btn btn-warning"
-        style="min-width: 100px"
-        ng-click="prev()"
-      >
-        Truớc
-      </button>
-      <button
-        class="btn btn-warning"
-        style="min-width: 100px; margin-left: 5px"
-        ng-click="next()"
-      >
-        Sau
-      </button>
     </div>
   </div>
 </div>
@@ -61,6 +39,58 @@
       </svg>
       Time
     </button>
-    <button class="btn btn-primary" ng-click="submit()">Nộp bài</button>
+    <button
+      class="btn btn-primary"
+      ng-click="submit()"
+      data-bs-toggle="modal"
+      data-bs-target="#submitModal"
+    >
+      Nộp bài
+    </button>
+
+    <div
+      class="modal fade"
+      id="submitModal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="submitModalTitle"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle">Nộp bài</h5>
+            <button
+              type="button"
+              class="close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <h3>{{alert}}</h3>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Đóng
+            </button>
+            <button
+              type="button"
+              class="btn btn-primary"
+              data-bs-dismiss="modal"
+              ng-click="agree()"
+            >
+              Đồng ý
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </div>

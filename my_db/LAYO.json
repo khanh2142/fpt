@@ -1,0 +1,1997 @@
+[
+  {
+    "Id": 25660,
+    "Text": "Có mấy cách sử dụng css cho web?",
+    "Marks": 1,
+    "AnswerId": 106230,
+    "Answers": [
+      {
+        "Id": 106230,
+        "Text": "Có 3 cách: inline, embedded và linked",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 106231,
+        "Text": "Có 4 cách: inline, embedded, linked và css riêng",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 106232,
+        "Text": "Có 1 cách: inline",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 106233,
+        "Text": "Có 2 cách: inline và embedded",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25661,
+    "Text": "Thẻ dòng (inline) có thể chứa thẻ khối (block)?",
+    "Marks": 1,
+    "AnswerId": 106235,
+    "Answers": [
+      { "Id": 106234, "Text": "Đúng", "color": "btn-success", "status": "" },
+      { "Id": 106235, "Text": "Sai", "color": "btn-success", "status": "" }
+    ]
+  },
+  {
+    "Id": 25662,
+    "Text": "Để viết chú thích trong các file css người sử dụng có thể sử dụng cách nào dưới đây: a. <!-- chú thích--> b. // chú thích c. -- chú thích d. /* chú thích */",
+    "Marks": 1,
+    "AnswerId": 106238,
+    "Answers": [
+      { "Id": 106236, "Text": "a, c", "color": "btn-success", "status": "" },
+      { "Id": 106237, "Text": "d", "color": "btn-success", "status": "" },
+      { "Id": 106238, "Text": "a", "color": "btn-success", "status": "" },
+      { "Id": 106239, "Text": "a, d", "color": "btn-success", "status": "" }
+    ]
+  },
+  {
+    "Id": 25663,
+    "Text": "Nội dung của trang web nằm trong thẻ nào?",
+    "Marks": 1,
+    "AnswerId": 106240,
+    "Answers": [
+      {
+        "Id": 106240,
+        "Text": "Thẻ body",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 106241,
+        "Text": "Thẻ title",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 106242,
+        "Text": "Thẻ style",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 106243,
+        "Text": "Thẻ head",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25664,
+    "Text": "Đoạn mã nào dưới đây viết thẻ lồng chính xác nhất?",
+    "Marks": 1,
+    "AnswerId": 106246,
+    "Answers": [
+      {
+        "Id": 106244,
+        "Text": "<div id=\"menu\">   <ul>     <li> <a href=\"#\">Trang chủ</a></li>     <li> <a href=\"#\">Giới thiệu</a></li>   <div> </ul>",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 106245,
+        "Text": "<div id=\"menu\">   <ul>     <li> <a href=\"#\">Trang chủ</a></li>     <li> <a href=\"#\">Giới thiệu</a></ul>   </li> </div>",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 106246,
+        "Text": "<div id=\"menu\">   <ul>     <li> <a href=\"#\">Trang chủ</a></li>     <li> <a href=\"#\">Giới thiệu</a></li>   </ul> </div>",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 106247,
+        "Text": "<div id=\"menu\">   <ul>     <li> <a href=\"#\">Trang chủ</li></a>     <li> <a href=\"#\">Giới thiệu</a></li>   </ul> </div>",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25665,
+    "Text": "Thẻ nào là thẻ khối (block) trong các thẻ sau:",
+    "Marks": 1,
+    "AnswerId": 106250,
+    "Answers": [
+      { "Id": 106248, "Text": "Thẻ em", "color": "btn-success", "status": "" },
+      { "Id": 106249, "Text": "Thẻ a", "color": "btn-success", "status": "" },
+      { "Id": 106250, "Text": "Thẻ h1", "color": "btn-success", "status": "" },
+      {
+        "Id": 106251,
+        "Text": "Thẻ strong",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25666,
+    "Text": "Ký tự \"&lt;\" được sử dụng để làm gì trong XHTML?",
+    "Marks": 1,
+    "AnswerId": 106252,
+    "Answers": [
+      {
+        "Id": 106252,
+        "Text": "Đại diện cho ký tự < được hiển thị trên màn hình",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 106253,
+        "Text": "Đại diện cho ký tự (©) được hiển thị trên màn hình",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 106254,
+        "Text": "Chỉ là các ký tự bình thường",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 106255,
+        "Text": "Đại diện cho ký tự ® được hiển thị trên màn hình",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25667,
+    "Text": "Trong Dreamweaver, khi ở chế độ Code View muốn tự động thụt lề của các thẻ lồng nhau sử dụng cách nào?",
+    "Marks": 1,
+    "AnswerId": 106257,
+    "Answers": [
+      {
+        "Id": 106256,
+        "Text": "menu Commands>Check Spelling",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 106257,
+        "Text": "menu Commands>Apply Source Formatting",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 106258,
+        "Text": "menu View>Code",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 106259,
+        "Text": "menu View>Design",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25668,
+    "Text": "Thẻ nào là thẻ cha của thẻ img trong đoạn mã sau? <div id=\"header\">     <div id=\"banner\">         <img src=\"Images/Banner.jpg\" />         <p id=\"logo\">Việt Nam Xuất Khẩu</p>     </div>     <div id=\"menu\"> </div> </div>",
+    "Marks": 1,
+    "AnswerId": 106263,
+    "Answers": [
+      {
+        "Id": 106260,
+        "Text": "<div id=\"header\">",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 106261,
+        "Text": "<div id=\"menu\">",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 106262,
+        "Text": "<p id=\"logo\">",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 106263,
+        "Text": "<div id=\"banner\">",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25669,
+    "Text": "Xác định luật css viết sai trong đoạn mã sau: <div id=\"header\">     <div id=\"banner\">         <img src=\"Images/Banner.jpg\" />         <p id=\"logo\">Việt Nam Xuất Khẩu</p>     </div>     <div id=\"menu\"> </div> </div>",
+    "Marks": 1,
+    "AnswerId": 106265,
+    "Answers": [
+      {
+        "Id": 106264,
+        "Text": "#banner #logo{color:#F00;}",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 106265,
+        "Text": "#header .banner p{color:#F00;}",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 106266,
+        "Text": "#banner p{color:#F00;}",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 106267,
+        "Text": "#header #banner p{color:#F00;}",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25670,
+    "Text": "Để mỗi khi click chuột vào ô textbox, màu nền ô đó chuyển sang màu đỏ thì lệnh CSS tác dụng lên thẻ <input type=\"text\" name=\"user\" />  được viết là:",
+    "Marks": 1,
+    "AnswerId": 106271,
+    "Answers": [
+      {
+        "Id": 106268,
+        "Text": "input:befor{background-color:red}",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 106269,
+        "Text": "input:after{background-color:red}",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 106270,
+        "Text": "input:active{background-color:red}",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 106271,
+        "Text": "input:focus{background-color:red}",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25671,
+    "Text": "Có thể định nghĩa cùng style cho nhiều selector được không?Ví dụ: h1, h2, h3, p {color:blue; font-weight:bold;}",
+    "Marks": 1,
+    "AnswerId": 106272,
+    "Answers": [
+      { "Id": 106272, "Text": "Có", "color": "btn-success", "status": "" },
+      { "Id": 106273, "Text": "Không", "color": "btn-success", "status": "" }
+    ]
+  },
+  {
+    "Id": 25672,
+    "Text": "Phạm vi áp dụng cho kiểu tạo CSS dạng Linked style?",
+    "Marks": 1,
+    "AnswerId": 106274,
+    "Answers": [
+      {
+        "Id": 106274,
+        "Text": "Áp dụng cho toàn bộ website (nhiều trang khác nhau)",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 106275,
+        "Text": "Áp dụng chỉ 1 trang",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 106276,
+        "Text": "Áp dụng tối đa 5 trang",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 106277,
+        "Text": "Áp dụng tối đa 10 trang",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25673,
+    "Text": "Với lệnh CSS: .title_top{color:red} #new_top {color:green} Áp dụng cho đoạn mã XHTML dưới đây, style sẽ hiển thị như thế nào? <p class=\"title_top\" id=\"new_top\">Tái đề xuất xây dựng đường sắt cao tốc Bắc - Nam</p>",
+    "Marks": 1,
+    "AnswerId": 106279,
+    "Answers": [
+      {
+        "Id": 106278,
+        "Text": "Báo lỗi vì viết lệnh sai",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 106279,
+        "Text": "Nội dung trong thẻ p màu xanh lá cây",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 106280,
+        "Text": "Nội dung trong thẻ p màu đen mặc định",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 106281,
+        "Text": "Nội dung trong thẻ p màu đỏ",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25674,
+    "Text": "Cách tạo style có tính kế thừa nào có thể sử dụng lại ở nhiều trang web khác?",
+    "Marks": 1,
+    "AnswerId": 106284,
+    "Answers": [
+      {
+        "Id": 106282,
+        "Text": "inline style",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 106283,
+        "Text": "Các phương án đều đúng",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 106284,
+        "Text": "linked style",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 106285,
+        "Text": "embedded style",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25675,
+    "Text": "Để biểu diễn giá trị số trong css, giá trị nào dưới đây là giá trị tuyệt đối?a. cmb. emc. pxd. %",
+    "Marks": 1,
+    "AnswerId": 106288,
+    "Answers": [
+      { "Id": 106286, "Text": "c, d", "color": "btn-success", "status": "" },
+      { "Id": 106287, "Text": "b, c", "color": "btn-success", "status": "" },
+      { "Id": 106288, "Text": "a, c", "color": "btn-success", "status": "" },
+      { "Id": 106289, "Text": "a, b", "color": "btn-success", "status": "" }
+    ]
+  },
+  {
+    "Id": 25676,
+    "Text": "Với lệnh CSS là .title em:last-child {color:red}áp dụng cho đoạn mã XHTML dưới đây, style sẽ hiển thị như thế nào? <p class=\"title\"><em>Công nghệ</em> giúp <em>nhìn xuyên qua</em> những <em>xe </em>đi trước</p>",
+    "Marks": 1,
+    "AnswerId": 106293,
+    "Answers": [
+      {
+        "Id": 106290,
+        "Text": "Tất cả nội dung nằm trong thẻ em đều màu đỏ",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 106291,
+        "Text": "Nội dung \"Công nghệ\" nằm trong thẻ em màu đỏ",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 106292,
+        "Text": "Tất cả nội dung trong thẻ p đều màu đỏ",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 106293,
+        "Text": "Nội dung \"xe\" nằm trong thẻ em màu đỏ",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25677,
+    "Text": "Đối với những thẻ XHTML cùng áp dụng selector ID và selector Class thì selector ID sẽ ghi đè lên selector Class.",
+    "Marks": 1,
+    "AnswerId": 106294,
+    "Answers": [
+      { "Id": 106294, "Text": "Đúng", "color": "btn-success", "status": "" },
+      { "Id": 106295, "Text": "Sai", "color": "btn-success", "status": "" }
+    ]
+  },
+  {
+    "Id": 25678,
+    "Text": "Với lệnh CSS là p span{color:blue;}áp dụng cho đoạn mã XHTML dưới đây, style sẽ hiển thị: <div class=\"new\">      <p class=\"title\">Hàng trăm người chặn <span> quốc lộ 1A</span></p>      <p class=\"content\">Thấy <span>tàu quốc tế </span> đến, doanh nghiệp lạ",
+    "Marks": 1,
+    "AnswerId": 106298,
+    "Answers": [
+      {
+        "Id": 106296,
+        "Text": "Đoạn văn bản \"quốc lộ 1A\" có màu xanh nước biển",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 106297,
+        "Text": "Đoạn văn bản \"tàu quốc tế\" có màu xanh nước biển",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 106298,
+        "Text": "Tất cả văn bản nằm trong thẻ span có màu xanh nước biển",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 106299,
+        "Text": "Tất cả văn bản đều có màu xanh nước biển",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25679,
+    "Text": "Khi viết CSS theo dạng Embedded style cần thiết phải khai báo thêm câu lệnh gì?",
+    "Marks": 1,
+    "AnswerId": 106302,
+    "Answers": [
+      {
+        "Id": 106300,
+        "Text": "<style type=\"text/javascript\"></style>",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 106301,
+        "Text": "<link href=\"#\" rel=\"stylesheet\" type=\"text/css\" />",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 106302,
+        "Text": "<style  type=\"text/css\"> </style>",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 106303,
+        "Text": "Không cần khai báo thêm",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25680,
+    "Text": "Giá trị của thuộc tính text-align bao gồm?",
+    "Marks": 1,
+    "AnswerId": 106305,
+    "Answers": [
+      {
+        "Id": 106304,
+        "Text": "left, right, center",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 106305,
+        "Text": "left, right, center, justify",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 106306,
+        "Text": "left, right, justify",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 106307,
+        "Text": "left, right",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25681,
+    "Text": "Để đoạn văn bản trong thẻ p thụt vào đầu dòng 0.8em và độ cao của dòng là 21px thì lệnh CSS nào được áp dụng cho đoạn mã XHTML sau: <p class=\"NoiDung\">Neymar làm lu mờ Gareth Bale trong trận đấu ở La Liga hôm 26/10 là một nội dung trong phần biếm họa bóng",
+    "Marks": 1,
+    "AnswerId": 106310,
+    "Answers": [
+      {
+        "Id": 106308,
+        "Text": ".NoiDung{text-align:0.8em; line-height:21px;}",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 106309,
+        "Text": ".NoiDung{text-indent:0.8em; word-spacing:21px;}",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 106310,
+        "Text": ".NoiDung{text-indent:0.8em; line-height:21px;}",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 106311,
+        "Text": ".NoiDung{text-align:0.8em; word-spacing:21px;}",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25682,
+    "Text": "Muốn nội dung thẻ div trong đoạn mã XHTML dưới đây có khoảng cách giữa các từ giãn cách nhau 0.2em, dùng lệnh CSS nào? <div class=\"cate\"> Thể thao trong nước</div>",
+    "Marks": 1,
+    "AnswerId": 106315,
+    "Answers": [
+      {
+        "Id": 106312,
+        "Text": ".cate{text-indent:.2em}",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 106313,
+        "Text": ".cate{line-height:.2em}",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 106314,
+        "Text": ".cate{letter-spacing:.2em}",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 106315,
+        "Text": ".cate{word-spacing:.2em}",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25683,
+    "Text": "Thuộc tính nào của font thiết lập font được in nghiêng?",
+    "Marks": 1,
+    "AnswerId": 106318,
+    "Answers": [
+      {
+        "Id": 106316,
+        "Text": "font-variant",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 106317,
+        "Text": "text-transform",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 106318,
+        "Text": "font-style",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 106319,
+        "Text": "text-align",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25684,
+    "Text": "Để khi di chuột qua link có màu xanh lá cây và có gạch chân thì lệnh CSS nào được áp dụng cho đoạn mã XHTML sau: <p class=\"news\"><a href=\"#\">Gareth Bale đánh giày cho Neymar ở El Clasico</a></p>",
+    "Marks": 1,
+    "AnswerId": 106320,
+    "Answers": [
+      {
+        "Id": 106320,
+        "Text": ".news a:hover{color:green; text-decoration:underline}",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 106321,
+        "Text": ".news a:hover{color:green; text-decoration:none}",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 106322,
+        "Text": ".news a:active{color:green; text-decoration:none}",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 106323,
+        "Text": ".news a:active{color:green; text-decoration:underline}",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25685,
+    "Text": "Thuộc tính text-transform bao gồm bao nhiêu giá trị?",
+    "Marks": 1,
+    "AnswerId": 106324,
+    "Answers": [
+      {
+        "Id": 106324,
+        "Text": "5 giá trị: capitalize, inherit, lowercase, none, uppercase",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 106325,
+        "Text": "3 giá trị: capitalize, lowercase, uppercase",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 106326,
+        "Text": "4 giá trị: capitalize, uppercase, lowercase, none",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 106327,
+        "Text": "6 giá trị: capitalize, inherit, lowercase, none, uppercase, small-caps",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25686,
+    "Text": "Muốn loại bỏ gạch chân cho văn bản trong đoạn mã XHTML dưới đây, lệnh CSS nào đúng? <div class=\"cate\"><a href=\"#\"> Thể thao trong nước</a></div>",
+    "Marks": 1,
+    "AnswerId": 106330,
+    "Answers": [
+      {
+        "Id": 106328,
+        "Text": ".cate a{text-decoration:overline;}",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 106329,
+        "Text": ".cate a{text-decoration:line-through;}",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 106330,
+        "Text": ".cate a{text-decoration:none;}",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 106331,
+        "Text": ".cate a{text-decoration:underline;}",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25687,
+    "Text": "Giá trị nào dưới đây không phải là giá trị của thuộc tính text-decoration?",
+    "Marks": 1,
+    "AnswerId": 106332,
+    "Answers": [
+      {
+        "Id": 106332,
+        "Text": "capitalize",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 106333,
+        "Text": "line-through",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 106334,
+        "Text": "underline",
+        "color": "btn-success",
+        "status": ""
+      },
+      { "Id": 106335, "Text": "blink", "color": "btn-success", "status": "" }
+    ]
+  },
+  {
+    "Id": 25688,
+    "Text": "Trong thuộc tính font-weight, có thể định nghĩa được độ dày (độ đậm) của font chữ lên giá trị tối đa là bao nhiêu?",
+    "Marks": 1,
+    "AnswerId": 106339,
+    "Answers": [
+      { "Id": 106336, "Text": "100", "color": "btn-success", "status": "" },
+      { "Id": 106337, "Text": "500", "color": "btn-success", "status": "" },
+      { "Id": 106338, "Text": "1000", "color": "btn-success", "status": "" },
+      { "Id": 106339, "Text": "900", "color": "btn-success", "status": "" }
+    ]
+  },
+  {
+    "Id": 25689,
+    "Text": "Độ ưu tiên khi khai báo font trong CSS(font-family:Georgia, \"Times New Roman\", Times, serif ) lần lượt là:a.Times New Romanb. Timesc. Georgiad. Font mặc định thuộc họ serif",
+    "Marks": 1,
+    "AnswerId": 106342,
+    "Answers": [
+      {
+        "Id": 106340,
+        "Text": "d, b, a, c",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 106341,
+        "Text": "b, a, c, d",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 106342,
+        "Text": "c, a, b, d",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 106343,
+        "Text": "a, b, c, d",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25690,
+    "Text": "Để thiết lập khoảng cách giữa hai hộp (box) có thể sử dụng thuộc tính nào?",
+    "Marks": 1,
+    "AnswerId": 106346,
+    "Answers": [
+      { "Id": 106344, "Text": "height", "color": "btn-success", "status": "" },
+      {
+        "Id": 106345,
+        "Text": "padding",
+        "color": "btn-success",
+        "status": ""
+      },
+      { "Id": 106346, "Text": "margin", "color": "btn-success", "status": "" },
+      { "Id": 106347, "Text": "width", "color": "btn-success", "status": "" }
+    ]
+  },
+  {
+    "Id": 25691,
+    "Text": "Giá trị nào dưới đây không phải là giá trị của thuộc tính position?",
+    "Marks": 1,
+    "AnswerId": 106348,
+    "Answers": [
+      { "Id": 106348, "Text": "inline", "color": "btn-success", "status": "" },
+      {
+        "Id": 106349,
+        "Text": "absolute",
+        "color": "btn-success",
+        "status": ""
+      },
+      { "Id": 106350, "Text": "static", "color": "btn-success", "status": "" },
+      { "Id": 106351, "Text": "fixed", "color": "btn-success", "status": "" }
+    ]
+  },
+  {
+    "Id": 25692,
+    "Text": "Người dùng có thể tổ chức bố cục trang web bằng việc kết hợp kỹ thuật nào?",
+    "Marks": 1,
+    "AnswerId": 106355,
+    "Answers": [
+      {
+        "Id": 106352,
+        "Text": "float và padding",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 106353,
+        "Text": "float và display",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 106354,
+        "Text": "float và margin",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 106355,
+        "Text": "float và clear",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25693,
+    "Text": "Lệnh CSS nào đúng khi sử dụng thuộc tính position cho mã XHTML dưới đây sẽ không di chuyển khi trang được cuộn? <p class=\"title\">Tin Xã Hội </p>",
+    "Marks": 1,
+    "AnswerId": 106356,
+    "Answers": [
+      {
+        "Id": 106356,
+        "Text": ".title{width:200px; height:25px;border:solid 1px red; position:fixed; top:200px; left:200px;}",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 106357,
+        "Text": ".title{width:200px; height:25px;border:solid 1px red;position:absolute; top:200px; left:200px;}",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 106358,
+        "Text": ".title{width:200px; height:25px;border:solid 1px red; position:relative; top:200px; left:200px;}",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 106359,
+        "Text": ".title{width:200px; height:25px;border:solid 1px red; position:inherit; top:200px; left:200px;}",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25694,
+    "Text": "Giá trị nào dưới đây không phải là giá trị của thuộc tính float?",
+    "Marks": 1,
+    "AnswerId": 106363,
+    "Answers": [
+      {
+        "Id": 106360,
+        "Text": "inherit",
+        "color": "btn-success",
+        "status": ""
+      },
+      { "Id": 106361, "Text": "right", "color": "btn-success", "status": "" },
+      { "Id": 106362, "Text": "left", "color": "btn-success", "status": "" },
+      { "Id": 106363, "Text": "both", "color": "btn-success", "status": "" }
+    ]
+  },
+  {
+    "Id": 25695,
+    "Text": "Khoảng cách giữa nội dung của hộp và đường viền là mặc định, không thể thay đổi.",
+    "Marks": 1,
+    "AnswerId": 106364,
+    "Answers": [
+      { "Id": 106364, "Text": "Sai", "color": "btn-success", "status": "" },
+      { "Id": 106365, "Text": "Đúng", "color": "btn-success", "status": "" }
+    ]
+  },
+  {
+    "Id": 25696,
+    "Text": "Khi sử dụng thuộc tính position thì giá trị nào của thuộc tính không cần thiết phải sử dụng các yếu tố căn chỉnh tọa độ: top, left, right, bottom?",
+    "Marks": 1,
+    "AnswerId": 106368,
+    "Answers": [
+      {
+        "Id": 106366,
+        "Text": "relative",
+        "color": "btn-success",
+        "status": ""
+      },
+      { "Id": 106367, "Text": "fixed", "color": "btn-success", "status": "" },
+      { "Id": 106368, "Text": "static", "color": "btn-success", "status": "" },
+      {
+        "Id": 106369,
+        "Text": "absolute",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25697,
+    "Text": "Với lệnh CSS: #box {width:200px; height:100px; background-color:#09F} .Tin{width:100px; height:100px; background-color:#930;} Áp dụng cho đoạn mã XHTML dưới đây: <div id=\"box\">     <p class=\"Tin\">Gareth Bale đánh giày cho Neymar ở El Clasico</p> </div> Th",
+    "Marks": 1,
+    "AnswerId": 106372,
+    "Answers": [
+      {
+        "Id": 106370,
+        "Text": "Nội dung dòng đầu tiên trong thẻ p có kích thước là 30px và màu là xanh lá cây",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 106371,
+        "Text": "Khi di chuột qua nội dung trong thẻ p có kích thước là 30px và màu là xanh lá cây",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 106372,
+        "Text": "Nội dung kí tư đầu tiên trong thẻ p có kích thước là 30px và màu là xanh lá cây",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 106373,
+        "Text": "Nội dung trong thẻ p có kích thước là 30px và màu là xanh lá cây",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25698,
+    "Text": "Thuộc tính nào sau đây không phải là thuộc tính tạo khoảng đệm cho hộp với css?",
+    "Marks": 1,
+    "AnswerId": 106377,
+    "Answers": [
+      {
+        "Id": 106374,
+        "Text": "padding-left",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 106375,
+        "Text": "padding-bottom",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 106376,
+        "Text": "padding-top",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 106377,
+        "Text": "padding-down",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25699,
+    "Text": "Có những cách nào để khai báo giá trị màu sắc cho thuộc tính border-color?",
+    "Marks": 1,
+    "AnswerId": 106379,
+    "Answers": [
+      {
+        "Id": 106378,
+        "Text": "Có 2 cách: hệ Hexa và từ khóa",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 106379,
+        "Text": "Có 3 cách: giá trị RGB, hệ Hexa và từ khóa",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 106380,
+        "Text": "Có 3 cách: giá trị RGB, hệ Hexa",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 106381,
+        "Text": "Có 3 cách: pixel, hệ Hexa và từ khóa",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25700,
+    "Text": "Sử dụng tính kế thừa của CSS sẽ thuận lợi về mặt nào?",
+    "Marks": 1,
+    "AnswerId": 106383,
+    "Answers": [
+      { "Id": 106382, "Text": "Bố cục", "color": "btn-success", "status": "" },
+      {
+        "Id": 106383,
+        "Text": "Dung lượng và tốc độ load",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 106384,
+        "Text": "Thẩm mĩ của trang web",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 106385,
+        "Text": "Hình ảnh",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25701,
+    "Text": "Khi thiết kế bố cục (layout) cho trang web điều gì là quan trọng nhất?",
+    "Marks": 1,
+    "AnswerId": 106388,
+    "Answers": [
+      {
+        "Id": 106386,
+        "Text": "Màu nền trang Web",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 106387,
+        "Text": "Đường viền hộp CSS",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 106388,
+        "Text": "Chiều ngang",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 106389,
+        "Text": "Chiều cao",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25702,
+    "Text": "Đối với IE6, cần khai báo thêm thuộc tính CSS nào cho thẻ body để căn giữa bố cục trên cửa sổ trình duyệt ?",
+    "Marks": 1,
+    "AnswerId": 106390,
+    "Answers": [
+      {
+        "Id": 106390,
+        "Text": "text-align: center",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 106391,
+        "Text": "text-align: left",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 106392,
+        "Text": "margin: auto",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 106393,
+        "Text": "padding: auto",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25703,
+    "Text": "Để tạo thanh cuộn cho box khi nội dung tràn ra, người dùng chọn giá trị nào cho thuộc tính overflow?",
+    "Marks": 1,
+    "AnswerId": 106396,
+    "Answers": [
+      {
+        "Id": 106394,
+        "Text": "inherit",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 106395,
+        "Text": "visible",
+        "color": "btn-success",
+        "status": ""
+      },
+      { "Id": 106396, "Text": "scroll", "color": "btn-success", "status": "" },
+      { "Id": 106397, "Text": "hidden", "color": "btn-success", "status": "" }
+    ]
+  },
+  {
+    "Id": 25704,
+    "Text": "Có thể thiết kế bố cục (layout) cho trang web bằng cách nào?a. Bố cục nổi (float) b. Bố cục AP divc. Định vị tuyệt đốid. Bố cục Insert Div Tag",
+    "Marks": 1,
+    "AnswerId": 106401,
+    "Answers": [
+      { "Id": 106398, "Text": "a, b", "color": "btn-success", "status": "" },
+      { "Id": 106399, "Text": "c, d", "color": "btn-success", "status": "" },
+      {
+        "Id": 106400,
+        "Text": "a, b, c, d",
+        "color": "btn-success",
+        "status": ""
+      },
+      { "Id": 106401, "Text": "a, c", "color": "btn-success", "status": "" }
+    ]
+  },
+  {
+    "Id": 25705,
+    "Text": "Thiết lập thuộc tính CSS nào làm cho hình nền của cột Faux được lặp lại khi chiều dài trang tăng lên ?",
+    "Marks": 1,
+    "AnswerId": 106403,
+    "Answers": [
+      {
+        "Id": 106402,
+        "Text": "repeat-x",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 106403,
+        "Text": "repeat-y",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 106404,
+        "Text": "norepeat",
+        "color": "btn-success",
+        "status": ""
+      },
+      { "Id": 106405, "Text": "repeat", "color": "btn-success", "status": "" }
+    ]
+  },
+  {
+    "Id": 25706,
+    "Text": "Để chuyển từ bố cục 2 cột với chiều rộng cố định sang bố cục 2 cột linh hoạt không khai báo thuộc tính nào?",
+    "Marks": 1,
+    "AnswerId": 106407,
+    "Answers": [
+      { "Id": 106406, "Text": "height", "color": "btn-success", "status": "" },
+      { "Id": 106407, "Text": "width", "color": "btn-success", "status": "" },
+      { "Id": 106408, "Text": "float", "color": "btn-success", "status": "" },
+      { "Id": 106409, "Text": "clear", "color": "btn-success", "status": "" }
+    ]
+  },
+  {
+    "Id": 25707,
+    "Text": "Với lệnh CSS: #content{width:600px; height:200px; background-color:#990} #left{width:200px; height:200px; background-color:#930; margin:10px;float:left} Áp dụng cho đoạn mã XHTML dưới đây: Nên đặt giá trị width của #right bằng bao nhiêu để bố cục trên vừa",
+    "Marks": 1,
+    "AnswerId": 106411,
+    "Answers": [
+      {
+        "Id": 106410,
+        "Text": "width:400px;",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 106411,
+        "Text": "Với lệnh CSS: #content{width:600px; height:200px; background-color:#990} #left{width:200px; height:200px; background-color:#930; margin:10px;float:left} Áp dụng cho đoạn mã XHTML dưới đây: <div id=\"content\">      <div id=\"left\"></div>      <div id=\"right\"",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 106412,
+        "Text": "width:390px;",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 106413,
+        "Text": "width:410px;",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25708,
+    "Text": "Để điều chỉnh có ảo giác rằng tất cả các cột có cùng chiều cao khi bố cục chia làm nhiều cột, người dùng sử dụng phương pháp nào?a. Đặt kiểu cột Fauxb. Lập trình mở rộng divc. Sử dụng thuộc tính cleard. Sử dụng thuộc tính overflow",
+    "Marks": 1,
+    "AnswerId": 106416,
+    "Answers": [
+      {
+        "Id": 106414,
+        "Text": "a, b, c, d",
+        "color": "btn-success",
+        "status": ""
+      },
+      { "Id": 106415, "Text": "a, c", "color": "btn-success", "status": "" },
+      { "Id": 106416, "Text": "a, b", "color": "btn-success", "status": "" },
+      { "Id": 106417, "Text": "a, b, c", "color": "btn-success", "status": "" }
+    ]
+  },
+  {
+    "Id": 25709,
+    "Text": "Với lệnh CSS: #content { width:840px; margin-left:auto; margin-right:auto; position:relative; background-color:#0FF;}  #left { position:absolute; width:240px; left:0px;}  #right { position:absolute; width: 600px; padding:0;} Áp dụng cho đoạn mã XHTML dưới",
+    "Marks": 1,
+    "AnswerId": 106418,
+    "Answers": [
+      {
+        "Id": 106418,
+        "Text": "left: 0px;",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 106419,
+        "Text": "left:840px;",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 106420,
+        "Text": "left:240px;",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 106421,
+        "Text": "left:600px;",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25710,
+    "Text": "Bố cục nào có khả năng mở rộng nội dung, kích thước chữ?",
+    "Marks": 1,
+    "AnswerId": 106422,
+    "Answers": [
+      {
+        "Id": 106422,
+        "Text": "Elastic",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 106423,
+        "Text": "Relative",
+        "color": "btn-success",
+        "status": ""
+      },
+      { "Id": 106424, "Text": "Fix", "color": "btn-success", "status": "" },
+      {
+        "Id": 106425,
+        "Text": "Absolute",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25711,
+    "Text": "Trong table, thành phần <td> nằm trong thành phần nào sau đây?",
+    "Marks": 1,
+    "AnswerId": 106426,
+    "Answers": [
+      { "Id": 106426, "Text": "<tr>", "color": "btn-success", "status": "" },
+      {
+        "Id": 106427,
+        "Text": "<label>",
+        "color": "btn-success",
+        "status": ""
+      },
+      { "Id": 106428, "Text": "<dt>", "color": "btn-success", "status": "" },
+      { "Id": 106429, "Text": "<show>", "color": "btn-success", "status": "" }
+    ]
+  },
+  {
+    "Id": 25712,
+    "Text": "Bố cục Scaled xây dựng dựa trên công nghệ CSS3, đúng hay sai?",
+    "Marks": 1,
+    "AnswerId": 106430,
+    "Answers": [
+      { "Id": 106430, "Text": "Đúng", "color": "btn-success", "status": "" },
+      { "Id": 106431, "Text": "Sai", "color": "btn-success", "status": "" }
+    ]
+  },
+  {
+    "Id": 25713,
+    "Text": "Bố cục web dạng Elastic không sử dụng đơn vị em, đúng hay sai?",
+    "Marks": 1,
+    "AnswerId": 106433,
+    "Answers": [
+      { "Id": 106432, "Text": "Đúng", "color": "btn-success", "status": "" },
+      { "Id": 106433, "Text": "Sai", "color": "btn-success", "status": "" }
+    ]
+  },
+  {
+    "Id": 25714,
+    "Text": "Bố cục web nào thường được sử dụng trên trình duyệt của thiết bị di động?",
+    "Marks": 1,
+    "AnswerId": 106435,
+    "Answers": [
+      {
+        "Id": 106434,
+        "Text": "Relative",
+        "color": "btn-success",
+        "status": ""
+      },
+      { "Id": 106435, "Text": "Scaled", "color": "btn-success", "status": "" },
+      {
+        "Id": 106436,
+        "Text": "Elastic",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 106437,
+        "Text": "Absolute",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25715,
+    "Text": "Thành phần table còn được sử dụng để làm gì?",
+    "Marks": 1,
+    "AnswerId": 106441,
+    "Answers": [
+      {
+        "Id": 106438,
+        "Text": "Trình bày dữ liệu dạng báo",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 106439,
+        "Text": "Trình bày dữ liệu dạng hàng",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 106440,
+        "Text": "Trình bày dữ liệu dạng RSS",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 106441,
+        "Text": "Trình bày dữ liệu dạng bảng",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25716,
+    "Text": "Thành phần nào được sử dụng trong thiết kế website?",
+    "Marks": 1,
+    "AnswerId": 106444,
+    "Answers": [
+      {
+        "Id": 106442,
+        "Text": "Content",
+        "color": "btn-success",
+        "status": ""
+      },
+      { "Id": 106443, "Text": "Footer", "color": "btn-success", "status": "" },
+      { "Id": 106444, "Text": "Table", "color": "btn-success", "status": "" },
+      { "Id": 106445, "Text": "Show", "color": "btn-success", "status": "" }
+    ]
+  },
+  {
+    "Id": 25717,
+    "Text": "Bố cục nào sử dụng đơn vị đo lường dạng tuyệt đối?",
+    "Marks": 1,
+    "AnswerId": 106446,
+    "Answers": [
+      {
+        "Id": 106446,
+        "Text": "Absolute",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 106447,
+        "Text": "Relative",
+        "color": "btn-success",
+        "status": ""
+      },
+      { "Id": 106448, "Text": "Fix", "color": "btn-success", "status": "" },
+      { "Id": 106449, "Text": "Elastic", "color": "btn-success", "status": "" }
+    ]
+  },
+  {
+    "Id": 25718,
+    "Text": "Bố cục nào được xây dựng với đơn vị đo lường tính theo điểm ảnh (pixel)?",
+    "Marks": 1,
+    "AnswerId": 106450,
+    "Answers": [
+      { "Id": 106450, "Text": "Fixed", "color": "btn-success", "status": "" },
+      {
+        "Id": 106451,
+        "Text": "Relative",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 106452,
+        "Text": "Absolute",
+        "color": "btn-success",
+        "status": ""
+      },
+      { "Id": 106453, "Text": "Scaled", "color": "btn-success", "status": "" }
+    ]
+  },
+  {
+    "Id": 25719,
+    "Text": "Khi sử dụng min-width, max-width, bắt buộc phải sử dụng max-height. Đúng hay sai?",
+    "Marks": 1,
+    "AnswerId": 106455,
+    "Answers": [
+      { "Id": 106454, "Text": "Đúng", "color": "btn-success", "status": "" },
+      { "Id": 106455, "Text": "Sai", "color": "btn-success", "status": "" }
+    ]
+  },
+  {
+    "Id": 25720,
+    "Text": "Với đoạn mã XHTML: <ul>     <li> Danh sách 1 </li>     <li> Danh sách 2 </li>     <li> Danh sách 3 </li> </ul> Để tạo đường kẻ dưới nét đứt 1px màu đỏ cho mỗi dòng của danh sách người dùng sử dụng lệnh nào?",
+    "Marks": 1,
+    "AnswerId": 106458,
+    "Answers": [
+      {
+        "Id": 106456,
+        "Text": "ul{border-bottom:1px dotted red}",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 106457,
+        "Text": "ul li {border-bottom:1px solid red}",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 106458,
+        "Text": "ul li {border-bottom:1px dotted red}",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 106459,
+        "Text": "ul li {border-bottom:1px solid red}",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25721,
+    "Text": "Với đoạn mã XHTML: <ul>     <li> Danh sách 1 </li>     <li> Danh sách 2 </li>     <li> Danh sách 3 </li> </ul> Để xóa bỏ dấu tròn bullet của danh sách người dùng sử dụng lệnh nào?",
+    "Marks": 1,
+    "AnswerId": 106463,
+    "Answers": [
+      {
+        "Id": 106460,
+        "Text": "ul li {list-style-position:none}",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 106461,
+        "Text": "ul li {list-style-image:none}",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 106462,
+        "Text": "ul li {list-type:none}",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 106463,
+        "Text": "ul li {list-style-type:none}",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25722,
+    "Text": "Có thể đặt thuộc tính id hoặc class vào trong các thẻ của bảng: table, tr,.. và áp dụng luật CSS như với các thẻ XHTML thông thường hay không?",
+    "Marks": 1,
+    "AnswerId": 106464,
+    "Answers": [
+      { "Id": 106464, "Text": "Có", "color": "btn-success", "status": "" },
+      { "Id": 106465, "Text": "Không", "color": "btn-success", "status": "" }
+    ]
+  },
+  {
+    "Id": 25723,
+    "Text": "Muốn khi click chuột để nhập liệu vào textbox, màu nền textbox chuyển sang màu xanh thì khai báo CSS như thế nào? <input class=\"NhapLieu\" type=\"text\" name=\"DiaChi\"  />",
+    "Marks": 1,
+    "AnswerId": 106468,
+    "Answers": [
+      {
+        "Id": 106466,
+        "Text": "input.NhapLieu{background-color:green}",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 106467,
+        "Text": ".NhapLieu{background-color:green}",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 106468,
+        "Text": "input:focus{background-color:green}",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 106469,
+        "Text": "input{background-color:green}",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25724,
+    "Text": "Với đoạn mã XHTML: <div id=\"menu\">     <ul>         <li><a href=\"#\"> Trang chủ</a></li>         <li><a href=\"#\"> Sản phẩm</a></li>         <li><a href=\"#\"> Liên hệ</a></li>     </ul> </div> và lệnh CSS: #menu ul li{float:left;padding:0 20px;} Muốn mỗi thà",
+    "Marks": 1,
+    "AnswerId": 106472,
+    "Answers": [
+      {
+        "Id": 106470,
+        "Text": "Không làm được",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 106471,
+        "Text": "border:1px solid green",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 106472,
+        "Text": "border-right:1px solid green",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 106473,
+        "Text": "border-left:1px solid green",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25725,
+    "Text": "Các thẻ nào dưới đây không phải là thẻ để tạo bảng",
+    "Marks": 1,
+    "AnswerId": 106474,
+    "Answers": [
+      { "Id": 106474, "Text": "tb", "color": "btn-success", "status": "" },
+      { "Id": 106475, "Text": "table", "color": "btn-success", "status": "" },
+      { "Id": 106476, "Text": "th", "color": "btn-success", "status": "" },
+      { "Id": 106477, "Text": "tr, td", "color": "btn-success", "status": "" }
+    ]
+  },
+  {
+    "Id": 25726,
+    "Text": "Muốn khoảng cách giữa các ô và khoảng đệm của mỗi ô trong bảng bằng 0 thì người dùng thêm thuộc tính nào vào trong thẻ table?",
+    "Marks": 1,
+    "AnswerId": 106481,
+    "Answers": [
+      {
+        "Id": 106478,
+        "Text": "cellspacing=\"0\" colspan=\"0\"",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 106479,
+        "Text": "cols=\"0\" cellspacing=\"0\"",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 106480,
+        "Text": "cellpadding=\"0\" cols=\"0\"",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 106481,
+        "Text": "cellpadding=\"0\" cellspacing=\"0\"",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25727,
+    "Text": "Những thẻ nào của bảng mà CSS có thể tác động lên:a. tableb. tr, tdc. thd. border",
+    "Marks": 1,
+    "AnswerId": 106483,
+    "Answers": [
+      {
+        "Id": 106482,
+        "Text": "a, b, c, d",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 106483,
+        "Text": "a, b, c",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 106484,
+        "Text": "a, c, d",
+        "color": "btn-success",
+        "status": ""
+      },
+      { "Id": 106485, "Text": "b, c, d", "color": "btn-success", "status": "" }
+    ]
+  },
+  {
+    "Id": 25728,
+    "Text": "Muốn tạo ra một ô textbox mà người dùng có thể nhập liệu vào thì khai báo như thế nào?",
+    "Marks": 1,
+    "AnswerId": 106488,
+    "Answers": [
+      {
+        "Id": 106486,
+        "Text": "<input type=\"textarea\" name=\"user\" />",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 106487,
+        "Text": "<input type=\"textfield\" name=\"user\" />",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 106488,
+        "Text": "<input type=\"text\" name=\"user\" />",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 106489,
+        "Text": "<input type=\"textbox\" name=\"user\" />",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25729,
+    "Text": "Thành phần giao diện nào giúp gửi dữ liệu người dùng từ trình duyệt đến máy chủ thông qua Internet",
+    "Marks": 1,
+    "AnswerId": 106492,
+    "Answers": [
+      { "Id": 106490, "Text": "Menu", "color": "btn-success", "status": "" },
+      {
+        "Id": 106491,
+        "Text": "Danh sách (List)",
+        "color": "btn-success",
+        "status": ""
+      },
+      { "Id": 106492, "Text": "Form", "color": "btn-success", "status": "" },
+      {
+        "Id": 106493,
+        "Text": "Bảng (Table)",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25730,
+    "Text": "Giả sử có mã XHTML:  <input class=\"NhapLieu\" type=\"text\" name=\"User\"   /> Muốn để ô textbox có dòng chữ \"Điền tên đăng nhập\" mặc định, khi click chuột vào dòng chữ biến mất thì người dùng thêm thuộc tính nào vào thẻ input?",
+    "Marks": 1,
+    "AnswerId": 106495,
+    "Answers": [
+      {
+        "Id": 106494,
+        "Text": "pattern=\"Điền tên đăng nhập\"",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 106495,
+        "Text": "placeholder=\"Điền tên đăng nhập\"",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 106496,
+        "Text": "value=\"Điền tên đăng nhập\"",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 106497,
+        "Text": "title=\"Điền tên đăng nhập\"",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25731,
+    "Text": "Muốn tạo bo góc của box trên trang web, người dùng làm cách nào?a. Sử dụng JavaSscriptb. Sử dụng Ajaxc.Sử dụng HTML5d. Sử dụng tính năng mới của CSS3",
+    "Marks": 1,
+    "AnswerId": 106501,
+    "Answers": [
+      { "Id": 106498, "Text": "a, b", "color": "btn-success", "status": "" },
+      { "Id": 106499, "Text": "a, c", "color": "btn-success", "status": "" },
+      { "Id": 106500, "Text": "b, d", "color": "btn-success", "status": "" },
+      { "Id": 106501, "Text": "a, d", "color": "btn-success", "status": "" }
+    ]
+  },
+  {
+    "Id": 25732,
+    "Text": "Để tạo ra menu, người dùng thường sử dụng thẻ XHTML nào?",
+    "Marks": 1,
+    "AnswerId": 106503,
+    "Answers": [
+      { "Id": 106502, "Text": "p, br", "color": "btn-success", "status": "" },
+      { "Id": 106503, "Text": "ul, li", "color": "btn-success", "status": "" },
+      {
+        "Id": 106504,
+        "Text": "select, option",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 106505,
+        "Text": "form, input",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25733,
+    "Text": "ISP viết tắt của từ nào?",
+    "Marks": 1,
+    "AnswerId": 106506,
+    "Answers": [
+      {
+        "Id": 106506,
+        "Text": "Internet service provider",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 106507,
+        "Text": "Internet server product",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 106508,
+        "Text": "Internet server provider",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 106509,
+        "Text": "Integrate service provider",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25734,
+    "Text": "Trong file XHTML chỉ có thể gọi tối đa một file CSS?",
+    "Marks": 1,
+    "AnswerId": 106510,
+    "Answers": [
+      { "Id": 106510, "Text": "Sai", "color": "btn-success", "status": "" },
+      { "Id": 106511, "Text": "Đúng", "color": "btn-success", "status": "" }
+    ]
+  },
+  {
+    "Id": 25735,
+    "Text": "Để nút Submit sẽ sử dụng ảnh thay vì sử dụng nút mặc định thông thường do hệ thống tạo ra, người dùng sử dụng câu lệnh nào sau đây ?",
+    "Marks": 1,
+    "AnswerId": 106514,
+    "Answers": [
+      {
+        "Id": 106512,
+        "Text": "<input name=\"image\" type=\"submit\" />",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 106513,
+        "Text": "<input name=\"image\" type=\"button\" />",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 106514,
+        "Text": "<input type=\"image\" src=\"url\" />",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 106515,
+        "Text": "<input name=\"image\" type=\"file\" />",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25736,
+    "Text": "Để mỗi từ trong 1 dòng đều viết hoa ở đầu từ, người dùng sử dụng thuộc tính CSS nào sau đây?",
+    "Marks": 1,
+    "AnswerId": 106518,
+    "Answers": [
+      {
+        "Id": 106516,
+        "Text": "text-transform:uppercase",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 106517,
+        "Text": "không thể làm với CSS",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 106518,
+        "Text": "text-transform:capitalize",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 106519,
+        "Text": "text-transform:lowercase",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25737,
+    "Text": "Lệnh CSS ﬁlter:alpha(opacity=90); dùng để thực hiện trên trình duyệt nào?",
+    "Marks": 1,
+    "AnswerId": 106523,
+    "Answers": [
+      {
+        "Id": 106520,
+        "Text": "FireFox",
+        "color": "btn-success",
+        "status": ""
+      },
+      { "Id": 106521, "Text": "Opera", "color": "btn-success", "status": "" },
+      { "Id": 106522, "Text": "Chrome", "color": "btn-success", "status": "" },
+      { "Id": 106523, "Text": "IE", "color": "btn-success", "status": "" }
+    ]
+  },
+  {
+    "Id": 25738,
+    "Text": "XHTML không hiển thị được hình nền. Đúng hay sai?",
+    "Marks": 1,
+    "AnswerId": 106525,
+    "Answers": [
+      { "Id": 106524, "Text": "Đúng", "color": "btn-success", "status": "" },
+      { "Id": 106525, "Text": "Sai", "color": "btn-success", "status": "" }
+    ]
+  },
+  {
+    "Id": 25739,
+    "Text": "Điều gì cần phải chú ý trong trường hợp cần gọi nhiều file CSS vào trong cùng 1 file XHTML ?",
+    "Marks": 1,
+    "AnswerId": 106527,
+    "Answers": [
+      {
+        "Id": 106526,
+        "Text": "Bố cục của CSS và XHTML",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 106527,
+        "Text": "Sự ghi đè của các câu lệnh trong các file CSS",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 106528,
+        "Text": "Không có điều gì cả",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 106529,
+        "Text": "Bố cục của class và id",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  }
+]

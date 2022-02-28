@@ -160,14 +160,13 @@
                   href="#"
                   class="dropdown-item user-profile"
                   id="fullname-user"
-                ></a>
+                  >{{fullname}}</a
+                >
               </li>
               <li>
-                <a
-                  href="#"
-                  class="dropdown-item user-profile"
-                  id="email-user"
-                ></a>
+                <a href="#" class="dropdown-item user-profile" id="score-user"
+                  >{{score}}</a
+                >
               </li>
               <div class="dropdown-divider"></div>
               <li>
@@ -618,190 +617,8 @@
     <script src="./js/angularJS.min.js"></script>
     <script src="./js/angular-route.js"></script>
 
-    <script>
-      let userSetting = document.querySelectorAll(".user-setting");
-      let loginBtn = document.querySelectorAll(".login-btn");
-      let userProfile = document.querySelectorAll(".user-profile");
-      let fullname = document.getElementById("fullname-user");
-      let email = document.getElementById("email-user");
-      const user = JSON.parse(localStorage.getItem("currentUser"));
-      if (user === null) {
-        userSetting.forEach((item) => {
-          item.style.display = "none";
-        });
-        userProfile.forEach((item) => {
-          item.style.display = "none";
-        });
-      } else {
-        loginBtn.forEach((item) => {
-          item.style.display = "none";
-        });
-        fullname.innerHTML = user.fullname;
-        email.innerHTML = user.email;
-      }
-    </script>
-
-    <script>
-      const app = angular.module("myApp", ["ngRoute"]);
-
-      const logout = function ($scope) {
-        $scope.logout = function () {
-          localStorage.removeItem("currentUser");
-          window.location.replace("trang-chu.html");
-        };
-      };
-
-      app.controller("appController", ($scope, $http) => {
-        $scope.take_id = (sub_id) => {
-          console.log(sub_id);
-          $scope.sub_id = sub_id;
-        };
-      });
-
-      app.controller("admin", ($scope) => {
-        $scope.adminPage = () => {
-          const item = JSON.parse(localStorage.getItem("currentUser"));
-          if (item === null) {
-            alert("Vui lòng đăng nhập bằng tài khoản admin !");
-          } else {
-            if (item.role === "sv") {
-              alert("Sinh viên không thể thực hiện thao tác này !");
-            } else {
-              if (item.role === "admin") {
-                window.location.replace("admin.html");
-              }
-            }
-          }
-        };
-      });
-
-      app.controller("quizzController", ($scope, $http) => {
-        const api =
-          "https://621394e389fad53b1ff9c97c.mockapi.io/api/sinhvien/monhoc";
-        $http.get(api).then((res) => {
-          $scope.quizzs = res.data;
-        });
-
-        $scope.takeId = (sub_id) => {
-          console.log(sub_id);
-          localStorage.setItem("sub_id", JSON.stringify({ sub_id: sub_id }));
-        };
-      });
-
-      app.config(function ($routeProvider) {
-        $routeProvider
-          .when("/", {
-            templateUrl: "views/trang-chu.html",
-          })
-          .when("/gioi-thieu", {
-            templateUrl: "views/gioi-thieu.html",
-          })
-          .when("/gop-y", {
-            templateUrl: "views/gop-y.html",
-          })
-          .when("/hoi-dap", {
-            templateUrl: "views/hoi-dap.html",
-          })
-          .when("/thi", {
-            templateUrl: "views/thi.html",
-          })
-          .when("/ADAV", {
-            templateUrl: "views/trang-thi.html",
-            controller: "testController",
-          });
-      });
-
-      app.controller("login", logout);
-
-      app.controller("subjectController", ($scope, $http) => {
-        const api =
-          "https://621394e389fad53b1ff9c97c.mockapi.io/api/sinhvien/monhoc";
-        $http.get(api).then((res) => {
-          $scope.subjects = res.data;
-        });
-      });
-
-      app.controller("testController", function ($scope, $http) {
-        let totalChoose = [];
-        $http.get("./db/sub_dummy.json").then((res) => {
-          const currentSubId = JSON.parse(localStorage.getItem("sub_id"));
-          res.data.forEach(function (item) {
-            if (item.sub_id === currentSubId.sub_id) {
-              $scope.question = item.quizz;
-              for (let i = 0; i < $scope.question.length; i++) {
-                totalChoose[i] = -1;
-              }
-            }
-          });
-          $scope.currentQuizz = 0;
-          $scope.prev = function () {
-            if ($scope.currentQuizz > 0) {
-              $scope.currentQuizz -= 1;
-            }
-
-            let answers = document.querySelectorAll(".answers");
-
-            let choosen = JSON.parse(localStorage.getItem("choose"));
-
-            console.log(choosen.totalChoose[$scope.currentQuizz]);
-
-            answers.forEach((item) => {
-              console.log(item.id);
-              if (item.id === choosen.totalChoose[$scope.currentQuizz]) {
-                console.log(choosen.totalChoose[$scope.currentQuizz]);
-              }
-            });
-          };
-          $scope.next = function () {
-            if ($scope.currentQuizz < $scope.question.length - 1) {
-              $scope.currentQuizz += 1;
-            }
-
-            let answers = document.querySelectorAll(".answers");
-
-            let choosen = JSON.parse(localStorage.getItem("choose"));
-
-            console.log(choosen.totalChoose[$scope.currentQuizz]);
-
-            answers.forEach((item) => {
-              console.log(item.id);
-              if (item.id === choosen.totalChoose[$scope.currentQuizz]) {
-                console.log(choosen.totalChoose[$scope.currentQuizz]);
-              }
-            });
-          };
-
-          $scope.check = function (id) {
-            let answers = document.querySelectorAll(".answers");
-
-            answers.forEach((item, index) => {
-              item.classList.remove("btn-success");
-              item.classList.remove("btn-warning");
-            });
-
-            answers.forEach((item) => {
-              item.classList.add("btn-success");
-            });
-
-            document.getElementById(id).classList.add("btn-warning");
-
-            let choose = id;
-
-            totalChoose[$scope.currentQuizz] = choose || -1;
-
-            localStorage.setItem("choose", JSON.stringify({ totalChoose }));
-          };
-
-          $scope.submit = function () {
-            totalChoose.forEach((item, index) => {
-              console.log(item, $scope.question[index].AnswerId);
-              if (item === $scope.question[index].AnswerId) {
-                console.log(index);
-              }
-            });
-          };
-        });
-      });
-    </script>
+    <script src="./angularjs/home.js"></script>
+    <script src="./angularjs/quizz.js"></script>
+    <script src="./angularjs/result.js"></script>
   </body>
 </html>

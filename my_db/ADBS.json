@@ -1,0 +1,2237 @@
+[
+  {
+    "Id": 25026,
+    "Text": "Điều khiển được sử dụng để hiển thị nội dụng trang web trong ứng dụng Android?",
+    "Marks": 1,
+    "AnswerId": 103784,
+    "Answers": [
+      { "Id": 103783, "Text": "Button", "color": "btn-success", "status": "" },
+      {
+        "Id": 103784,
+        "Text": "WebView",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103785,
+        "Text": "Spinner",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103786,
+        "Text": "EditText",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25027,
+    "Text": "Đối với URLConnection, sử dụng phương thức nào để thiết lập timeout cho connection?",
+    "Marks": 1,
+    "AnswerId": 103790,
+    "Answers": [
+      {
+        "Id": 103787,
+        "Text": "setURLTimeout()",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103788,
+        "Text": "setInternetTimeout()",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103789,
+        "Text": "setTimeout()",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103790,
+        "Text": "setConnectTimeout()",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25028,
+    "Text": "Cho đoạn mã lệnh sau:wv.setWebChromeClient(new WebChromeClient() { @Override public void onReceivedTitle(WebView view, String title) { getWindow().setTitle(title); } });Hãy cho biết đoạn lệnh trên dùng để làm gì?",
+    "Marks": 1,
+    "AnswerId": 103791,
+    "Answers": [
+      {
+        "Id": 103791,
+        "Text": "Thay đổi title của trang web",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103792,
+        "Text": "Đóng trang web",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103793,
+        "Text": "Thay đổi nội dung của trang web",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103794,
+        "Text": "Lấy thông tin title của trang web",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25029,
+    "Text": "Sử dụng lớp nào để truy cập và thay đổi thông tin trên trình duyệt mặc định của hệ điều hành Android?",
+    "Marks": 1,
+    "AnswerId": 103798,
+    "Answers": [
+      {
+        "Id": 103795,
+        "Text": "WebClient",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103796,
+        "Text": "WebSafariClient",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103797,
+        "Text": "WebFirefoxClient",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103798,
+        "Text": "WebViewClient",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25030,
+    "Text": "Câu nào là sai đối với WebView?",
+    "Marks": 1,
+    "AnswerId": 103800,
+    "Answers": [
+      {
+        "Id": 103799,
+        "Text": "Không có widget cho brownser activity",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103800,
+        "Text": "Không thể sử dụng tag trong XML layout",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103801,
+        "Text": "Click vào link sẽ gọi trình duyệt",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103802,
+        "Text": "Có thể sử dụng tag trong XML layout",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25031,
+    "Text": "Phương thức nào của WebSettings để cho phép WebView hỗ trợ JavaScript?",
+    "Marks": 1,
+    "AnswerId": 103806,
+    "Answers": [
+      {
+        "Id": 103803,
+        "Text": "setJavaScriptEnabled(false)",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103804,
+        "Text": "setJavaScript(true)",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103805,
+        "Text": "setJavaScriptEnable(true)",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103806,
+        "Text": "setJavaScriptEnabled(true)",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25032,
+    "Text": "Khi thời gian kết nối đến một URL quá timeout, phương thức getInputStream() sẽ đưa ra ngoại lệ nào?",
+    "Marks": 1,
+    "AnswerId": 103809,
+    "Answers": [
+      {
+        "Id": 103807,
+        "Text": "java.net.TimeoutException",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103808,
+        "Text": "java.net.SocketException",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103809,
+        "Text": "java.net.SocketTimeoutException",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103810,
+        "Text": "java.net.SocketTimeout",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25033,
+    "Text": "Chương trình sử dụng WebView phải có quyền gì?",
+    "Marks": 1,
+    "AnswerId": 103811,
+    "Answers": [
+      {
+        "Id": 103811,
+        "Text": "android.permission.AUTHENTICATE_ACCOUNTS",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103812,
+        "Text": "android.permission.BIND_APPWIDGET",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103813,
+        "Text": "android.permission.INTERNET",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103814,
+        "Text": "android.permission.BIND_INPUT_METHOD",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25034,
+    "Text": "Sử dụng phương thức nào để lấy thông tin tiêu đề trên trang web chạy trên trình duyệt?",
+    "Marks": 1,
+    "AnswerId": 103817,
+    "Answers": [
+      {
+        "Id": 103815,
+        "Text": "onReceiveTitle",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103816,
+        "Text": "onReceivedHeader",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103817,
+        "Text": "onReceivedTitle",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103818,
+        "Text": "onReceiveHeader",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25035,
+    "Text": "Để tải thông tin qua HTTP, chúng ta phải làm gì?",
+    "Marks": 1,
+    "AnswerId": 103821,
+    "Answers": [
+      {
+        "Id": 103819,
+        "Text": "Sử dụng HttpGet",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103820,
+        "Text": "Không thể tải thông tin qua HTTP",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103821,
+        "Text": "Sử dụng thư viện chuẩn của Java",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103822,
+        "Text": "Sử dụng URLRequesting",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25036,
+    "Text": "URI nào được sử dụng để lấy bookmark của trình duyệt?",
+    "Marks": 1,
+    "AnswerId": 103824,
+    "Answers": [
+      {
+        "Id": 103823,
+        "Text": "content://firefox/bookmarks",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103824,
+        "Text": "content://browser/bookmarks",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103825,
+        "Text": "content://chrome/bookmarks",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103826,
+        "Text": "content://safari/bookmarks",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25037,
+    "Text": "Để lưu trữ SQLite trên thẻ nhớ, phải cung cấp quyền gì trong Android Manifest?",
+    "Marks": 1,
+    "AnswerId": 103828,
+    "Answers": [
+      {
+        "Id": 103827,
+        "Text": "android.permission.ACCESS_CHECKIN_PROPERTIES",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103828,
+        "Text": "android.permission.WRITE_EXTERNAL_STORAGE",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103829,
+        "Text": "android.permission.ACCESS_CHECKIN_PROPERTIES",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103830,
+        "Text": "android.permission.WRITE_SETTINGS",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25038,
+    "Text": "Để sử dụng ContentProvider truy cập danh sách cuộc gọi gần đây, bạn phải bổ sung thêm quyền gì vào Android Manifest?",
+    "Marks": 1,
+    "AnswerId": 103833,
+    "Answers": [
+      {
+        "Id": 103831,
+        "Text": "android.permission.READ_CALLS",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103832,
+        "Text": "android.permission.READ_CALL",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103833,
+        "Text": "android.permission.READ_CALL_LOG",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103834,
+        "Text": "android.permission.READ_HISTORY",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25039,
+    "Text": "Trong SQLiteOpenHelper, phương thức nào được gọi khi cơ sở dữ liệu được tạo ra lần đầu tiên?",
+    "Marks": 1,
+    "AnswerId": 103835,
+    "Answers": [
+      {
+        "Id": 103835,
+        "Text": "onCreate",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103836,
+        "Text": "onUpgrade",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103837,
+        "Text": "onResume",
+        "color": "btn-success",
+        "status": ""
+      },
+      { "Id": 103838, "Text": "onOpen", "color": "btn-success", "status": "" }
+    ]
+  },
+  {
+    "Id": 25040,
+    "Text": "URI nào được sử dụng lấy thông tin của liên hệ có ID bằng 6?",
+    "Marks": 1,
+    "AnswerId": 103839,
+    "Answers": [
+      {
+        "Id": 103839,
+        "Text": "content://contacts/people/6",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103840,
+        "Text": "content://contacts/contact/6",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103841,
+        "Text": "content://contacts/people/3",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103842,
+        "Text": "content://contacts/person/6",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25041,
+    "Text": "Lệnh database.delete(\"lop\",null,null) sẽ xóa toàn bộ dữ liệu của bảng Lớp?",
+    "Marks": 1,
+    "AnswerId": 103843,
+    "Answers": [
+      { "Id": 103843, "Text": "Đúng", "color": "btn-success", "status": "" },
+      { "Id": 103844, "Text": "array", "color": "btn-success", "status": "" },
+      { "Id": 103845, "Text": "cursor", "color": "btn-success", "status": "" },
+      {
+        "Id": 103846,
+        "Text": "custom type",
+        "color": "btn-success",
+        "status": ""
+      },
+      { "Id": 103847, "Text": "Sai", "color": "btn-success", "status": "" },
+      { "Id": 103848, "Text": "String", "color": "btn-success", "status": "" }
+    ]
+  },
+  {
+    "Id": 25042,
+    "Text": "Lớp nào trợ giúp tạo ra cơ sở dữ liệu và phiên bản cho chúng?",
+    "Marks": 1,
+    "AnswerId": 103852,
+    "Answers": [
+      {
+        "Id": 103849,
+        "Text": "SQLiteCloseHelper",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103850,
+        "Text": "SQLiteHelper",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103851,
+        "Text": "SQLiteOpenHelp",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103852,
+        "Text": "SQLiteOpenHelper",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25043,
+    "Text": "Hãy cho biết điều gì xảy ra sau khi chạy các lệnh sau: ContentValues values = new ContentValues(); values.put(\"tensinhvien\",\"abc\"); values.put(\"tuoi\",20); database.insert(tbSinhvien, null, values);",
+    "Marks": 1,
+    "AnswerId": 103853,
+    "Answers": [
+      {
+        "Id": 103853,
+        "Text": "Chương trình có lỗi khi chạy",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103854,
+        "Text": "Chương trình có lỗi khi biên dịch",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103855,
+        "Text": "Chương trình sẽ thêm mới sinh viên có tên là abc và tuổi là 20",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103856,
+        "Text": "Chương trình sẽ thêm mới sinh viên và các trường có giá trị là rỗng",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25044,
+    "Text": "Trong SQLiteOpenHelper, phương thức nào được gọi khi cơ sở dữ liệu được mở?",
+    "Marks": 1,
+    "AnswerId": 103858,
+    "Answers": [
+      {
+        "Id": 103857,
+        "Text": "upUpgrade",
+        "color": "btn-success",
+        "status": ""
+      },
+      { "Id": 103858, "Text": "onOpen", "color": "btn-success", "status": "" },
+      {
+        "Id": 103859,
+        "Text": "onCreate",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103860,
+        "Text": "onResume",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25045,
+    "Text": "Hãy cho biết điều gì xảy ra sau khi chạy các lệnh sau: ContentValues values = new ContentValues(); values.put(tensinhvien,abc); values.put(tuoi,30); database.insert(tbSinhvien, null, values);",
+    "Marks": 1,
+    "AnswerId": 103862,
+    "Answers": [
+      {
+        "Id": 103861,
+        "Text": "Chương trình sẽ thêm mới sinh viên có tên là abc và tuổi là 30",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103862,
+        "Text": "Chương trình có lỗi khi biên dịch",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103863,
+        "Text": "Chương trình có lỗi khi chạy",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103864,
+        "Text": "Chương trình sẽ thêm mới sinh viên và các trường có giá trị là rỗng",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25046,
+    "Text": "Lớp SharedPreferences cung cấp một framework để lưu trữ dữ liệu dưới dạng key value?",
+    "Marks": 1,
+    "AnswerId": 103865,
+    "Answers": [
+      { "Id": 103865, "Text": "Đúng", "color": "btn-success", "status": "" },
+      { "Id": 103866, "Text": "Sai", "color": "btn-success", "status": "" }
+    ]
+  },
+  {
+    "Id": 25047,
+    "Text": "Để xóa toàn bộ dữ liệu trong SharePreferences, sử dụng phương thức gì?",
+    "Marks": 1,
+    "AnswerId": 103870,
+    "Answers": [
+      {
+        "Id": 103867,
+        "Text": "update()",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103868,
+        "Text": "delete()",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103869,
+        "Text": "suspend()",
+        "color": "btn-success",
+        "status": ""
+      },
+      { "Id": 103870, "Text": "clear()", "color": "btn-success", "status": "" }
+    ]
+  },
+  {
+    "Id": 25048,
+    "Text": "Sử dụng phương thức nào để lấy giá trị có kiểu String từ trong SharePreferences, nếu không có thì để giá trị mặc định là xâu rỗng?",
+    "Marks": 1,
+    "AnswerId": 103871,
+    "Answers": [
+      {
+        "Id": 103871,
+        "Text": "getString(\"cardnumber\",\"\")",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103872,
+        "Text": "getInt(\"cardnumber\",\"\")",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103873,
+        "Text": "getStringValue(\"cardnumber\",\"\")",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103874,
+        "Text": "gettingString(\"cardnumber\",\"\")",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25049,
+    "Text": "Các thông tin được lưu vào bộ nhớ trong sẽ không bị xóa khi ứng dụng bị xóa?",
+    "Marks": 1,
+    "AnswerId": 103875,
+    "Answers": [
+      { "Id": 103875, "Text": "Sai", "color": "btn-success", "status": "" },
+      { "Id": 103876, "Text": "Đúng", "color": "btn-success", "status": "" }
+    ]
+  },
+  {
+    "Id": 25050,
+    "Text": "Khi thiết bị Android thiếu dung lượng, hệ điều hành Android sẽ tự động xóa file cache để dọn dẹp bộ nhớ?",
+    "Marks": 1,
+    "AnswerId": 103877,
+    "Answers": [
+      { "Id": 103877, "Text": "Đúng", "color": "btn-success", "status": "" },
+      { "Id": 103878, "Text": "Sai", "color": "btn-success", "status": "" }
+    ]
+  },
+  {
+    "Id": 25051,
+    "Text": "Ưu điểm của lưu trữ thông tin trên thẻ nhớ so với bộ nhớ trong là bảo mật hơn?",
+    "Marks": 1,
+    "AnswerId": 103880,
+    "Answers": [
+      { "Id": 103879, "Text": "Đúng", "color": "btn-success", "status": "" },
+      { "Id": 103880, "Text": "Sai", "color": "btn-success", "status": "" }
+    ]
+  },
+  {
+    "Id": 25052,
+    "Text": "Mặc định, thông tin lưu trữ trong bộ nhớ trong của ứng dụng Android là riêng tư đối với các ứng dụng khác?",
+    "Marks": 1,
+    "AnswerId": 103881,
+    "Answers": [
+      { "Id": 103881, "Text": "Đúng", "color": "btn-success", "status": "" },
+      { "Id": 103882, "Text": "Sai", "color": "btn-success", "status": "" }
+    ]
+  },
+  {
+    "Id": 25053,
+    "Text": "Sử dụng phương thức nào để lấy đường dẫn đến file test.txt trên SDCard?",
+    "Marks": 1,
+    "AnswerId": 103885,
+    "Answers": [
+      {
+        "Id": 103883,
+        "Text": "Environment.getExternalStorageDirectory().getPath() + \"/test.txt\"",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103884,
+        "Text": "Environment.getStorageDirectory().getAbsolutePath() + \"/test.txt\"",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103885,
+        "Text": "Environment.getExternalStorageDirectory().getAbsolutePath() + \"/test.txt\"",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103886,
+        "Text": "Environment.getInternalStorageDirectory().getAbsolutePath() + \"/test.txt\"",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25054,
+    "Text": "File SharePreference được lưu dưới dạng định dạng gì?",
+    "Marks": 1,
+    "AnswerId": 103889,
+    "Answers": [
+      {
+        "Id": 103887,
+        "Text": "ASP.NET",
+        "color": "btn-success",
+        "status": ""
+      },
+      { "Id": 103888, "Text": "HTML5", "color": "btn-success", "status": "" },
+      { "Id": 103889, "Text": "XML", "color": "btn-success", "status": "" },
+      { "Id": 103890, "Text": "HTML", "color": "btn-success", "status": "" }
+    ]
+  },
+  {
+    "Id": 25055,
+    "Text": "Khi ứng dụng bị đóng, dữ liệu SharedPreferences sẽ tự động bị xóa theo?",
+    "Marks": 1,
+    "AnswerId": 103891,
+    "Answers": [
+      { "Id": 103891, "Text": "Đúng", "color": "btn-success", "status": "" },
+      { "Id": 103892, "Text": "Sai", "color": "btn-success", "status": "" }
+    ]
+  },
+  {
+    "Id": 25056,
+    "Text": "Intent filter được sử dụng để gọi Activity trong chương trình?",
+    "Marks": 1,
+    "AnswerId": 103893,
+    "Answers": [
+      { "Id": 103893, "Text": "FALSE", "color": "btn-success", "status": "" },
+      { "Id": 103894, "Text": "TRUE", "color": "btn-success", "status": "" }
+    ]
+  },
+  {
+    "Id": 25057,
+    "Text": "Để khởi tạo Activity và lấy kết quả trả về, phải sử dụng phương thức nào?",
+    "Marks": 1,
+    "AnswerId": 103896,
+    "Answers": [
+      {
+        "Id": 103895,
+        "Text": "startActivityResult()",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103896,
+        "Text": "startActivityForResult()",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103897,
+        "Text": "startActivity()",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103898,
+        "Text": "Không có phương thức nào hỗ trợ lấy kết quả trả về khi khởi tạo một Activity",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25058,
+    "Text": "Dùng phương thức gì để thêm dữ liệu của Int vào Bundle?",
+    "Marks": 1,
+    "AnswerId": 103899,
+    "Answers": [
+      { "Id": 103899, "Text": "putInt", "color": "btn-success", "status": "" },
+      {
+        "Id": 103900,
+        "Text": "putInteger",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103901,
+        "Text": "pushInt",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103902,
+        "Text": "pushInteger",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25059,
+    "Text": "Để thực hiện cuộc gọi trong ứng dụng Android, phải sử dụng perrmission gì?",
+    "Marks": 1,
+    "AnswerId": 103906,
+    "Answers": [
+      {
+        "Id": 103903,
+        "Text": "android.permission.CALL",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103904,
+        "Text": "android.permission.CALL_TEL",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103905,
+        "Text": "android.permission.CALLING",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103906,
+        "Text": "android.permission.CALL_PHONE",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25060,
+    "Text": "Trong Bundle,dùng phương thức gì để nhận dữ liệu trả về có kiểu Int?",
+    "Marks": 1,
+    "AnswerId": 103907,
+    "Answers": [
+      { "Id": 103907, "Text": "getInt", "color": "btn-success", "status": "" },
+      {
+        "Id": 103908,
+        "Text": "receiveInteger",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103909,
+        "Text": "getInteger",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103910,
+        "Text": "receiveInt",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25061,
+    "Text": "Sử dụng đối tượng gì để truyền dữ liệu qua lại giữa các Activity?",
+    "Marks": 1,
+    "AnswerId": 103911,
+    "Answers": [
+      { "Id": 103911, "Text": "Bundle", "color": "btn-success", "status": "" },
+      {
+        "Id": 103912,
+        "Text": "Package",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103913,
+        "Text": "BundleData",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103914,
+        "Text": "PackageData",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25062,
+    "Text": "Cặp Action/Data dưới đây dùng để làm gì? ACTION_EDIT content://contacts/people/2",
+    "Marks": 1,
+    "AnswerId": 103916,
+    "Answers": [
+      {
+        "Id": 103915,
+        "Text": "Xem thông tin liên hệ có ID bằng 2",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103916,
+        "Text": "Sửa thông tin liên hệ có ID bằng 2",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103917,
+        "Text": "Thêm mới thông tin liên hệ có ID bằng 2",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103918,
+        "Text": "Xóa thông tin liên hệ có ID bằng 2",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25063,
+    "Text": "URI viết tắt của từ gì?",
+    "Marks": 1,
+    "AnswerId": 103920,
+    "Answers": [
+      {
+        "Id": 103919,
+        "Text": "Uniform Resource Identifying",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103920,
+        "Text": "Uniform Resource Identifier",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103921,
+        "Text": "Uniform Resources Identifier",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103922,
+        "Text": "Unique Resource Identifier",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25064,
+    "Text": "Để di chuyển từ Activity này đến Activity khác sử dụng thành phần gì trong Android?",
+    "Marks": 1,
+    "AnswerId": 103924,
+    "Answers": [
+      {
+        "Id": 103923,
+        "Text": "Activity",
+        "color": "btn-success",
+        "status": ""
+      },
+      { "Id": 103924, "Text": "Intent", "color": "btn-success", "status": "" },
+      {
+        "Id": 103925,
+        "Text": "Intent Filter",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103926,
+        "Text": "Content Provider",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25065,
+    "Text": "Để chỉ đến các tài nguyên trong máy, ví dụ như xem file mp3, chúng ta phải sử dụng cái gì?",
+    "Marks": 1,
+    "AnswerId": 103930,
+    "Answers": [
+      { "Id": 103927, "Text": "URF", "color": "btn-success", "status": "" },
+      { "Id": 103928, "Text": "URL", "color": "btn-success", "status": "" },
+      { "Id": 103929, "Text": "URN", "color": "btn-success", "status": "" },
+      { "Id": 103930, "Text": "URI", "color": "btn-success", "status": "" }
+    ]
+  },
+  {
+    "Id": 25066,
+    "Text": "Lớp nào được sử dụng để khởi tạo menu từ file XML menu?",
+    "Marks": 1,
+    "AnswerId": 103933,
+    "Answers": [
+      { "Id": 103931, "Text": "Menu", "color": "btn-success", "status": "" },
+      {
+        "Id": 103932,
+        "Text": "Xmlmenu",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103933,
+        "Text": "MenuInflater",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103934,
+        "Text": "MenuInflating",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25067,
+    "Text": "Phương thức nào dùng để enable hoặc disable một item trong Menu?",
+    "Marks": 1,
+    "AnswerId": 103936,
+    "Answers": [
+      {
+        "Id": 103935,
+        "Text": "Các item trong Menu không thể disable",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103936,
+        "Text": "onPrepareOptionsMenu",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103937,
+        "Text": "onCreateOptionsMenu",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103938,
+        "Text": "onShowOptionsMenu",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25068,
+    "Text": "Lệnh nào dùng để hiển thị một thông báo trên màn hình?",
+    "Marks": 1,
+    "AnswerId": 103940,
+    "Answers": [
+      {
+        "Id": 103939,
+        "Text": "Toast.makeText(context, “Message”);",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103940,
+        "Text": "Toast.makeText(context, “Message”, Toast.LENGTH_SHORT).show();",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103941,
+        "Text": "Toast.makeText(“Message”, Toast.LENGTH_SHORT).show();",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103942,
+        "Text": "Toast.makeText(context, “Message”, Toast.LENGTH_SHORT);",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103943,
+        "Text": "Toast.displayText(“Message”, Toast.LENGTH_SHORT).show();",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25069,
+    "Text": "Phương thức setOnCreateContextMenuListener được sử dụng để làm gì?",
+    "Marks": 1,
+    "AnswerId": 103945,
+    "Answers": [
+      {
+        "Id": 103944,
+        "Text": "Xử lý sự kiện khi một menu item của Context Menu được chọn",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103945,
+        "Text": "Đăng ký một context menu với một View",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103946,
+        "Text": "Xử lý sự kiện khi một menu item của Option Menu được chọn",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103947,
+        "Text": "Đăng ký một option menu với một View",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25070,
+    "Text": "Khai báo layout cho XML Menu nằm trong thư mục nào?",
+    "Marks": 1,
+    "AnswerId": 103948,
+    "Answers": [
+      {
+        "Id": 103948,
+        "Text": "res/menu",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103949,
+        "Text": "res/values",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103950,
+        "Text": "res/drawable-hdpi",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103951,
+        "Text": "res/layout",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103952,
+        "Text": "res/drawable-ldpi",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25071,
+    "Text": "Thư mục nào để chứa layout cho giao diện khi màn hình ở chế độ portrait mode?",
+    "Marks": 1,
+    "AnswerId": 103956,
+    "Answers": [
+      {
+        "Id": 103953,
+        "Text": "res/values",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103954,
+        "Text": "res/layout-land",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103955,
+        "Text": "res/menu",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103956,
+        "Text": "res/layout",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25072,
+    "Text": "Làm thế nào để khi chọn một thông báo notification trên Status Bar, sẽ hiển thị một giao diện tương ứng?",
+    "Marks": 1,
+    "AnswerId": 103957,
+    "Answers": [
+      {
+        "Id": 103957,
+        "Text": "Tạo một Intent để khởi tạo một Activity khi notification được chọn",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103958,
+        "Text": "Sử dụng Toast.makeText",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103959,
+        "Text": "Tạo mới một Diaglog",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103960,
+        "Text": "Không thể hiển thị một giao diện tương ứng khi chọn một thông báo notification trên Status Bar",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25073,
+    "Text": "Câu nào sau đây là đúng?",
+    "Marks": 1,
+    "AnswerId": 103964,
+    "Answers": [
+      {
+        "Id": 103961,
+        "Text": "Option Menu hỗ trợ checkbox",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103962,
+        "Text": "Option Menu và Context Menu xuất hiện khi ấn vào phím Menu trên điện thoại",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103963,
+        "Text": "Option Menu hỗ trợ radiobutton",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103964,
+        "Text": "Option Menu xuất hiện khi ấn vào phím Menu, Context Menu xuất hiện khi click vào View một vài giây",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25074,
+    "Text": "Phương thức nào được sử dụng để xử lý khi một View được click và giữ một lúc?",
+    "Marks": 1,
+    "AnswerId": 103966,
+    "Answers": [
+      {
+        "Id": 103965,
+        "Text": "setOnTouchListener",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103966,
+        "Text": "setOnLongClickListener",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103967,
+        "Text": "setOnKeyListener",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103968,
+        "Text": "setOnClickListener",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25075,
+    "Text": "Để tạo mới một Alert Dialog, chúng ta phải sử dụng lớp nào?",
+    "Marks": 1,
+    "AnswerId": 103971,
+    "Answers": [
+      {
+        "Id": 103969,
+        "Text": "AlertDialog.Create",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103970,
+        "Text": "AlertDialog.Building",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103971,
+        "Text": "AlertDialog.Builder",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103972,
+        "Text": "AlertDialog.Creating",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25076,
+    "Text": "Giá trị mặc định của thuộc tính android:layout_weight là bao nhiêu?",
+    "Marks": 1,
+    "AnswerId": 103976,
+    "Answers": [
+      { "Id": 103973, "Text": "2", "color": "btn-success", "status": "" },
+      { "Id": 103974, "Text": "1", "color": "btn-success", "status": "" },
+      { "Id": 103975, "Text": "3", "color": "btn-success", "status": "" },
+      { "Id": 103976, "Text": "0", "color": "btn-success", "status": "" },
+      { "Id": 103977, "Text": "4", "color": "btn-success", "status": "" }
+    ]
+  },
+  {
+    "Id": 25077,
+    "Text": "Mặc định mỗi dòng trong ListView là gì?",
+    "Marks": 1,
+    "AnswerId": 103979,
+    "Answers": [
+      { "Id": 103978, "Text": "Button", "color": "btn-success", "status": "" },
+      {
+        "Id": 103979,
+        "Text": "TextView",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103980,
+        "Text": "Spinner",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103981,
+        "Text": "ProgressBar",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25078,
+    "Text": "Thư mục res chứa các thông tin gì?",
+    "Marks": 1,
+    "AnswerId": 103984,
+    "Answers": [
+      {
+        "Id": 103982,
+        "Text": "File mã nguồn Java",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103983,
+        "Text": "ứng dụng",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103984,
+        "Text": "Tài nguyên",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103985,
+        "Text": "file tĩnh",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25079,
+    "Text": "Hàm nào bắt buộc phải gọi trước khi gọi hàm findViewById?",
+    "Marks": 1,
+    "AnswerId": 103989,
+    "Answers": [
+      {
+        "Id": 103986,
+        "Text": "startActivity",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103987,
+        "Text": "getMenuInflater().inflate",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103988,
+        "Text": "super.onCreate",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103989,
+        "Text": "setContentView",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25080,
+    "Text": "Layout nào cho phép bố trí giao diện dưới dạng Tab?",
+    "Marks": 1,
+    "AnswerId": 103993,
+    "Answers": [
+      {
+        "Id": 103990,
+        "Text": "LinearLayout",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103991,
+        "Text": "RelativeLayout",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103992,
+        "Text": "FrameLayout",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103993,
+        "Text": "TabLayout",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25081,
+    "Text": "Giá trị nào của thuộc tính android:layout_width và android:layout_height dùng để xác định View sẽ có chiều rộng và chiều cao bằng đối tượng View cha?",
+    "Marks": 1,
+    "AnswerId": 103996,
+    "Answers": [
+      {
+        "Id": 103994,
+        "Text": "full_parent",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103995,
+        "Text": "wrapper_parent",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103996,
+        "Text": "fill_parent",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103997,
+        "Text": "wrap_parent",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25082,
+    "Text": "File layout nằm trong thư mục nào của Android Project?",
+    "Marks": 1,
+    "AnswerId": 103998,
+    "Answers": [
+      {
+        "Id": 103998,
+        "Text": "res/drawable-ldpi",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103999,
+        "Text": "res/values",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104000,
+        "Text": "res/layout",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104001,
+        "Text": "res/drawable-hdpi",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104002,
+        "Text": "res/menu",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25083,
+    "Text": "Thay đổi thông tin về theme của ứng dụng, chúng ta thay đổi trong file nào?",
+    "Marks": 1,
+    "AnswerId": 104003,
+    "Answers": [
+      {
+        "Id": 104003,
+        "Text": "AndroidManifest.xml",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104004,
+        "Text": "main.xml",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104005,
+        "Text": "MainActivity.java",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104006,
+        "Text": "activity_main.xml",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25084,
+    "Text": "Tất cả thành phần của chương trình được nhóm trong tag nào của AndroidManifest?",
+    "Marks": 1,
+    "AnswerId": 104007,
+    "Answers": [
+      {
+        "Id": 104007,
+        "Text": "application",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104008,
+        "Text": "applications",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104009,
+        "Text": "permission",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104010,
+        "Text": "user-permission",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25085,
+    "Text": "Layout nào cho phép sắp xếp các view con ở phía trong theo chiều dọc hoặc chiều ngang?",
+    "Marks": 1,
+    "AnswerId": 104012,
+    "Answers": [
+      {
+        "Id": 104011,
+        "Text": "RelativeLayout",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104012,
+        "Text": "LinearLayout",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104013,
+        "Text": "FrameLayout",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104014,
+        "Text": "TabLayout",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25086,
+    "Text": "Lớp nào sau đây là lớp cha của lớp ứng dụng chính của ứng dụng Android (lớp có giao diện người dùng)?",
+    "Marks": 1,
+    "AnswerId": 104019,
+    "Answers": [
+      { "Id": 104015, "Text": "AppLet", "color": "btn-success", "status": "" },
+      { "Id": 104016, "Text": "MIDLet", "color": "btn-success", "status": "" },
+      {
+        "Id": 104017,
+        "Text": "AndroidApp",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104018,
+        "Text": "Application",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104019,
+        "Text": "Activity",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25087,
+    "Text": "Khởi tạo activity bằng cách gọi hàm nào?",
+    "Marks": 1,
+    "AnswerId": 104021,
+    "Answers": [
+      {
+        "Id": 104020,
+        "Text": "activitiesStart",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104021,
+        "Text": "startActivity",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104022,
+        "Text": "activitiesStarting",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104023,
+        "Text": "activityStarting",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104024,
+        "Text": "startActivities",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104025,
+        "Text": "activityStart",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25088,
+    "Text": "Phương thức nào thích hợp nhất để lưu các dữ liệu quan trọng?",
+    "Marks": 1,
+    "AnswerId": 104029,
+    "Answers": [
+      {
+        "Id": 104026,
+        "Text": "Activity.onStop()",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104027,
+        "Text": "Activity.onFreeze()",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104028,
+        "Text": "Activity.onDestroy()",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104029,
+        "Text": "Activity.onPause()",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104030,
+        "Text": "Activity.onPausing()",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25089,
+    "Text": "Để thay đổi biểu tưởng của ứng dụng trong launcher, chúng ta phải thay đổi file nào?",
+    "Marks": 1,
+    "AnswerId": 104034,
+    "Answers": [
+      {
+        "Id": 104031,
+        "Text": "start.png",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104032,
+        "Text": "starts.png",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104033,
+        "Text": "icons.png",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104034,
+        "Text": "icon.png",
+        "color": "btn-success",
+        "status": ""
+      },
+      { "Id": 104035, "Text": "app.png", "color": "btn-success", "status": "" }
+    ]
+  },
+  {
+    "Id": 25090,
+    "Text": "SubActivity là gì?",
+    "Marks": 1,
+    "AnswerId": 104036,
+    "Answers": [
+      {
+        "Id": 104036,
+        "Text": "Là activity được gọi bởi activity khác",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104037,
+        "Text": "Là activity con",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104038,
+        "Text": "Là activity của hệ thống",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104039,
+        "Text": "Là activity hiện tại đang hiển thị trên màn hình điện thoại",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104040,
+        "Text": "Là activity đang bị tạm dừng",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25091,
+    "Text": "Phương thức nào được gọi khi activity đầu tiên được tạo?",
+    "Marks": 1,
+    "AnswerId": 104044,
+    "Answers": [
+      {
+        "Id": 104041,
+        "Text": "onPause()",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104042,
+        "Text": "onDestroy()",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104043,
+        "Text": "onCreating()",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104044,
+        "Text": "onCreate()",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104045,
+        "Text": "onPausing()",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104046,
+        "Text": "onDestroying()",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25092,
+    "Text": "File nào chứa thông tin tên ứng dụng, version android tối thiểu mà ứng dụng đòi hỏi?",
+    "Marks": 1,
+    "AnswerId": 104049,
+    "Answers": [
+      {
+        "Id": 104047,
+        "Text": "activity_main.xml",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104048,
+        "Text": "string.xml",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104049,
+        "Text": "AndroidManifest.xml",
+        "color": "btn-success",
+        "status": ""
+      },
+      { "Id": 104050, "Text": "R.java", "color": "btn-success", "status": "" }
+    ]
+  },
+  {
+    "Id": 25093,
+    "Text": "File nào có chứa các thông tin Resource ID dùng để truy cập đến các tài nguyên (drawable, layout, styles, string)?",
+    "Marks": 1,
+    "AnswerId": 104055,
+    "Answers": [
+      {
+        "Id": 104051,
+        "Text": "Resource.java",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104052,
+        "Text": "strings.java",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104053,
+        "Text": "style.java",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104054,
+        "Text": "Resources.java",
+        "color": "btn-success",
+        "status": ""
+      },
+      { "Id": 104055, "Text": "R.java", "color": "btn-success", "status": "" },
+      {
+        "Id": 104056,
+        "Text": "string.java",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25094,
+    "Text": "Phương thức nào là phương thức không đồng bộ?",
+    "Marks": 1,
+    "AnswerId": 104061,
+    "Answers": [
+      {
+        "Id": 104057,
+        "Text": "startedActivityForResult",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104058,
+        "Text": "startActivitiesForResult",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104059,
+        "Text": "startingActivitiesForResult",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104060,
+        "Text": "startingActivityForResult",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104061,
+        "Text": "startActivityForResult",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104062,
+        "Text": "startedActivitiesForResult",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25095,
+    "Text": "Android manifest là file có định dạng gì?",
+    "Marks": 1,
+    "AnswerId": 104064,
+    "Answers": [
+      { "Id": 104063, "Text": "Java", "color": "btn-success", "status": "" },
+      { "Id": 104064, "Text": "XML", "color": "btn-success", "status": "" },
+      { "Id": 104065, "Text": "HTML5", "color": "btn-success", "status": "" },
+      { "Id": 104066, "Text": "HTML", "color": "btn-success", "status": "" },
+      { "Id": 104067, "Text": "C#", "color": "btn-success", "status": "" }
+    ]
+  },
+  {
+    "Id": 25096,
+    "Text": "Công nghệ máy ảo nào do Google tạo ra cho hệ điều hành Android?",
+    "Marks": 1,
+    "AnswerId": 104071,
+    "Answers": [
+      { "Id": 104068, "Text": "VMWare", "color": "btn-success", "status": "" },
+      {
+        "Id": 104069,
+        "Text": "Virtual Box",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104070,
+        "Text": "Virtual Driver",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104071,
+        "Text": "Dalvik Virtual Machine",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25097,
+    "Text": "Trong quá trình biên dịch, android project được biên dịch và đóng gói thành file có đuôi gì?",
+    "Marks": 1,
+    "AnswerId": 104075,
+    "Answers": [
+      { "Id": 104072, "Text": "exe", "color": "btn-success", "status": "" },
+      { "Id": 104073, "Text": "dex", "color": "btn-success", "status": "" },
+      { "Id": 104074, "Text": "bat", "color": "btn-success", "status": "" },
+      { "Id": 104075, "Text": "apk", "color": "btn-success", "status": "" }
+    ]
+  },
+  {
+    "Id": 25098,
+    "Text": "Các ứng dụng trên android được viết bằng ngôn ngữ nào?",
+    "Marks": 1,
+    "AnswerId": 104080,
+    "Answers": [
+      { "Id": 104076, "Text": "Python", "color": "btn-success", "status": "" },
+      { "Id": 104077, "Text": "VB.NET", "color": "btn-success", "status": "" },
+      { "Id": 104078, "Text": "C#", "color": "btn-success", "status": "" },
+      { "Id": 104079, "Text": "C++", "color": "btn-success", "status": "" },
+      { "Id": 104080, "Text": "Java", "color": "btn-success", "status": "" },
+      { "Id": 104081, "Text": "PHP", "color": "btn-success", "status": "" }
+    ]
+  },
+  {
+    "Id": 25099,
+    "Text": "IDE nào không dùng để phát triển ứng dụng trên Android?",
+    "Marks": 1,
+    "AnswerId": 104084,
+    "Answers": [
+      {
+        "Id": 104082,
+        "Text": "Net Bean",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104083,
+        "Text": "Eclipse",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104084,
+        "Text": "Visual Studio",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104085,
+        "Text": "Android Studio",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25100,
+    "Text": "Các ứng dụng trên android được chuyển sang định dạng file gì để có thể chạy được trên máy ảo Dalvik?",
+    "Marks": 1,
+    "AnswerId": 104090,
+    "Answers": [
+      { "Id": 104086, "Text": "zar", "color": "btn-success", "status": "" },
+      { "Id": 104087, "Text": "exe", "color": "btn-success", "status": "" },
+      { "Id": 104088, "Text": "bat", "color": "btn-success", "status": "" },
+      { "Id": 104089, "Text": "zip", "color": "btn-success", "status": "" },
+      { "Id": 104090, "Text": "dex", "color": "btn-success", "status": "" }
+    ]
+  },
+  {
+    "Id": 25101,
+    "Text": "Phiên bản android nào có tên là Ice Cream Sandwich?",
+    "Marks": 1,
+    "AnswerId": 104091,
+    "Answers": [
+      { "Id": 104091, "Text": "4", "color": "btn-success", "status": "" },
+      { "Id": 104092, "Text": "2", "color": "btn-success", "status": "" },
+      { "Id": 104093, "Text": "3", "color": "btn-success", "status": "" },
+      { "Id": 104094, "Text": "4.4", "color": "btn-success", "status": "" },
+      { "Id": 104095, "Text": "1.5", "color": "btn-success", "status": "" },
+      { "Id": 104096, "Text": "1", "color": "btn-success", "status": "" }
+    ]
+  },
+  {
+    "Id": 25102,
+    "Text": "Plugin nào được sử dụng với Eclipse để phát triển ứng dụng android?",
+    "Marks": 1,
+    "AnswerId": 104097,
+    "Answers": [
+      {
+        "Id": 104097,
+        "Text": "ADT plugin",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104098,
+        "Text": "ADF plugin",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104099,
+        "Text": "ADU plugin",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104100,
+        "Text": "ADG plugin",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25103,
+    "Text": "Android Studio do công ty nào tạo ra?",
+    "Marks": 1,
+    "AnswerId": 104103,
+    "Answers": [
+      { "Id": 104101, "Text": "HTC", "color": "btn-success", "status": "" },
+      { "Id": 104102, "Text": "Amazon", "color": "btn-success", "status": "" },
+      { "Id": 104103, "Text": "Google", "color": "btn-success", "status": "" },
+      {
+        "Id": 104104,
+        "Text": "Samsung",
+        "color": "btn-success",
+        "status": ""
+      },
+      { "Id": 104105, "Text": "Yahoo", "color": "btn-success", "status": "" },
+      { "Id": 104106, "Text": "Nokia", "color": "btn-success", "status": "" }
+    ]
+  },
+  {
+    "Id": 25104,
+    "Text": "Hiện tại nền tảng mobile nào có số lượng người dùng cao nhất?",
+    "Marks": 1,
+    "AnswerId": 104109,
+    "Answers": [
+      {
+        "Id": 104107,
+        "Text": "Tizen OS",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104108,
+        "Text": "Symbian",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104109,
+        "Text": "Android",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104110,
+        "Text": "Firefox OS",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104111,
+        "Text": "Window Phone",
+        "color": "btn-success",
+        "status": ""
+      },
+      { "Id": 104112, "Text": "iOS", "color": "btn-success", "status": "" }
+    ]
+  },
+  {
+    "Id": 25105,
+    "Text": "Hãng điện thoại nào đang là hãng sản xuất nhiều nhất điện thoại sử dụng hệ điều hành Android?",
+    "Marks": 1,
+    "AnswerId": 104117,
+    "Answers": [
+      {
+        "Id": 104113,
+        "Text": "Motorola",
+        "color": "btn-success",
+        "status": ""
+      },
+      { "Id": 104114, "Text": "Lenovo", "color": "btn-success", "status": "" },
+      { "Id": 104115, "Text": "LG", "color": "btn-success", "status": "" },
+      { "Id": 104116, "Text": "HTC", "color": "btn-success", "status": "" },
+      { "Id": 104117, "Text": "Samsung", "color": "btn-success", "status": "" }
+    ]
+  }
+]

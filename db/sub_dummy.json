@@ -10,10 +10,15 @@
         "Marks": 1,
         "AnswerId": 104121,
         "Answers": [
-          { "Id": 104118, "Text": "3" },
-          { "Id": 104119, "Text": "4" },
-          { "Id": 104120, "Text": "1" },
-          { "Id": 104121, "Text": "2" }
+          {
+            "Id": 104118,
+            "Text": "3",
+            "color": "btn-success",
+            "status": ""
+          },
+          { "Id": 104119, "Text": "4", "color": "btn-success", "status": "" },
+          { "Id": 104120, "Text": "1", "color": "btn-success", "status": "" },
+          { "Id": 104121, "Text": "2", "color": "btn-success", "status": "" }
         ]
       },
       {
@@ -22,10 +27,30 @@
         "Marks": 1,
         "AnswerId": 104124,
         "Answers": [
-          { "Id": 104122, "Text": "onServiceConnected()" },
-          { "Id": 104123, "Text": "onServiceDisConnected()" },
-          { "Id": 104124, "Text": "onStartCommand()" },
-          { "Id": 104125, "Text": "onBind()" }
+          {
+            "Id": 104122,
+            "Text": "onServiceConnected()",
+            "color": "btn-success",
+            "status": ""
+          },
+          {
+            "Id": 104123,
+            "Text": "onServiceDisConnected()",
+            "color": "btn-success",
+            "status": ""
+          },
+          {
+            "Id": 104124,
+            "Text": "onStartCommand()",
+            "color": "btn-success",
+            "status": ""
+          },
+          {
+            "Id": 104125,
+            "Text": "onBind()",
+            "color": "btn-success",
+            "status": ""
+          }
         ]
       },
       {
@@ -36,19 +61,27 @@
         "Answers": [
           {
             "Id": 104126,
-            "Text": "Sau khi một thành phần gọi Context.startService()"
+            "Text": "Sau khi một thành phần gọi Context.startService()",
+            "color": "btn-success",
+            "status": ""
           },
           {
             "Id": 104127,
-            "Text": "Sau khi một thành phần gọi Context.bindService()"
+            "Text": "Sau khi một thành phần gọi Context.bindService()",
+            "color": "btn-success",
+            "status": ""
           },
           {
             "Id": 104128,
-            "Text": "Sau khi BroadcastReceiver nhận một Intent được gửi bởi Service"
+            "Text": "Sau khi BroadcastReceiver nhận một Intent được gửi bởi Service",
+            "color": "btn-success",
+            "status": ""
           },
           {
             "Id": 104129,
-            "Text": "Khi một Service gọi Context.startActivity()"
+            "Text": "Khi một Service gọi Context.startActivity()",
+            "color": "btn-success",
+            "status": ""
           }
         ]
       },
@@ -60,19 +93,27 @@
         "Answers": [
           {
             "Id": 104130,
-            "Text": "Nếu startId khác 0, Service sẽ bị hủy một cách vô điều kiện"
+            "Text": "Nếu startId khác 0, Service sẽ bị hủy một cách vô điều kiện",
+            "color": "btn-success",
+            "status": ""
           },
           {
             "Id": 104131,
-            "Text": "Tham số miêu tả số miliseconds bị trì hoãn trước khi Service bị hủy"
+            "Text": "Tham số miêu tả số miliseconds bị trì hoãn trước khi Service bị hủy",
+            "color": "btn-success",
+            "status": ""
           },
           {
             "Id": 104132,
-            "Text": "Là start identifier gần nhất nhận được bởi lời gọi onStart(Intent, int)"
+            "Text": "Là start identifier gần nhất nhận được bởi lời gọi onStart(Intent, int)",
+            "color": "btn-success",
+            "status": ""
           },
           {
             "Id": 104133,
-            "Text": "Được sử dụng để dừng Service nếu Service đang chạy trong process id với process id bằng giá trị startid"
+            "Text": "Được sử dụng để dừng Service nếu Service đang chạy trong process id với process id bằng giá trị startid",
+            "color": "btn-success",
+            "status": ""
           }
         ]
       },
@@ -84,16 +125,27 @@
         "Answers": [
           {
             "Id": 104134,
-            "Text": "Các ứng dụng khác nhau không thể truy cập đến các Service của chính nó"
+            "Text": "Các ứng dụng khác nhau không thể truy cập đến các Service của chính nó",
+            "color": "btn-success",
+            "status": ""
           },
-          { "Id": 104135, "Text": "Tất cả phương án đều đúng" },
+          {
+            "Id": 104135,
+            "Text": "Tất cả phương án đều đúng",
+            "color": "btn-success",
+            "status": ""
+          },
           {
             "Id": 104136,
-            "Text": "Lớp Service luôn luôn được truy cập bởi tất cả ứng dụng Android khác cài trên thiết bị"
+            "Text": "Lớp Service luôn luôn được truy cập bởi tất cả ứng dụng Android khác cài trên thiết bị",
+            "color": "btn-success",
+            "status": ""
           },
           {
             "Id": 104137,
-            "Text": "Service có thể chạy nền vô hạn kể cả khi thành phần khởi tạo Service đã bị hủy"
+            "Text": "Service có thể chạy nền vô hạn kể cả khi thành phần khởi tạo Service đã bị hủy",
+            "color": "btn-success",
+            "status": ""
           }
         ]
       },
@@ -103,10 +155,15 @@
         "Marks": 1,
         "AnswerId": 104139,
         "Answers": [
-          { "Id": 104138, "Text": "-1" },
-          { "Id": 104139, "Text": "null" },
-          { "Id": 104140, "Text": "0" },
-          { "Id": 104141, "Text": "\"\"" }
+          { "Id": 104138, "Text": "-1", "color": "btn-success", "status": "" },
+          {
+            "Id": 104139,
+            "Text": "null",
+            "color": "btn-success",
+            "status": ""
+          },
+          { "Id": 104140, "Text": "0", "color": "btn-success", "status": "" },
+          { "Id": 104141, "Text": "\"\"", "color": "btn-success", "status": "" }
         ]
       },
       {
@@ -117,11 +174,28 @@
         "Answers": [
           {
             "Id": 104142,
-            "Text": "Dừng thông báo notification tới người dùng"
+            "Text": "Dừng thông báo notification tới người dùng",
+            "color": "btn-success",
+            "status": ""
           },
-          { "Id": 104143, "Text": "Dừng chương trình" },
-          { "Id": 104144, "Text": "Dừng kết nối Service với Sqlite" },
-          { "Id": 104145, "Text": "Dừng Service" }
+          {
+            "Id": 104143,
+            "Text": "Dừng chương trình",
+            "color": "btn-success",
+            "status": ""
+          },
+          {
+            "Id": 104144,
+            "Text": "Dừng kết nối Service với Sqlite",
+            "color": "btn-success",
+            "status": ""
+          },
+          {
+            "Id": 104145,
+            "Text": "Dừng Service",
+            "color": "btn-success",
+            "status": ""
+          }
         ]
       },
       {
@@ -130,10 +204,30 @@
         "Marks": 1,
         "AnswerId": 104149,
         "Answers": [
-          { "Id": 104146, "Text": "Khi phương thức bindService được gọi" },
-          { "Id": 104147, "Text": "Khi phương thức stopSelf được gọi" },
-          { "Id": 104148, "Text": "Khi phương thức onBind được gọi" },
-          { "Id": 104149, "Text": "Khi phương thức startService được gọi" }
+          {
+            "Id": 104146,
+            "Text": "Khi phương thức bindService được gọi",
+            "color": "btn-success",
+            "status": ""
+          },
+          {
+            "Id": 104147,
+            "Text": "Khi phương thức stopSelf được gọi",
+            "color": "btn-success",
+            "status": ""
+          },
+          {
+            "Id": 104148,
+            "Text": "Khi phương thức onBind được gọi",
+            "color": "btn-success",
+            "status": ""
+          },
+          {
+            "Id": 104149,
+            "Text": "Khi phương thức startService được gọi",
+            "color": "btn-success",
+            "status": ""
+          }
         ]
       },
       {
