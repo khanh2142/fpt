@@ -1,0 +1,23 @@
+<div class="card" ng-controller="quizzController">
+  <div class="card-body">
+    <h3 class="text-info text-center">Thi trắc nghiệm</h3>
+    <h5 class="mt-3 text-center">Vui lòng chọn môn học bạn muốn thi</h5>
+    <div class="row mt-5">
+      <div class="col-4 mb-3" ng-repeat="item in quizzs">
+        <a
+          class="btn btn-info"
+          style="min-height: 50px; width: 100%; display: flex"
+          href="#!{{item.sub_id}}"
+          ng-click="takeId(item.sub_id,item.sub_name)"
+        >
+          <img
+            src="../images/logos/{{item.sub_id}}.png"
+            alt=""
+            style="width: 50px"
+          />
+          <p class="text-center" style="width: 90%">{{item.sub_name}}</p>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>

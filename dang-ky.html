@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+  </head>
+  <body ng-app="myApp">
+    <div class="container pt-1" ng-controller="signUpForm">
+      <div class="row">
+        <h3>Đăng ký</h3>
+      </div>
+      <div class="row">
+        <div class="col-4">
+          <form>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label"
+                >Tài khoản</label
+              >
+              <input
+                type="text"
+                class="form-control"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+                ng-model="username"
+                placeholder="Tên đăng nhập..."
+              />
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label"
+                >Mật khẩu</label
+              >
+              <input
+                type="password"
+                class="form-control"
+                ng-model="password"
+                placeholder="Mật khẩu..."
+              />
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label"
+                >Nhập lại mật khẩu</label
+              >
+              <input
+                type="password"
+                class="form-control"
+                ng-model="passwordRepaet"
+                placeholder="Nhập lại mật khẩu..."
+              />
+            </div>
+          </form>
+        </div>
+        <div class="col-4">
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label"
+              >Họ và tên</label
+            >
+            <input
+              type="text"
+              class="form-control"
+              ng-model="fullname"
+              placeholder="Họ và tên"
+            />
+          </div>
+
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Email</label>
+            <input
+              type="email"
+              class="form-control"
+              ng-model="email"
+              placeholder="Nhập email..."
+            />
+          </div>
+
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label"
+              >Giới tính
+            </label>
+          </div>
+
+          <div class="form-check form-check-inline">
+            <input
+              class="form-check-input"
+              type="radio"
+              name="inlineRadioOptions"
+              id="inlineRadio1"
+              value="Nam"
+              ng-model="boy"
+            />
+            <label class="form-check-label" for="inlineRadio1">Nam</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input
+              class="form-check-input"
+              type="radio"
+              name="inlineRadioOptions"
+              id="inlineRadio2"
+              value="Nữ"
+              ng-model="girl"
+            />
+            <label class="form-check-label" for="inlineRadio2">Nữ</label>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label"
+              >Ngày sinh</label
+            >
+            <input
+              type="date"
+              class="form-control"
+              id="exampleInputPassword1"
+              ng-model="birthday"
+            />
+          </div>
+
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label"
+              >Học phí</label
+            >
+            <input type="number" class="form-control" ng-model="fee" />
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-4"></div>
+        <div class="col-4 d-flex justify-content-center">
+          <button type="submit" class="btn btn-primary" ng-click="signup()">
+            Đăng ký
+          </button>
+        </div>
+        <div class="col-4"></div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="col-md-2">
+        <a href="trang-chu.html" class="btn btn-info mt-5">Trang chủ</a>
+      </div>
+    </div>
+
+    <script src="./js/angularJS.min.js"></script>
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/popper.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="./db/students.json"></script>
+
+    <script src="./angularjs/sign-up.js"></script>
+  </body>
+</html>

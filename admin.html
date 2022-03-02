@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <style>
+      .loading {
+        background: rgba(0, 0, 0, 0.5);
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 999;
+      }
+
+      .spinner-center {
+        top: 50%;
+        left: 50%;
+        position: absolute;
+      }
+    </style>
+  </head>
+  <body ng-app="myApp">
+    <div class="container" >
+      <div class="row">
+        <div class="col-12">
+          <h1 class="text-center text-uppercase mt-3">Trang quản trị</h1>
+        </div>
+      </div>
+      <div class="row mt-5">
+        <div class="col-4 d-flex justify-content-center">
+          <div
+            class="btn btn-primary p-3"
+            data-bs-toggle="modal"
+            data-bs-target="#add-form"
+          >
+            Thêm sinh viên
+          </div>
+
+          <form
+            class="modal fade"
+            id="add-form"
+            tabindex="-1"
+            role="dialog"
+            aria-labelledby="exampleModalCenterTitle"
+            aria-hidden="true"
+            ng-controller="createController"
+          >
+            <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title">Thêm sinh viên</h5>
+                  <button
+                    type="button"
+                    class="close"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  >
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <div class="form-group">
+                    <label>Họ và tên</label>
+                    <input
+                      type="text"
+                      class="form-control mt-1"
+                      ng-model="newFullname"
+                      placeholder="VD : Nguyễn Văn A"
+                      required
+                    />
+                  </div>
+
+                  <div class="form-group">
+                    <label>Tên đăng nhập</label>
+                    <input
+                      type="text"
+                      class="form-control mt-1"
+                      ng-model="newUsername"
+                      placeholder="VD : annguyen123"
+                      required
+                    />
+                  </div>
+
+                  <div class="form-group">
+                    <label>Mật khẩu</label>
+                    <input
+                      type="password"
+                      class="form-control mt-1"
+                      ng-model="newPassword"
+                      placeholder="Nhập mật khẩu..."
+                      required
+                    />
+                  </div>
+
+                  <div class="mt-3">
+                    <label class="form-label">Giới tính </label>
+                  </div>
+
+                  <div class="form-check form-check-inline">
+                    <input
+                      class="form-check-input"
+                      type="radio"
+                      name="inlineRadioOptions"
+                      value="Nam"
+                      ng-model="newBoy"
+                      required
+                    />
+                    <label class="form-check-label" for="inlineRadio1"
+                      >Nam</label
+                    >
+                  </div>
+
+                  <div class="form-check form-check-inline">
+                    <input
+                      class="form-check-input"
+                      type="radio"
+                      name="inlineRadioOptions"
+                      value="Nữ"
+                      ng-model="newGirl"
+                    />
+                    <label class="form-check-label" for="inlineRadio1"
+                      >Nữ</label
+                    >
+                  </div>
+
+                  <div class="form-group mt-3">
+                    <label for="exampleInputPassword1">Ngày sinh</label>
+                    <input
+                      type="date"
+                      class="form-control mt-1"
+                      value="{{sv.birthday}}"
+                      ng-model="newBirthday"
+                      required
+                    />
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleInputPassword1">Học phí</label>
+                    <input
+                      type="text"
+                      class="form-control mt-1"
+                      placeholder="VD : 10.000.000"
+                      ng-model="newFee"
+                      required
+                    />
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn btn-secondary"
+                    data-bs-dismiss="modal"
+                  >
+                    Đóng
+                  </button>
+                  <button
+                    type="submit"
+                    class="btn btn-primary"
+                    ng-click="createStudent()"
+                  >
+                    Thêm
+                  </button>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+
+        
+      <div class="row">
+        <div class="col-12">
+          <table class="table mt-3" ng-controller="studentController">
+            <thead>
+              <tr>
+                <th>ID</th>
+                <th>Họ tên</th>
+                <th>Tên đăng nhập</th>
+                <th>Ngày sinh</th>
+                <th>Giới tính</th>
+                <th>Học phí</th>
+                <th>Điểm</th>
+                <th colspan="2">Thao tác</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr ng-repeat="sv in students ">
+                <td>{{ sv.id }}</td>
+                <td>{{ sv.fullname}}</td>
+                <td>{{ sv.username }}</td>
+                <td>{{ sv.birthday | date : "dd/MM/yyyy"}}</td>
+                <td>{{ sv.gender }}</td>
+                <td>{{ sv.fee | number : 0}}</td>
+                <td>{{ sv.marks }}</td>
+                <td>
+                  <button
+                    class="btn btn-primary"
+                    data-bs-toggle="modal"
+                    data-bs-target="#update-form-{{sv.id}}"
+                  >
+                    Sửa
+                  </button>
+
+                  <form
+                    class="modal fade"
+                    id="update-form-{{sv.id}}"
+                    tabindex="-1"
+                    role="dialog"
+                    aria-labelledby="exampleModalCenterTitle"
+                    aria-hidden="true"
+                    ng-controller="updateController"
+                  >
+                    <div
+                      class="modal-dialog modal-dialog-centered"
+                      role="document"
+                    >
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title">Cập nhật thông tin</h5>
+                          <button
+                            type="button"
+                            class="close"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                          >
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                          <div class="form-group">
+                            <label for="exampleInputPassword1">Họ và tên</label>
+                            <input
+                              type="text"
+                              class="form-control mt-1"
+                              ng-model="fullname"
+                              placeholder="{{sv.fullname}}"
+                              required
+                            />
+                          </div>
+
+                          <div class="mt-3">
+                            <label
+                              for="exampleInputPassword1"
+                              class="form-label"
+                              >Giới tính
+                            </label>
+                          </div>
+
+                          <div class="form-check form-check-inline">
+                            <input
+                              class="form-check-input"
+                              type="radio"
+                              name="inlineRadioOptions"
+                              value="Nam"
+                              ng-model="updateBoy"
+                              required
+                            />
+                            <label class="form-check-label" for="inlineRadio1"
+                              >Nam</label
+                            >
+                          </div>
+
+                          <div class="form-check form-check-inline">
+                            <input
+                              class="form-check-input"
+                              type="radio"
+                              name="inlineRadioOptions"
+                              value="Nữ"
+                              ng-model="updateGirl"
+                            />
+                            <label class="form-check-label" for="inlineRadio1"
+                              >Nữ</label
+                            >
+                          </div>
+
+                          <div class="form-group mt-3">
+                            <label for="exampleInputPassword1">Ngày sinh</label>
+                            <input
+                              type="date"
+                              class="form-control mt-1"
+                              value="{{sv.birthday}}"
+                              ng-model="updateBirthday"
+                              required
+                            />
+                          </div>
+                          <div class="form-group">
+                            <label for="exampleInputPassword1">Học phí</label>
+                            <input
+                              type="text"
+                              class="form-control mt-1"
+                              placeholder="{{sv.fee}}"
+                              ng-model="updateFee"
+                              required
+                            />
+                          </div>
+                        </div>
+                        <div class="modal-footer">
+                          <button
+                            type="button"
+                            class="btn btn-secondary"
+                            data-bs-dismiss="modal"
+                          >
+                            Đóng
+                          </button>
+                          <button
+                            type="submit"
+                            class="btn btn-info"
+                            ng-click="updateStudent(sv.id)"
+                          >
+                            Cập nhật
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </form>
+                </td>
+                <td>
+                  <button
+                    class="btn btn-danger"
+                    data-bs-toggle="modal"
+                    data-bs-target="#delete-form-{{sv.id}}"
+                  >
+                    Xóa
+                  </button>
+                  <form
+                    class="modal fade"
+                    id="delete-form-{{sv.id}}"
+                    tabindex="-1"
+                    role="dialog"
+                    aria-labelledby="exampleModalCenterTitle"
+                    aria-hidden="true"
+                    ng-controller="deleteController"
+                  >
+                    <div
+                      class="modal-dialog modal-dialog-centered"
+                      role="document"
+                    >
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title">Xóa sinh viên</h5>
+                          <button
+                            type="button"
+                            class="close"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                          >
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                          <span>
+                            Bạn có chắc muốn xóa
+                            <strong>{{sv.fullname}}</strong>
+                          </span>
+                        </div>
+
+                        <div class="modal-footer">
+                          <button
+                            type="button"
+                            class="btn btn-secondary"
+                            data-bs-dismiss="modal"
+                          >
+                            Đóng
+                          </button>
+                          <button
+                            type="submit"
+                            class="btn btn-danger"
+                            ng-click="deleteStudent(sv.id)"
+                          >
+                            Xóa
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </form>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <script src="./js/angularJS.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <script src="./angularjs/admin.js"></script>
+  </body>
+</html>

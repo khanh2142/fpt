@@ -1,0 +1,2418 @@
+[
+  {
+    "Id": 25262,
+    "Text": "Kiểm thử nào không nằm trong kiểm thử hệ thống?",
+    "Marks": 1,
+    "AnswerId": 104715,
+    "Answers": [
+      {
+        "Id": 104712,
+        "Text": "Installation tests",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104713,
+        "Text": "Performance tests",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104714,
+        "Text": "GUI tests",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104715,
+        "Text": "Unit test",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25263,
+    "Text": "Kiểm thử nào được sử dụng để kiểm thử hoạt động của các thành phần khi chúng làm việc chung với nhau?",
+    "Marks": 1,
+    "AnswerId": 104717,
+    "Answers": [
+      {
+        "Id": 104716,
+        "Text": "Kiểm thử đơn vị",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104717,
+        "Text": "Kiểm thử tích hợp",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104718,
+        "Text": "Kiểm thử chấp nhận",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104719,
+        "Text": "Kiểm thử giao diện",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25264,
+    "Text": "Android sử dụng Framework nào để kiểm thử đơn vị?",
+    "Marks": 1,
+    "AnswerId": 104720,
+    "Answers": [
+      { "Id": 104720, "Text": "JUnit", "color": "btn-success", "status": "" },
+      { "Id": 104721, "Text": "FUnit", "color": "btn-success", "status": "" },
+      { "Id": 104722, "Text": "NUnit", "color": "btn-success", "status": "" },
+      { "Id": 104723, "Text": "AUnit", "color": "btn-success", "status": "" }
+    ]
+  },
+  {
+    "Id": 25265,
+    "Text": "Trong JUnit, phương thức nào được sử dụng để kiểm tra một giá trị có phải Null hay không?",
+    "Marks": 1,
+    "AnswerId": 104727,
+    "Answers": [
+      {
+        "Id": 104724,
+        "Text": "confirmNull",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104725,
+        "Text": "assertNulls",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104726,
+        "Text": "confirmNulls",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104727,
+        "Text": "assertNull",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25266,
+    "Text": "Trong JUnit test case, phương thức nào được sử dụng để tạo đối tượng và khởi tạo giá trị cho các đối tượng?",
+    "Marks": 1,
+    "AnswerId": 104729,
+    "Answers": [
+      {
+        "Id": 104728,
+        "Text": "tearingDown()",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104729,
+        "Text": "setUp()",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104730,
+        "Text": "settingUp()",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104731,
+        "Text": "tearDown()",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25267,
+    "Text": "Kiểm tra việc lưu thông tin trạng thái của Activity trong phương thức nào?",
+    "Marks": 1,
+    "AnswerId": 104733,
+    "Answers": [
+      {
+        "Id": 104732,
+        "Text": "onSearchRequested",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104733,
+        "Text": "onPause",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104734,
+        "Text": "onKeyUp",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104735,
+        "Text": "onNavigateUp",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25268,
+    "Text": "Lớp nào không nằm trong gói android.test.mock?",
+    "Marks": 1,
+    "AnswerId": 104740,
+    "Answers": [
+      {
+        "Id": 104736,
+        "Text": "MockContext",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104737,
+        "Text": "MockContentResolver",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104738,
+        "Text": "MockCursor",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104739,
+        "Text": "MockContentProvider",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104740,
+        "Text": "MockResource",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25269,
+    "Text": "Trong JUnit, phương thức nào được sử dụng để so sánh hai giá trị có bằng nhau hay không?",
+    "Marks": 1,
+    "AnswerId": 104742,
+    "Answers": [
+      {
+        "Id": 104741,
+        "Text": "assertEqual",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104742,
+        "Text": "assertEquals",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104743,
+        "Text": "confirmEqual",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104744,
+        "Text": "confirmEquals",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25270,
+    "Text": "Phương thức nào được chạy trước tất cả test case?",
+    "Marks": 1,
+    "AnswerId": 104746,
+    "Answers": [
+      {
+        "Id": 104745,
+        "Text": "tearDown()",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104746,
+        "Text": "setUp()",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104747,
+        "Text": "settingUp()",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104748,
+        "Text": "tearingDown()",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25271,
+    "Text": "Kiểm thử đơn vị được thực hiện bởi ai trong nhóm phát triển?",
+    "Marks": 1,
+    "AnswerId": 104751,
+    "Answers": [
+      { "Id": 104749, "Text": "Tester", "color": "btn-success", "status": "" },
+      { "Id": 104750, "Text": "QA", "color": "btn-success", "status": "" },
+      {
+        "Id": 104751,
+        "Text": "Lập trình viên",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104752,
+        "Text": "Product Owner",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25272,
+    "Text": "Đoạn code sau có ý nghĩa gì?SecondActivity startedActivity = (SecondActivity)monitor. waitForActivityWithTimeout(2000);",
+    "Marks": 1,
+    "AnswerId": 104755,
+    "Answers": [
+      {
+        "Id": 104753,
+        "Text": "Khởi tạo SecondActivity. Nếu sau 2 milliseconds, SecondActivity không được khởi tạo thì sẽ trả lại giá trị NULL",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104754,
+        "Text": "Khởi tạo SecondActivity. Nếu sau 2 giờ, SecondActivity không được khởi tạo thì sẽ trả lại giá trị NULL",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104755,
+        "Text": "Khởi tạo SecondActivity. Nếu sau 2 giây, SecondActivity không được khởi tạo thì sẽ trả lại giá trị NULL",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104756,
+        "Text": "Khởi tạo SecondActivity",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25273,
+    "Text": "Lớp nào hỗ trợ để sinh ra các sự kiện touch event?",
+    "Marks": 1,
+    "AnswerId": 104760,
+    "Answers": [
+      {
+        "Id": 104757,
+        "Text": "TouchLibraries",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104758,
+        "Text": "TouchUtil",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104759,
+        "Text": "TouchLibrary",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104760,
+        "Text": "TouchUtils",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25274,
+    "Text": "Để gửi các sự kiện tới giao diện người dùng từ chương trình Android khi kiểm thử phải sử dụng công cụ nào?",
+    "Marks": 1,
+    "AnswerId": 104764,
+    "Answers": [
+      { "Id": 104761, "Text": "JUnit", "color": "btn-success", "status": "" },
+      { "Id": 104762, "Text": "Nunit", "color": "btn-success", "status": "" },
+      { "Id": 104763, "Text": "Ant", "color": "btn-success", "status": "" },
+      {
+        "Id": 104764,
+        "Text": "Instrumentation",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25275,
+    "Text": "Phương thức nào của ViewAsserts được dùng để kiểm tra xem View có nằm trên màn hình hay không?",
+    "Marks": 1,
+    "AnswerId": 104768,
+    "Answers": [
+      {
+        "Id": 104765,
+        "Text": "assertOffScreenAbove",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104766,
+        "Text": "assertOffScreenBelow",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104767,
+        "Text": "assertOffScreen",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104768,
+        "Text": "assertOnScreen",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25276,
+    "Text": "Đối với lớp kiểm thử SingleLaunchActivityTestCase, để lấy thông tin Activity sử dụng phương thức nào?",
+    "Marks": 1,
+    "AnswerId": 104770,
+    "Answers": [
+      {
+        "Id": 104769,
+        "Text": "getActivities()",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104770,
+        "Text": "getActivity()",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104771,
+        "Text": "getCurrentActivitiy()",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104772,
+        "Text": "getRecentActivitiy()",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25277,
+    "Text": "Trước khi xuất bản ứng dụng lên Google Play, chúng ta nên kiểm tra ứng dụng trên các loại thiết bị nào?",
+    "Marks": 1,
+    "AnswerId": 104774,
+    "Answers": [
+      {
+        "Id": 104773,
+        "Text": "Chỉ cần kiểm tra ứng dụng trên Emulator",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104774,
+        "Text": "Kiểm tra thiết bị trên mọi kích thước màn hình và trên các màn hình với mật độ điểm ảnh khác nhau",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104775,
+        "Text": "Kiểm tra ứng dụng trên Galaxy S4",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104776,
+        "Text": "Kiểm tra ứng dụng trên Galaxy Tab",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25278,
+    "Text": "Lớp kiểm thử nào chỉ cho phép gọi các phương thức setUp và tearDown một lần duy nhất, thay vì gọi 2 phương thức này trong các lần thực hiện gọi phương thức kiểm thử?",
+    "Marks": 1,
+    "AnswerId": 104777,
+    "Answers": [
+      {
+        "Id": 104777,
+        "Text": "SingleLaunchActivityTestCase",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104778,
+        "Text": "ActivityUnitTestCase",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104779,
+        "Text": "ActivityUnitTestCase2",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104780,
+        "Text": "SingleLaunchActivityTestCase2",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25279,
+    "Text": "Phương thức nào của ViewAsserts được dùng để kiểm tra xem view cụ thể có nằm trong một ViewGroup hay không?",
+    "Marks": 1,
+    "AnswerId": 104781,
+    "Answers": [
+      {
+        "Id": 104781,
+        "Text": "assertGroupContains",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104782,
+        "Text": "assertGroupContain",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104783,
+        "Text": "assertViewContains",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104784,
+        "Text": "assertViewContains",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25280,
+    "Text": "Phương thức nào của ActivityMonitor dùng để kiểm tra xem ActivityMonitor có cho phép Activity chạy không?",
+    "Marks": 1,
+    "AnswerId": 104785,
+    "Answers": [
+      {
+        "Id": 104785,
+        "Text": "isBlocking",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104786,
+        "Text": "isPreventing",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104787,
+        "Text": "isStopping",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104788,
+        "Text": "isLocking",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25281,
+    "Text": "Lớp nào được sử dụng để gửi Intent giả lập tới Activity khi kiểm thử?",
+    "Marks": 1,
+    "AnswerId": 104789,
+    "Answers": [
+      {
+        "Id": 104789,
+        "Text": "ActivityInstrumentationTestcase2",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104790,
+        "Text": "ActivityUnitTestCase",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104791,
+        "Text": "ActivityInstrumentationTestcase",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104792,
+        "Text": "ActivityUnitTestCase2",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25282,
+    "Text": "Thư viện nào hỗ trợ kiểm thử giao diện tự động?",
+    "Marks": 1,
+    "AnswerId": 104796,
+    "Answers": [
+      {
+        "Id": 104793,
+        "Text": "uiautomation",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104794,
+        "Text": "uiautomating",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104795,
+        "Text": "uiautomate",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104796,
+        "Text": "uiautomator",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25283,
+    "Text": "Công cụ uiautomatorviewer dùng để làm gì?",
+    "Marks": 1,
+    "AnswerId": 104797,
+    "Answers": [
+      {
+        "Id": 104797,
+        "Text": "Hỗ trợ quét và phân tích giao diện của ứng dụng chạy trên thiết bị thật",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104798,
+        "Text": "Hỗ trợ quét và phân tích giao diện của ứng dụng chạy trên máy ảo",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104799,
+        "Text": "Hỗ trợ quét và phân tích các thành phần của ContentProvider",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104800,
+        "Text": "Hỗ trợ quét và phân tích các thành phần của Service",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25284,
+    "Text": "Lớp nào không phải lớp có sẵn của uiautomator API?",
+    "Marks": 1,
+    "AnswerId": 104802,
+    "Answers": [
+      {
+        "Id": 104801,
+        "Text": "UiScrollable",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104802,
+        "Text": "UiSelectors",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104803,
+        "Text": "UiObject",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104804,
+        "Text": "UiDevice",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25285,
+    "Text": "Sử dụng lệnh nào để cài đặt file JAR vào thiết bị kiểm thử?",
+    "Marks": 1,
+    "AnswerId": 104808,
+    "Answers": [
+      {
+        "Id": 104805,
+        "Text": "adb pull",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104806,
+        "Text": "android push",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104807,
+        "Text": "android pull",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104808,
+        "Text": "adb push",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25286,
+    "Text": "Lệnh nào trong Window để thiết lập biến ANDROID_HOME?",
+    "Marks": 1,
+    "AnswerId": 104809,
+    "Answers": [
+      {
+        "Id": 104809,
+        "Text": "set ANDROID_HOME=",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104810,
+        "Text": "set path ANDROID_HOME=",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104811,
+        "Text": "setting up ANDROID_HOME=",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104812,
+        "Text": "set up ANDROID_HOME=",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25287,
+    "Text": "Ngoại lệ UiAutomatorObjectNotFoundException xuất hiện khi nào?",
+    "Marks": 1,
+    "AnswerId": 104814,
+    "Answers": [
+      {
+        "Id": 104813,
+        "Text": "Có nhiều phần tử UI thỏa mãn điều kiện tìm kiếm",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104814,
+        "Text": "Không có phần tử UI nào thỏa mãn điều kiện tìm kiếm",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104815,
+        "Text": "Không có phần tử TextView nào thỏa mãn điều kiện tìm kiếm",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104816,
+        "Text": "Có nhiều phần tử UI thỏa mãn điều kiện tìm kiếm",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25288,
+    "Text": "Phải bổ sung thư viện Junit nào để có thể kiểm thử được giao diện?",
+    "Marks": 1,
+    "AnswerId": 104820,
+    "Answers": [
+      { "Id": 104817, "Text": "Junit1", "color": "btn-success", "status": "" },
+      { "Id": 104818, "Text": "Junit5", "color": "btn-success", "status": "" },
+      { "Id": 104819, "Text": "Junit2", "color": "btn-success", "status": "" },
+      { "Id": 104820, "Text": "Junit3", "color": "btn-success", "status": "" }
+    ]
+  },
+  {
+    "Id": 25289,
+    "Text": "Lệnh sau dùng để làm gì?UiObject cancelButton = new UiObject(new UiSelector().text(\"Cancel\") .className(\"android.widget.Button\"));",
+    "Marks": 1,
+    "AnswerId": 104822,
+    "Answers": [
+      {
+        "Id": 104821,
+        "Text": "Tìm kiếm Button có giá trị description là Cancel",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104822,
+        "Text": "Tìm kiếm Button có giá trị text là Cancel",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104823,
+        "Text": "Tìm kiếm tất cả control có giá trị text là Cancel",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104824,
+        "Text": "Tìm kiếm Button có giá trị resource-id là Cancel",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25290,
+    "Text": "Để kiểm thử giao diện trên Android sử dụng uiautomator, phải tạo project kiểu gì?",
+    "Marks": 1,
+    "AnswerId": 104826,
+    "Answers": [
+      {
+        "Id": 104825,
+        "Text": "Android Project",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104826,
+        "Text": "Java Project",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104827,
+        "Text": "Java Testing Project",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104828,
+        "Text": "Android Testing Project",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25291,
+    "Text": "Đối với EditText nên cung cấp thuộc tính nào để phục vụ kiểm thử giao diện?",
+    "Marks": 1,
+    "AnswerId": 104831,
+    "Answers": [
+      {
+        "Id": 104829,
+        "Text": "android:key",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104830,
+        "Text": "android:caption",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104831,
+        "Text": "android:hint",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104832,
+        "Text": "android:id",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25292,
+    "Text": "Khi kiểm thử Service, nếu override phương thức tearDown, phải gọi phương thức nào ở cuối phương thức tearDown?",
+    "Marks": 1,
+    "AnswerId": 104835,
+    "Answers": [
+      {
+        "Id": 104833,
+        "Text": "super.tearUp()",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104834,
+        "Text": "super.settingUp()",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104835,
+        "Text": "super.tearDown()",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104836,
+        "Text": "super.setUp()",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25293,
+    "Text": "Lớp nào cung cấp đối tượng giả lập Application?",
+    "Marks": 1,
+    "AnswerId": 104840,
+    "Answers": [
+      {
+        "Id": 104837,
+        "Text": "ApplicationMock",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104838,
+        "Text": "Application",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104839,
+        "Text": "MockApplications",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104840,
+        "Text": "MockApplication",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25294,
+    "Text": "Khi kiểm thử Service, người phát triển nên lưu ý điều gì?",
+    "Marks": 1,
+    "AnswerId": 104842,
+    "Answers": [
+      {
+        "Id": 104841,
+        "Text": "Không được kiểm thử các logic nghiệp vụ",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104842,
+        "Text": "Nên kiểm thử lời gọi dừng Service",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104843,
+        "Text": "Không được kiểm thử lời gọi dừng Service",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104844,
+        "Text": "Không nên sử dụng MockApplication khi kiểm thử",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25295,
+    "Text": "Khi kiểm thử IntentService, phải sử dụng phương thức nào để kích hoạt gọi phương thức onHandleIntent?",
+    "Marks": 1,
+    "AnswerId": 104845,
+    "Answers": [
+      {
+        "Id": 104845,
+        "Text": "TimeUnit.Seconds.sleep",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104846,
+        "Text": "TimeUnit.Seconds.waiting",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104847,
+        "Text": "TimeUnit.Seconds.toHours",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104848,
+        "Text": "TimeUnit.Seconds.valueOf",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25296,
+    "Text": "Phương thức nào được sử dụng để truyền đối tượng giả lập MockContext vào Service",
+    "Marks": 1,
+    "AnswerId": 104849,
+    "Answers": [
+      {
+        "Id": 104849,
+        "Text": "setContext",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104850,
+        "Text": "setContextObjects",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104851,
+        "Text": "setContextObject",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104852,
+        "Text": "setContexts",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25297,
+    "Text": "Lớp ProviderTestCase2 kế thừa lớp nào?",
+    "Marks": 1,
+    "AnswerId": 104855,
+    "Answers": [
+      {
+        "Id": 104853,
+        "Text": "AndroidTestCase2",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104854,
+        "Text": "AndroidTestCase3",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104855,
+        "Text": "AndroidTestCase",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104856,
+        "Text": "AndroidTestCase1",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25298,
+    "Text": "Khởi tạo lớp kiểm thử được thực hiện trong hàm nào?",
+    "Marks": 1,
+    "AnswerId": 104858,
+    "Answers": [
+      {
+        "Id": 104857,
+        "Text": "Hàm IsolatedContext của ProviderTestCase2",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104858,
+        "Text": "Hàm tạo của ProviderTestCase2",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104859,
+        "Text": "Hàm MockContentResolver của ProviderTestCase2",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104860,
+        "Text": "Hàm MockContentResolver của ProviderTestCase2",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25299,
+    "Text": "Phương thức ServiceTestCase.bindService() trả về đối tượng kiểu gì?",
+    "Marks": 1,
+    "AnswerId": 104864,
+    "Answers": [
+      { "Id": 104861, "Text": "int", "color": "btn-success", "status": "" },
+      { "Id": 104862, "Text": "String", "color": "btn-success", "status": "" },
+      {
+        "Id": 104863,
+        "Text": "Boolean",
+        "color": "btn-success",
+        "status": ""
+      },
+      { "Id": 104864, "Text": "iBinder", "color": "btn-success", "status": "" }
+    ]
+  },
+  {
+    "Id": 25300,
+    "Text": "Lớp nào cung cấp các phương thức kiểm thử ContentProvider?",
+    "Marks": 1,
+    "AnswerId": 104866,
+    "Answers": [
+      {
+        "Id": 104865,
+        "Text": "ContentProviderTestCase",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104866,
+        "Text": "ProviderTestCase2",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104867,
+        "Text": "ProviderTestCase",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104868,
+        "Text": "ContentProviderTestCase2",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25301,
+    "Text": "Điều gì nên làm khi kiểm thử ContentProvider?",
+    "Marks": 1,
+    "AnswerId": 104871,
+    "Answers": [
+      {
+        "Id": 104869,
+        "Text": "Không nên kiểm thử URI không hợp lệ",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104870,
+        "Text": "Không nên kiểm thử hằng số mà ContentProvider cung cấp",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104871,
+        "Text": "Kiểm thử tất cả URI mà ContentProvider cung cấp",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104872,
+        "Text": "Kiểm thử URI truy vấn và URI cập nhật",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25302,
+    "Text": "Làm thế nào để gửi sự kiện click vào nút BACK?",
+    "Marks": 1,
+    "AnswerId": 104875,
+    "Answers": [
+      {
+        "Id": 104873,
+        "Text": "Gọi phương thức goBackButton của lớp Solo2",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104874,
+        "Text": "Gọi phương thức goBackButton của lớp Solo",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104875,
+        "Text": "Gọi phương thức goBack của lớp Solo",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104876,
+        "Text": "Gọi phương thức goBack của lớp Solo2",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25303,
+    "Text": "Phương thức nào được sử dụng để tìm kiếm Fragment theo ID?",
+    "Marks": 1,
+    "AnswerId": 104880,
+    "Answers": [
+      {
+        "Id": 104877,
+        "Text": "getCurrentActivity().getFragment() .findFragmentById",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104878,
+        "Text": "getCurrentActivity().findFragmentById",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104879,
+        "Text": "getActivity().getFragmentManager() .findFragmentById",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104880,
+        "Text": "getCurrentActivity().getFragmentManager() .findFragmentById",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25304,
+    "Text": "Làm thế nào để sử dụng Robotium để kiểm thử ứng dụng Android?",
+    "Marks": 1,
+    "AnswerId": 104881,
+    "Answers": [
+      {
+        "Id": 104881,
+        "Text": "Sử dụng file JAR robotium tải trên trang http://code.google.com/p/robotium/",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104882,
+        "Text": "Sử dụng file JAR robotium tải trên trang android.google.com/robotium",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104883,
+        "Text": "Chỉ cần sử dụng android testing framework",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104884,
+        "Text": "Chỉ cần sử dụng KitKat SDK",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25305,
+    "Text": "Làm thế nào để gửi sự kiện click vào nút MENU trên thiết bị?",
+    "Marks": 1,
+    "AnswerId": 104888,
+    "Answers": [
+      {
+        "Id": 104885,
+        "Text": "Gọi hàm sendKeys(Solo.MENU)",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104886,
+        "Text": "Gọi hàm sendMenus(Solo.MENU)",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104887,
+        "Text": "Gọi hàm sendMenu(Solo.MENU)",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104888,
+        "Text": "Gọi hàm sendKey(Solo.MENU)",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25306,
+    "Text": "Làm thế nào để kiểm tra activity hiện tại có phải là Activity SecondActivity hay không?",
+    "Marks": 1,
+    "AnswerId": 104890,
+    "Answers": [
+      {
+        "Id": 104889,
+        "Text": "Gọi phương thức assertCurrentActivity(\"wrong activity\", SecondActivity) của lớp Solo",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104890,
+        "Text": "Gọi phương thức assertCurrentActivity(\"wrong activity\", SecondActivity.class) của lớp Solo",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104891,
+        "Text": "Gọi phương thức assertActivity(\"wrong activity\", Activity.class) của lớp Solo",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104892,
+        "Text": "Gọi phương thức assertCurrentActivity(\"wrong activity\", Activity.class) của lớp Solo",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25307,
+    "Text": "Chọn chức năng nào của Robotium Recorder để ghi lại tọa độ màn hình khi kiểm thử?",
+    "Marks": 1,
+    "AnswerId": 104896,
+    "Answers": [
+      {
+        "Id": 104893,
+        "Text": "Click and drag",
+        "color": "btn-success",
+        "status": ""
+      },
+      { "Id": 104894, "Text": "sleep", "color": "btn-success", "status": "" },
+      {
+        "Id": 104895,
+        "Text": "Identify class over string",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104896,
+        "Text": "Click and drag coordinate",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25308,
+    "Text": "Để kiểm tra xem checkbox có được click hay không, phải sử dụng phương thức gì của lớp Solo?",
+    "Marks": 1,
+    "AnswerId": 104900,
+    "Answers": [
+      {
+        "Id": 104897,
+        "Text": "isCheckBoxesCheck",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104898,
+        "Text": "isCheckBoxCheck",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104899,
+        "Text": "isCheckBoxesChecked",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104900,
+        "Text": "isCheckBoxChecked",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25309,
+    "Text": "Lợi ích của Robotium là gì?",
+    "Marks": 1,
+    "AnswerId": 104902,
+    "Answers": [
+      {
+        "Id": 104901,
+        "Text": "Kiểm thử các ứng dụng game trên Android",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104902,
+        "Text": "Kiểm thử các ứng dụng Android với tốc độ kiểm thử cao",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104903,
+        "Text": "Kiểm thử các ứng dụng Window Phone",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104904,
+        "Text": "Kiểm thử các ứng dụng iOS",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25310,
+    "Text": "Sử dụng lớp nào của Robotium để kiểm thử giao diện?",
+    "Marks": 1,
+    "AnswerId": 104907,
+    "Answers": [
+      { "Id": 104905, "Text": "Solo2", "color": "btn-success", "status": "" },
+      {
+        "Id": 104906,
+        "Text": "RobotiumTestCase",
+        "color": "btn-success",
+        "status": ""
+      },
+      { "Id": 104907, "Text": "Solo", "color": "btn-success", "status": "" },
+      {
+        "Id": 104908,
+        "Text": "RobotiumTestCase2",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25311,
+    "Text": "Để có thể ghi thông tin screenshot vào sdcard từ robotium, phải thêm quyền gì vào AndroidManifest?",
+    "Marks": 1,
+    "AnswerId": 104912,
+    "Answers": [
+      {
+        "Id": 104909,
+        "Text": "android.permission.WRITE_GSERVICES",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104910,
+        "Text": "android.permission.WRITE_SECURE_SETTINGS",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104911,
+        "Text": "android.permission.WRITE_SMS",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104912,
+        "Text": "android.permission.WRITE_EXTERNAL_STORAGE",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25312,
+    "Text": "Giá trị nào không phải giá trị của robolectric.logging?",
+    "Marks": 1,
+    "AnswerId": 104914,
+    "Answers": [
+      {
+        "Id": 104913,
+        "Text": "tên file",
+        "color": "btn-success",
+        "status": ""
+      },
+      { "Id": 104914, "Text": "stdin", "color": "btn-success", "status": "" },
+      { "Id": 104915, "Text": "stdout", "color": "btn-success", "status": "" },
+      { "Id": 104916, "Text": "stderr", "color": "btn-success", "status": "" }
+    ]
+  },
+  {
+    "Id": 25313,
+    "Text": "Trong các phương thức kiểm thử của Robolectric, phải sử dụng test annotation nào?",
+    "Marks": 1,
+    "AnswerId": 104918,
+    "Answers": [
+      {
+        "Id": 104917,
+        "Text": "@RunWithRobolectric",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104918,
+        "Text": "@RunWith",
+        "color": "btn-success",
+        "status": ""
+      },
+      { "Id": 104919, "Text": "@With", "color": "btn-success", "status": "" },
+      { "Id": 104920, "Text": "@Run", "color": "btn-success", "status": "" }
+    ]
+  },
+  {
+    "Id": 25314,
+    "Text": "Phải sử dụng file jar nào khi kiểm thử bằng Robolectric?",
+    "Marks": 1,
+    "AnswerId": 104923,
+    "Answers": [
+      {
+        "Id": 104921,
+        "Text": "androidjunit.jar",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104922,
+        "Text": "junit2.jar",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104923,
+        "Text": "android.jar",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104924,
+        "Text": "junit1.jar",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25315,
+    "Text": "Để thiết lập giá trị mặc định cho các item trong đối tượng Config, phải thiết lập trong file nào?",
+    "Marks": 1,
+    "AnswerId": 104928,
+    "Answers": [
+      {
+        "Id": 104925,
+        "Text": "org.Config.properties",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104926,
+        "Text": "robolectric.Config.properties",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104927,
+        "Text": "org.robolectric.Config.property",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104928,
+        "Text": "org.robolectric.Config.properties",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25316,
+    "Text": "Câu nào là đúng khi nói về Robolectric?",
+    "Marks": 1,
+    "AnswerId": 104930,
+    "Answers": [
+      {
+        "Id": 104929,
+        "Text": "Robolectric chỉ cho phép kiểm thử trên emulator",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104930,
+        "Text": "Robolectric cho phép kiểm thử không cần thiết bị thật và emulator",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104931,
+        "Text": "Robolectric chỉ cho phép kiểm thử trên thiết bị thật",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104932,
+        "Text": "Robolectric cho phép kiểm thử thiết bị iOS",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25317,
+    "Text": "Phải sử dụng test annotation nào trước phương thức kiểm thử để có thể sử dụng file AndroidManifest tùy biến tên là ModifiedAndroidManifest?",
+    "Marks": 1,
+    "AnswerId": 104936,
+    "Answers": [
+      {
+        "Id": 104933,
+        "Text": "@Configs(manifest = \"ModifiedAndroidManifest.xml\")",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104934,
+        "Text": "@Configuration(manifest = \"ModifiedAndroidManifest.xml\")",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104935,
+        "Text": "@Config(manifest = \"ModifiedAndroidManifest\")",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104936,
+        "Text": "@Config(manifest = \"ModifiedAndroidManifest.xml\")",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25318,
+    "Text": "File project.properties phải nằm ở đâu trong project?",
+    "Marks": 1,
+    "AnswerId": 104940,
+    "Answers": [
+      {
+        "Id": 104937,
+        "Text": "thư mục image",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104938,
+        "Text": "thư mục lib",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104939,
+        "Text": "thư mục test",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104940,
+        "Text": "thư mục gốc",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25319,
+    "Text": "Sử dụng đối tượng nào trong Robolectric để có thể truy xuất thông tin của ImageView?",
+    "Marks": 1,
+    "AnswerId": 104944,
+    "Answers": [
+      {
+        "Id": 104941,
+        "Text": "ShadowImage",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104942,
+        "Text": "ImageView",
+        "color": "btn-success",
+        "status": ""
+      },
+      { "Id": 104943, "Text": "Image", "color": "btn-success", "status": "" },
+      {
+        "Id": 104944,
+        "Text": "ShadowImageView",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25320,
+    "Text": "Robolectric sử dụng JUnit phiên bản nào?",
+    "Marks": 1,
+    "AnswerId": 104945,
+    "Answers": [
+      { "Id": 104945, "Text": "JUnit4", "color": "btn-success", "status": "" },
+      { "Id": 104946, "Text": "JUnit3", "color": "btn-success", "status": "" },
+      { "Id": 104947, "Text": "JUnit2", "color": "btn-success", "status": "" },
+      { "Id": 104948, "Text": "JUnit1", "color": "btn-success", "status": "" }
+    ]
+  },
+  {
+    "Id": 25321,
+    "Text": "Đối tượng nào trong Robolectric hoạt động tương tự như các đối tượng của Android SDK?",
+    "Marks": 1,
+    "AnswerId": 104950,
+    "Answers": [
+      {
+        "Id": 104949,
+        "Text": "junit object",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104950,
+        "Text": "Shadow object",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104951,
+        "Text": "hidden object",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104952,
+        "Text": "android object",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25322,
+    "Text": "Lệnh nào dùng để tạo Activity MyActivity, sau đó khởi tạo Activty, cuối cùng sẽ trả lại một đối tượng Activity?",
+    "Marks": 1,
+    "AnswerId": 104954,
+    "Answers": [
+      {
+        "Id": 104953,
+        "Text": "Robolectric.buildActivity(MyActivity.class).onCreate().start().get()",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104954,
+        "Text": "Robolectric.buildActivity(MyActivity.class).create().start().get()",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104955,
+        "Text": "Robolectric.createActivity(MyActivity.class).create().start().get()",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104956,
+        "Text": "Robolectric.buildActivity(MyActivity).create().start().get()",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25323,
+    "Text": "Trong roboguide, để khai báo một resource có id là app_desc, phải sử dụng lệnh nào?",
+    "Marks": 1,
+    "AnswerId": 104957,
+    "Answers": [
+      {
+        "Id": 104957,
+        "Text": "@InjectResources(R.id.app_desc) String app_mota",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104958,
+        "Text": "@InjectView(R.id.app_desc) String app_mota",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104959,
+        "Text": "@InjectResource(R.id.editText1) String app_mota",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104960,
+        "Text": "@InjectView(app_desc) String app_mota",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25324,
+    "Text": "RoboGuide có thể sử dụng với framework kiểm thử nào?",
+    "Marks": 1,
+    "AnswerId": 104962,
+    "Answers": [
+      {
+        "Id": 104961,
+        "Text": "Mockito",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104962,
+        "Text": "Robolectric",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104963,
+        "Text": "Robotium",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104964,
+        "Text": "Android testing framework",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25325,
+    "Text": "Trong Robolectric từ version 2.2, lớp nào hỗ trợ quản lý vòng đời Activity giống với Android SDK?",
+    "Marks": 1,
+    "AnswerId": 104965,
+    "Answers": [
+      {
+        "Id": 104965,
+        "Text": "Activities",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104966,
+        "Text": "ActivityControlling",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104967,
+        "Text": "ActivityController",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104968,
+        "Text": "Actiivty",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25326,
+    "Text": "Câu nào là đúng đối với việc quản lý tài nguyên trong Robolectric?",
+    "Marks": 1,
+    "AnswerId": 104971,
+    "Answers": [
+      {
+        "Id": 104969,
+        "Text": "Chỉ cho phép thay đổi cách tài nguyên được nạp dựa trên yếu tố thiết bị",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104970,
+        "Text": "Chỉ cho phép thay đổi cách tài nguyên được nạp dựa trên các yếu tố thiết bị, cỡ màn hình",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104971,
+        "Text": "Cho phép thay đổi cách tài nguyên được nạp dựa trên các yếu tố thiết bị, cỡ màn hình,ngôn ngữ",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104972,
+        "Text": "Không cho phép thay đổi tài nguyên",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25327,
+    "Text": "Để xác định tài nguyên cho phương thức kiểm thử cụ thể, phải sử dụng từ khóa nào trước phương thức đó?",
+    "Marks": 1,
+    "AnswerId": 104974,
+    "Answers": [
+      {
+        "Id": 104973,
+        "Text": "@Configurtor",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104974,
+        "Text": "@Config",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104975,
+        "Text": "@Configs",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104976,
+        "Text": "@Configuration",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25328,
+    "Text": "Để xác định tài nguyên cho cả phương thức cụ thể, phải dùng từ khóa @Config ở đâu?",
+    "Marks": 1,
+    "AnswerId": 104978,
+    "Answers": [
+      {
+        "Id": 104977,
+        "Text": "Trong file resource",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104978,
+        "Text": "Trong từng test case",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104979,
+        "Text": "Trong file values.xml",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104980,
+        "Text": "Trong file test",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25329,
+    "Text": "Trong Robolectric từ version 2.2, phương thức nào được sử dụng để quản lý Activity?",
+    "Marks": 1,
+    "AnswerId": 104982,
+    "Answers": [
+      {
+        "Id": 104981,
+        "Text": "Robolectric.onCreateAcitivity",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104982,
+        "Text": "Robolectric.buildActivity",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104983,
+        "Text": "Robolectric.startActivity",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104984,
+        "Text": "Robolectric.createActivity",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25330,
+    "Text": "Trong roboguide, để khai báo một EditText có id là editText1, phải sử dụng lệnh nào?",
+    "Marks": 1,
+    "AnswerId": 104988,
+    "Answers": [
+      {
+        "Id": 104985,
+        "Text": "@InjectView(editText1) EditText name",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104986,
+        "Text": "@InjectResource(R.id.editText1) EditText name",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104987,
+        "Text": "@Inject(R.id.editText1) EditText name",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104988,
+        "Text": "@InjectView(R.id.editText1) EditText name",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25331,
+    "Text": "Roboguice không thể chạy trên IDE nào?",
+    "Marks": 1,
+    "AnswerId": 104989,
+    "Answers": [
+      {
+        "Id": 104989,
+        "Text": "Net Bean",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104990,
+        "Text": "Android Studio",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104991,
+        "Text": "IntelliJ",
+        "color": "btn-success",
+        "status": ""
+      },
+      { "Id": 104992, "Text": "Eclipse", "color": "btn-success", "status": "" }
+    ]
+  },
+  {
+    "Id": 25332,
+    "Text": "Thực thể key.store được lưu trữ ở đâu?",
+    "Marks": 1,
+    "AnswerId": 104996,
+    "Answers": [
+      {
+        "Id": 104993,
+        "Text": "ant.prop",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104994,
+        "Text": "apk.properties",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104995,
+        "Text": "apk.prop",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104996,
+        "Text": "ant.properties",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25333,
+    "Text": "Khi kiểm tra và cập nhật file manifest trước khi phát hành, ta cần kiểm tra các thành phần nào?",
+    "Marks": 1,
+    "AnswerId": 105000,
+    "Answers": [
+      {
+        "Id": 104997,
+        "Text": ", android:CodeLabel, android:versionName",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104998,
+        "Text": ", android:versionCode, android:versionLabel",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104999,
+        "Text": ", android:labelCode, android:versionName",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 105000,
+        "Text": ", android:versionCode, android:versionName",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25334,
+    "Text": "Để xóa các tài nguyên không cần thiết khỏi ứng dụng, ta cần vào các thư mục nào?",
+    "Marks": 1,
+    "AnswerId": 105001,
+    "Answers": [
+      {
+        "Id": 105001,
+        "Text": "jni/, lib/, và src/",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 105002,
+        "Text": "jni/, lib/, src/ và code/",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 105003,
+        "Text": "jni/, lib/, src/, code/ và img/",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 105004,
+        "Text": "code/ và img/",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25335,
+    "Text": "Google Play là gì?",
+    "Marks": 1,
+    "AnswerId": 105005,
+    "Answers": [
+      {
+        "Id": 105005,
+        "Text": "Chợ ứng dụng android",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 105006,
+        "Text": "Thư viện android",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 105007,
+        "Text": "Chợ phần cứng mobile",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 105008,
+        "Text": "Thư viện .net",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25336,
+    "Text": "Để ứng dụng có thể phát hành, bạn cần làm gì?",
+    "Marks": 1,
+    "AnswerId": 105010,
+    "Answers": [
+      {
+        "Id": 105009,
+        "Text": "Có một khóa riêng phù hợp; Biên dịch ứng dụng trong chế độ phát hành; Đăng ký ứng dụng với khóa riêng;Tạo gói jdk",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 105010,
+        "Text": "Có một khóa riêng phù hợp; Biên dịch ứng dụng trong chế độ phát hành; Đăng ký ứng dụng với khóa riêng;Tạo gói apk",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 105011,
+        "Text": "Có một khóa riêng phù hợp; Biên dịch ứng dụng trong chế độ phát hành; Đăng ký ứng dụng với khóa riêng;Tạo gói apk và gói jdk",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 105012,
+        "Text": "Có một khóa riêng phù hợp; Biên dịch ứng dụng trong chế độ phát hành; Đăng ký ứng dụng với khóa riêng;Tạo gói apk, gói jar và gói jdk",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25337,
+    "Text": "Để xây dựng ứng dụng phát hành bằng dòng lệnh, ta dùng lệnh nào?",
+    "Marks": 1,
+    "AnswerId": 105013,
+    "Answers": [
+      {
+        "Id": 105013,
+        "Text": "ant release",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 105014,
+        "Text": "ant debug",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 105015,
+        "Text": "apk debug",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 105016,
+        "Text": "apk release",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25338,
+    "Text": "Lệnh adb dùng để làm gì?",
+    "Marks": 1,
+    "AnswerId": 105018,
+    "Answers": [
+      {
+        "Id": 105017,
+        "Text": "Cài đặt file jdk",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 105018,
+        "Text": "Cài đặt file apk",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 105019,
+        "Text": "Ẩn file apk",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 105020,
+        "Text": "Ẩn file jdk",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25339,
+    "Text": "Để chạy ứng dụng trên thiết bị thật, chúng ta cần làm gì?",
+    "Marks": 1,
+    "AnswerId": 105021,
+    "Answers": [
+      {
+        "Id": 105021,
+        "Text": "Enable USB debugging",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 105022,
+        "Text": "Disable USB debugging",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 105023,
+        "Text": "Enable Apache debugging",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 105024,
+        "Text": "Enable USB debuger",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25340,
+    "Text": "Lệnh jarsigner dùng để làm gì?",
+    "Marks": 1,
+    "AnswerId": 105028,
+    "Answers": [
+      {
+        "Id": 105025,
+        "Text": "Xóa ứng dụng",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 105026,
+        "Text": "Đăng nhập ứng dụng",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 105027,
+        "Text": "Đăng xuất ứng dụng",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 105028,
+        "Text": "Đăng ký ứng dụng với khóa riêng",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25341,
+    "Text": "Tham số validity của keytool có ý nghĩa gì?",
+    "Marks": 1,
+    "AnswerId": 105029,
+    "Answers": [
+      {
+        "Id": 105029,
+        "Text": "Thời gian hiệu lực",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 105030,
+        "Text": "Thời gian upload ứng dụng",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 105031,
+        "Text": "Thuật toán mã hóa",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 105032,
+        "Text": "Bí danh ứng dụng",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  }
+]

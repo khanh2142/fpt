@@ -1,0 +1,1217 @@
+[
+  {
+    "Id": 24916,
+    "Text": "Phát biểu nào dưới đây là đúng về quản lý dữ liệu?",
+    "Marks": 1,
+    "AnswerId": 103344,
+    "Answers": [
+      {
+        "Id": 103343,
+        "Text": "Thực hiện thao tác dữ liệu và truy vấn dữ liệu",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103344,
+        "Text": "Quản lý lưu trữ dữ liệu, thao tác dữ liệu và truy vấn dữ liệu",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103345,
+        "Text": "Quản lý lưu trữ dữ liệu, thêm, sửa, xóa dữ liệu",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103346,
+        "Text": "Cho phép lưu trữ dữ liệu và truy vấn dữ liệu",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 24917,
+    "Text": "Hệ quản trị cơ sở dữ liệu không mang lại các lợi ích nào sau đây?",
+    "Marks": 1,
+    "AnswerId": 103349,
+    "Answers": [
+      {
+        "Id": 103347,
+        "Text": "Hỗ trợ các ngôn ngữ giao tiếp",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103348,
+        "Text": "Quản trị các cơ sở dữ liệu",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103349,
+        "Text": "Cung cấp các truy cập đến tổ chức dữ liệu vật lý",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103350,
+        "Text": "Có cơ chế an toàn, bảo mật cao",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 24918,
+    "Text": "Phát biểu nào là đúng cho mô hình dữ liệu phân cấp?",
+    "Marks": 1,
+    "AnswerId": 103354,
+    "Answers": [
+      {
+        "Id": 103351,
+        "Text": "Liên hệ dữ liệu theo kiểu cha-con, mỗi cha có một con và mỗi con có một cha",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103352,
+        "Text": "Liên hệ dữ liệu có thể thừa kế giữa cha và con",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103353,
+        "Text": "Kiểu quan hệ là 1-N và N-N",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103354,
+        "Text": "Mỗi nút biểu diễn một thực thể dữ liệu và được tổ chức theo hình cây",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 24919,
+    "Text": "Hệ quản trị cơ sở dữ liệu được hiểu là gì?",
+    "Marks": 1,
+    "AnswerId": 103355,
+    "Answers": [
+      {
+        "Id": 103355,
+        "Text": "Phần mềm giúp tạo cơ sở dữ liệu, cung cấp cơ chế lưu trữ, thao tác và truy cập cơ sở dữ liệu theo các mô hình cơ sở dữ liệu",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103356,
+        "Text": "Công cụ giúp lưu trữ, thao tác và truy cập cơ sở dữ liệu quan hệ",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103357,
+        "Text": "Phần mềm cung cấp cách thức tổ chức, thao tác dữ liệu theo các mô hình cơ sở dữ liệu",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103358,
+        "Text": "Công cụ giúp lưu trữ, thao tác và truy cập mô hình cơ sở dữ liệu",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 24920,
+    "Text": "Dữ liệu (data) được mô tả dưới dạng nào dưới đây:",
+    "Marks": 1,
+    "AnswerId": 103361,
+    "Answers": [
+      {
+        "Id": 103359,
+        "Text": "Các ký tự, ký số",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103360,
+        "Text": "Hình ảnh, âm thanh",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103361,
+        "Text": "Các phương án đều đúng",
+        "color": "btn-success",
+        "status": ""
+      },
+      { "Id": 103362, "Text": "Ký hiệu", "color": "btn-success", "status": "" }
+    ]
+  },
+  {
+    "Id": 24921,
+    "Text": "Bảng hiệu quảng cáo là dữ liệu gì?",
+    "Marks": 1,
+    "AnswerId": 103366,
+    "Answers": [
+      {
+        "Id": 103363,
+        "Text": "Dữ liệu dạng âm thanh",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103364,
+        "Text": "Dữ liệu dạng ký hiệu",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103365,
+        "Text": "Dữ liệu dạng ký số",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103366,
+        "Text": "Dữ liệu dạng hình ảnh",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 24922,
+    "Text": "Phát biểu nào sau đây là không đúng với mô hình cơ sở dữ liệu hướng đối tượng?",
+    "Marks": 1,
+    "AnswerId": 103369,
+    "Answers": [
+      {
+        "Id": 103367,
+        "Text": "Các đối tượng trao đổi thông qua các phương thức",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103368,
+        "Text": "Một đối tượng gồm các thuộc tính, các phương thức",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103369,
+        "Text": "Các đối tượng không thể được lưu trữ trong cơ sở dữ liệu",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103370,
+        "Text": "Các đối tượng có thể được sinh ra từ việc thừa kế",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 24923,
+    "Text": "Hệ quản trị cơ sở dữ liệu phổ biến nhất hiện nay là gì?",
+    "Marks": 1,
+    "AnswerId": 103372,
+    "Answers": [
+      {
+        "Id": 103371,
+        "Text": "Hệ quản trị cơ sở dữ liệu phân cấp",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103372,
+        "Text": "Hệ quản trị cơ sở dữ liệu quan hệ",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103373,
+        "Text": "Hệ quản trị cơ sở dữ liệu mạng",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103374,
+        "Text": "Hệ quản trị cơ sở dữ liệu hướng đối tượng",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 24924,
+    "Text": "Phát biểu nào dưới đây là đúng với hệ quản trị cơ sở dữ liệu MySQL?",
+    "Marks": 1,
+    "AnswerId": 103378,
+    "Answers": [
+      {
+        "Id": 103375,
+        "Text": "Một hệ quản trị dữ liệu dạng file, không thể cho nhiều người cùng truy xuất",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103376,
+        "Text": "Một hệ quản trị cơ sở dữ liệu cỡ nhỏ, chủ yếu dùng cho mục đích cá nhân",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103377,
+        "Text": "Một hệ quản trị cơ sở dữ liệu của hãng Microsoft",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103378,
+        "Text": "Một hệ quản trị cơ sở liệu mã nguồn mở rất được ưa chuộng",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 24925,
+    "Text": "Những thông tin được nhập từ bàn phím là dữ liệu gì?",
+    "Marks": 1,
+    "AnswerId": 103382,
+    "Answers": [
+      {
+        "Id": 103379,
+        "Text": "Dữ liệu dạng âm thanh",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103380,
+        "Text": "Dữ liệu dạng hình ảnh",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103381,
+        "Text": "Dữ liệu dạng ký hiệu",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103382,
+        "Text": "Dữ liệu dạng ký tự, ký số",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 24926,
+    "Text": "Quan hệ N-N là gì?",
+    "Marks": 1,
+    "AnswerId": 103386,
+    "Answers": [
+      {
+        "Id": 103383,
+        "Text": "Một thực thể của tập này có thể liên kết nhiều tập thực thể khác, và ngược lại",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103384,
+        "Text": "Nhiều thực thể của tập này có thể liên kết với nhiều tập kia, và ngược lại",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103385,
+        "Text": "Một thực thể của tập này có thể liên kết 0, 1 hoặc nhiều tập thực thể khác, và ngược lại",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103386,
+        "Text": "Một thực thể của tập này có thể liên kết 0, 1 hoặc nhiều thực thể của tập kia, và ngược lại",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 24927,
+    "Text": "Thứ tự thiết kế cơ sở dữ liệu quan hệ nào dưới đây là đúng?",
+    "Marks": 1,
+    "AnswerId": 103389,
+    "Answers": [
+      {
+        "Id": 103387,
+        "Text": "Thiết kế mức khái niệm, thiết kế mức vật lý, thiết kế mức logic",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103388,
+        "Text": "Thiết kế mức vật lý, thiết kế mức logic, thiết kế mức khái niệm",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103389,
+        "Text": "Thiết kế mức khái niệm, thiết kế mức logic, thiết kế mức vật lý",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103390,
+        "Text": "Thiết kế mức vật lý, thiết kế mức khái niệm, thiết kế mức logic",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 24928,
+    "Text": "Quan hệ 1-1 là gì?",
+    "Marks": 1,
+    "AnswerId": 103391,
+    "Answers": [
+      {
+        "Id": 103391,
+        "Text": "Một thực thể của tập này chỉ liên kết với một thực thể của tập kia, và ngược lại",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103392,
+        "Text": "Một thực thể của tập thực thể này liên kết với nhiều thực thể của tập thực thể kia, và ngược lại",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103393,
+        "Text": "Một tập thực thể này liên kết với một tập thực thể kia, và ngược lại",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103394,
+        "Text": "Một thực thể bất kỳ có thể liên kết với một thực thể trong tập thực thể đó, và ngược lại",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 24929,
+    "Text": "Một thực thể được biểu diễn trong cơ sở dữ liệu mức vật lý thành đối tượng gì?",
+    "Marks": 1,
+    "AnswerId": 103398,
+    "Answers": [
+      { "Id": 103395, "Text": "Hàng", "color": "btn-success", "status": "" },
+      { "Id": 103396, "Text": "Khóa", "color": "btn-success", "status": "" },
+      { "Id": 103397, "Text": "Cột", "color": "btn-success", "status": "" },
+      { "Id": 103398, "Text": "Bảng", "color": "btn-success", "status": "" }
+    ]
+  },
+  {
+    "Id": 24930,
+    "Text": "Mối quan hệ giữa các thực thể bao gồm:",
+    "Marks": 1,
+    "AnswerId": 103400,
+    "Answers": [
+      {
+        "Id": 103399,
+        "Text": "Quan hệ 0-0, 1-1, n-n",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103400,
+        "Text": "Quan hệ 1-1, 1-n, n-n",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103401,
+        "Text": "Quan hệ 0-1, 1-1, n-n",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103402,
+        "Text": "Quan hệ 1-n, n-n, n-1",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 24931,
+    "Text": "Ràng buộc nhằm nhấn mạnh sự chính xác của dữ liệu nhập vào là ràng buộc nào dưới đây?",
+    "Marks": 1,
+    "AnswerId": 103404,
+    "Answers": [
+      {
+        "Id": 103403,
+        "Text": "Ràng buộc quy tắc",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103404,
+        "Text": "Ràng buộc toàn vẹn",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103405,
+        "Text": "Ràng buộc sự kiện",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103406,
+        "Text": "Ràng buộc chính xác",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 24932,
+    "Text": "Các thủ tục, nguyên tắc cần phải tuân theo và thể hiện trong cơ sở dữ liệu như là các ràng buộc được gọi là gì?",
+    "Marks": 1,
+    "AnswerId": 103409,
+    "Answers": [
+      {
+        "Id": 103407,
+        "Text": "Thủ tục công ty",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103408,
+        "Text": "Quy trình công việc",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103409,
+        "Text": "Quy tắc nghiệp vụ",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103410,
+        "Text": "Quy định công việc",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 24933,
+    "Text": "Danh từ nào sau đây có thể là thực thể?",
+    "Marks": 1,
+    "AnswerId": 103412,
+    "Answers": [
+      {
+        "Id": 103411,
+        "Text": "Company Name",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103412,
+        "Text": "Customer",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103413,
+        "Text": "Customer ID",
+        "color": "btn-success",
+        "status": ""
+      },
+      { "Id": 103414, "Text": "Address", "color": "btn-success", "status": "" }
+    ]
+  },
+  {
+    "Id": 24934,
+    "Text": "Thuộc tính để xác định duy nhất một bộ dữ liệu trong một quan hệ gọi là gì?",
+    "Marks": 1,
+    "AnswerId": 103418,
+    "Answers": [
+      {
+        "Id": 103415,
+        "Text": "Thuộc tính chính",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103416,
+        "Text": "Khóa ngoại",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103417,
+        "Text": "Thuộc tính xác định",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103418,
+        "Text": "Khóa chính",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 24935,
+    "Text": "Trong Access, các bước thiết kế truy vấn dựa trên bảng điều khiển nào dưới đây là hợp lý?",
+    "Marks": 1,
+    "AnswerId": 103421,
+    "Answers": [
+      {
+        "Id": 103419,
+        "Text": "Mô tả tiêu chuẩn, lựa chọn sắp xếp, chọn bảng, chọn cột",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103420,
+        "Text": "Chọn bảng, mô tả tiêu chuẩn, lựa chọn sắp xếp, chọn trường",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103421,
+        "Text": "Chọn bảng, chọn cột, mô tả tiêu chuẩn, lựa chọn sắp xếp",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103422,
+        "Text": "Mô tả tiêu chuẩn, chọn bảng, chọn trường, lựa chọn sắp xếp",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 24936,
+    "Text": "Truy vấn nào dưới đây lựa chọn tất cả các cột của bảng EMPLOYEES?",
+    "Marks": 1,
+    "AnswerId": 103424,
+    "Answers": [
+      {
+        "Id": 103423,
+        "Text": "SELECT ALL FROM EMPLOYEES",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103424,
+        "Text": "SELECT * FROM EMPLOYEES",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103425,
+        "Text": "SELECT * WHERE EMPLOYEES",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103426,
+        "Text": "SELECT ALL WHERE EMPLOYEES",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 24937,
+    "Text": "Truy vấn nào dưới đây hiển thị thông tin nhân viên có lương lớn hơn 10000 và sắp xếp theo tên, họ ?",
+    "Marks": 1,
+    "AnswerId": 103429,
+    "Answers": [
+      {
+        "Id": 103427,
+        "Text": "SELECT * FROM EMPLOYEES WHERE SALARY > 10000 ORDER WITH LAST_NAME, FIRST_NAME",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103428,
+        "Text": "SELECT * FROM EMPLOYEES WHERE SALARY > 10000 SORT BY LAST_NAME, FIRST_NAME",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103429,
+        "Text": "SELECT * FROM EMPLOYEES WHERE SALARY > 10000 ORDER BY FIRST_NAME, LAST_NAME",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103430,
+        "Text": "SELECT * FROM EMPLOYEES WHERE SALARY > 10000 ORDER LAST_NAME, FIRST_NAME",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 24938,
+    "Text": "Bốn nhóm lệnh SQL nào dưới đây là đúng?",
+    "Marks": 1,
+    "AnswerId": 103433,
+    "Answers": [
+      {
+        "Id": 103431,
+        "Text": "Nhóm lựa chọn dữ liệu, nhóm định nghĩa dữ liệu, nhóm thao tác dữ liệu, nhóm nhập dữ liệu",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103432,
+        "Text": "Nhóm truy vấn dữ liệu, nhóm thay đổi dữ liệu, nhóm thao tác dữ liệu, nhóm điều khiển dữ liệu",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103433,
+        "Text": "Nhóm truy vấn dữ liệu, nhóm định nghĩa dữ liệu, nhóm thao tác dữ liệu, nhóm điều khiển dữ liệu",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103434,
+        "Text": "Nhóm lựa chọn dữ liệu, nhóm định nghĩa dữ liệu, nhóm thao tác dữ liệu, nhóm điều khiển dữ liệu",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 24939,
+    "Text": "Truy vấn nào dưới đây hiển thị thông tin nhân viên có tên họ bắt đầu bằng Pete ?",
+    "Marks": 1,
+    "AnswerId": 103435,
+    "Answers": [
+      {
+        "Id": 103435,
+        "Text": "SELECT * FROM EMPLOYEES WHERE FIRST_NAME LIKE 'Pete%'",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103436,
+        "Text": "SELECT * FROM EMPLOYEES WHERE FIRST_NAME LIKE '%Pete%'",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103437,
+        "Text": "SELECT * FROM EMPLOYEES WHERE FIRST_NAME LIKE 'Pete'",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103438,
+        "Text": "SELECT * FROM EMPLOYEES WHERE FIRST_NAME LIKE '%Pete'",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 24940,
+    "Text": "Truy vấn nào dưới đây trả về thông tin nhân viên được sắp xếp thứ tự giảm dần theo tên nhân viên ?",
+    "Marks": 1,
+    "AnswerId": 103440,
+    "Answers": [
+      {
+        "Id": 103439,
+        "Text": "SELECT * FROM EMPLOYEES ORDER First_Name DESC",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103440,
+        "Text": "SELECT * FROM EMPLOYEES ORDER BY First_Name DESC",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103441,
+        "Text": "SELECT * FROM EMPLOYEES SORT 'First_Name' DESC",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103442,
+        "Text": "SELECT * FROM EMPLOYEES SORT BY 'First_Name' DESC",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 24941,
+    "Text": "Truy vấn nào dưới đây hiển thị thông tin nhân viên có tên là Peter và họ là Jackson ?",
+    "Marks": 1,
+    "AnswerId": 103445,
+    "Answers": [
+      {
+        "Id": 103443,
+        "Text": "SELECT * FROM EMPLOYEES WHERE FIRST_NAME <>'Peter' AND LAST_NAME<>'Jackson'",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103444,
+        "Text": "SELECT FIRST_NAME='Peter' AND LAST_NAME='Jackson' FROM EMPLOYEES WHERE FIRST_NAME ='Peter' AND LAST_NAME='Jackson'",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103445,
+        "Text": "SELECT * FROM EMPLOYEES WHERE FIRST_NAME ='Peter' AND LAST_NAME='Jackson'",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103446,
+        "Text": "SELECT FIRST_NAME='Peter' AND LAST_NAME='Jackson' FROM EMPLOYEES",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 24942,
+    "Text": "Từ khóa nào dưới đây của SQL được sử dụng để sắp xếp tập kết quả truy vấn?",
+    "Marks": 1,
+    "AnswerId": 103449,
+    "Answers": [
+      {
+        "Id": 103447,
+        "Text": "SORT BY",
+        "color": "btn-success",
+        "status": ""
+      },
+      { "Id": 103448, "Text": "SORT", "color": "btn-success", "status": "" },
+      {
+        "Id": 103449,
+        "Text": "ORDER BY",
+        "color": "btn-success",
+        "status": ""
+      },
+      { "Id": 103450, "Text": "ORDER", "color": "btn-success", "status": "" }
+    ]
+  },
+  {
+    "Id": 24943,
+    "Text": "Truy vấn nào dưới đây hiển thị thông tin nhân viên có tên họ dài bất kỳ, với chữ đầu là A hoặc B hoặc C ?",
+    "Marks": 1,
+    "AnswerId": 103453,
+    "Answers": [
+      {
+        "Id": 103451,
+        "Text": "SELECT * FROM EMPLOYEES WHERE FIRST_NAME LIKE '[^ABC]%'",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103452,
+        "Text": "SELECT * FROM EMPLOYEES WHERE FIRST_NAME LIKE '[ABC]_'",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103453,
+        "Text": "SELECT * FROM EMPLOYEES WHERE FIRST_NAME LIKE '[ABC]%'",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103454,
+        "Text": "SELECT * FROM EMPLOYEES WHERE FIRST_NAME LIKE '[ABC]*'",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 24944,
+    "Text": "Nhóm lệnh định nghĩa dữ liệu của ngôn ngữ SQL là gì?",
+    "Marks": 1,
+    "AnswerId": 103458,
+    "Answers": [
+      {
+        "Id": 103455,
+        "Text": "Insert, Update, Delete",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103456,
+        "Text": "Grant, Revoke",
+        "color": "btn-success",
+        "status": ""
+      },
+      { "Id": 103457, "Text": "Select", "color": "btn-success", "status": "" },
+      {
+        "Id": 103458,
+        "Text": "Create, Drop, Alter",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 24945,
+    "Text": "Truy vấn nào dưới đây hiển thị thông tin nhân viên có lương từ 10000 đến 11000 ?",
+    "Marks": 1,
+    "AnswerId": 103459,
+    "Answers": [
+      {
+        "Id": 103459,
+        "Text": "SELECT * FROM EMPLOYEES WHERE SALARY BETWEEN 10000 AND 11000",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103460,
+        "Text": "SELECT * FROM EMPLOYEES WHERE SALARY = 10000 AND 11000",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103461,
+        "Text": "SELECT * FROM EMPLOYEES WHERE SALARY 10000 AND 11000",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103462,
+        "Text": "SELECT * FROM EMPLOYEES WHERE SALARY => 10000 AND <= 11000",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 24946,
+    "Text": "Câu lệnh SQL nào dưới đây thêm dữ liệu mới vào bảng Employees?",
+    "Marks": 1,
+    "AnswerId": 103466,
+    "Answers": [
+      {
+        "Id": 103463,
+        "Text": "INSERT Employees(Employee_ID, First_Name, Last_Name) INTO (213, 'Abraham', 'Lincoln')",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103464,
+        "Text": "INSERT (213, 'Abraham', 'Lincoln') INTO Employees(Employee_ID, First_Name, Last_Name)",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103465,
+        "Text": "INSERT VALUES (213, 'Abraham', 'Lincoln') INTO Employees(Employee_ID, First_Name, Last_Name)",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103466,
+        "Text": "INSERT INTO Employees(Employee_ID, First_Name, Last_Name) VALUES (213, 'Abraham', 'Lincoln')",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 24947,
+    "Text": "Câu lệnh SQL nào dưới đây để tạo bảng KHACH_HANG ?",
+    "Marks": 1,
+    "AnswerId": 103467,
+    "Answers": [
+      {
+        "Id": 103467,
+        "Text": "CREATE TABLE Khach_Hang (MaKH NUMBER(6) NOT NULL, Hoten VARCHAR(30) NOT NULL, Diachi VARCHAR(50) NOT NULL, Dienthoai VARCHAR(15) NOT NULL);",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103468,
+        "Text": "ALTER TABLE Khach_Hang (MaKH NUMBER(6) NOT NULL, Hoten VARCHAR(30) NOT NULL, Diachi VARCHAR(50) NOT NULL, Dienthoai VARCHAR(15) NOT NULL);",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103469,
+        "Text": "CREATE TABLE Khach_Hang (MaKH, Hoten, Diachi, Dienthoai);",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103470,
+        "Text": "NEW TABLE Khach_Hang ( MaKH NUMBER(6) NOT NULL, Hoten VARCHAR(30) NOT NULL, Diachi VARCHAR(50) NOT NULL, Dienthoai VARCHAR(15) NOT NULL);",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 24948,
+    "Text": "Câu lệnh SQL nào dưới đây để xóa dữ liệu của nhân viên có mã số 213 ?",
+    "Marks": 1,
+    "AnswerId": 103474,
+    "Answers": [
+      {
+        "Id": 103471,
+        "Text": "DELETE * FROM Employees WHERE Employee_ID = 213",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103472,
+        "Text": "DELETE Employees WHERE Employee_ID = 213",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103473,
+        "Text": "DELETE Employees.Employee_ID = 213",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103474,
+        "Text": "DELETE FROM Employees WHERE Employee_ID = 213",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 24949,
+    "Text": "Truy vấn nào dưới đây tìm mức lương nhỏ nhất của các nhân viên theo từng bộ phận?",
+    "Marks": 1,
+    "AnswerId": 103475,
+    "Answers": [
+      {
+        "Id": 103475,
+        "Text": "SELECT Department_ID, MIN(Salary) FROM Employees GROUP BY Department_ID",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103476,
+        "Text": "SELECT Department_ID, MIN(Salary) FROM Employees GROUP Department_ID",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103477,
+        "Text": "SELECT Department_ID, MIN(Salary) FROM Employees WHERE MIN(Salary)",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103478,
+        "Text": "SELECT Department_ID, MIN(Salary) FROM Employees.Department_ID",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 24950,
+    "Text": "Truy vấn nào dưới đây tìm mức lương nhỏ nhất của các nhân viên?",
+    "Marks": 1,
+    "AnswerId": 103481,
+    "Answers": [
+      {
+        "Id": 103479,
+        "Text": "SELECT SMALLEST(Salary) FROM Employees",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103480,
+        "Text": "SELECT MIN Salary FROM Employees",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103481,
+        "Text": "SELECT MIN(Salary) FROM Employees",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103482,
+        "Text": "SELECT SMALLEST Salary FROM Employees",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 24951,
+    "Text": "Câu lệnh SQL nào dưới đây thu hồi quyền UPDATE cho người dùng cơ sở dữ liệu HR ?",
+    "Marks": 1,
+    "AnswerId": 103486,
+    "Answers": [
+      {
+        "Id": 103483,
+        "Text": "REVOKE UPDATE ON HR",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103484,
+        "Text": "REVOKE UPDATE TO HR",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103485,
+        "Text": "REVOKE UPDATE INTO HR",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103486,
+        "Text": "REVOKE UPDATE FROM HR",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 24952,
+    "Text": "Câu lệnh SQL nào dưới đây để xóa bảng Khach_Hang khỏi cơ sở dữ liệu?",
+    "Marks": 1,
+    "AnswerId": 103488,
+    "Answers": [
+      {
+        "Id": 103487,
+        "Text": "TRUNCATE TABLE Khach_Hang IGNORE CONSTRAINTS;",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103488,
+        "Text": "DROP TABLE Khach_Hang CASCADE CONSTRAINTS;",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103489,
+        "Text": "DROP TABLE Khach_Hang IGNORE CONSTRAINTS;",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103490,
+        "Text": "ERASE TABLE Khach_Hang CASCADE CONSTRAINTS;",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 24953,
+    "Text": "Trong mệnh đề SELECT, hàm tìm giá trị lớn nhất trong cột là gì?",
+    "Marks": 1,
+    "AnswerId": 103493,
+    "Answers": [
+      { "Id": 103491, "Text": "LARGE", "color": "btn-success", "status": "" },
+      { "Id": 103492, "Text": "BEST", "color": "btn-success", "status": "" },
+      { "Id": 103493, "Text": "MAX", "color": "btn-success", "status": "" },
+      { "Id": 103494, "Text": "BIG", "color": "btn-success", "status": "" }
+    ]
+  },
+  {
+    "Id": 24954,
+    "Text": "Câu lệnh SQL nào dưới đây để thêm một ràng buộc trong đó cột MaKH là duy nhất?",
+    "Marks": 1,
+    "AnswerId": 103495,
+    "Answers": [
+      {
+        "Id": 103495,
+        "Text": "ALTER TABLE Khach_Hang ADD CONSTRAINT Khach_Hang_UNQ_MaKH UNIQUE (MaKH);",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103496,
+        "Text": "ALTER TABLE Khach_Hang NEW CONSTRAINT Khach_Hang_UNQ_MaKH UNIQUE (MaKH);",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103497,
+        "Text": "ALTER TABLE Khach_Hang INSERT CONSTRAINT Khach_Hang_UNQ_MaKH UNIQUE (MaKH);",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103498,
+        "Text": "ALTER TABLE Khach_Hang UNIQUE (MaKH);",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 24955,
+    "Text": "Câu lệnh nào dưới đây được sử dụng để thay đổi cấu trúc của một bảng trong cơ sở dữ liệu?",
+    "Marks": 1,
+    "AnswerId": 103502,
+    "Answers": [
+      {
+        "Id": 103499,
+        "Text": "REPAIR TABLE …",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103500,
+        "Text": "CHANGE TABLE …",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103501,
+        "Text": "REDO TABLE …",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103502,
+        "Text": "ALTER TABLE …",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  }
+]

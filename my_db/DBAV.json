@@ -1,0 +1,1987 @@
+[
+  {
+    "Id": 24956,
+    "Text": "Chọn phát biểu đúng về SQL Server A. Là hệ quản trị nội dung cho phép đồng thời một lúc có nhiều người dùng truy xuất đến dữ liệu. B. SQL Server sử dụng điển hình trong các hệ thống nhỏ đến trung bình chạy trên một hoặc nhiều máy chủ Windows C. Là hệ quản",
+    "Marks": 1,
+    "AnswerId": 103506,
+    "Answers": [
+      {
+        "Id": 103503,
+        "Text": "B,D Đúng",
+        "color": "btn-success",
+        "status": ""
+      },
+      { "Id": 103504, "Text": "D Đúng", "color": "btn-success", "status": "" },
+      {
+        "Id": 103505,
+        "Text": "A,B Đúng",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103506,
+        "Text": "C, B Đúng",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 24957,
+    "Text": "SQL sử dụng ngôn ngữ nào sau đây để truy vấn CSDL: A. SQL B. PL-SQL C. Transact-SQL",
+    "Marks": 1,
+    "AnswerId": 103508,
+    "Answers": [
+      { "Id": 103507, "Text": "B Đúng", "color": "btn-success", "status": "" },
+      { "Id": 103508, "Text": "C Đúng", "color": "btn-success", "status": "" },
+      {
+        "Id": 103509,
+        "Text": "Cả A, B, C đều sai",
+        "color": "btn-success",
+        "status": ""
+      },
+      { "Id": 103510, "Text": "A Đúng", "color": "btn-success", "status": "" }
+    ]
+  },
+  {
+    "Id": 24958,
+    "Text": "Câu lệnh nào sau đây là câu lệnh điều khiển dữ liệu (DCL) A DENY B CREATE C GRANT D REVOKE",
+    "Marks": 1,
+    "AnswerId": 103511,
+    "Answers": [
+      {
+        "Id": 103511,
+        "Text": "A, C, D đúng",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103512,
+        "Text": "B, C , D đúng",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103513,
+        "Text": "A, B , Dđúng",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103514,
+        "Text": "A, B, C đúng",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 24959,
+    "Text": "Để khởi động và dừng SQL Server sử dụng công cụ nào dưới đây:",
+    "Marks": 1,
+    "AnswerId": 103518,
+    "Answers": [
+      {
+        "Id": 103515,
+        "Text": "SQL Server Start/Stop Manager",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103516,
+        "Text": "SQL Server Configuration Management",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103517,
+        "Text": "SQL Server Management Studio",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103518,
+        "Text": "SQL Server Configuration Manager",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 24960,
+    "Text": "Các ứng dụng nào sau đây có thể truy cập tới hệ quản trị CSDL SQL Server",
+    "Marks": 1,
+    "AnswerId": 103520,
+    "Answers": [
+      {
+        "Id": 103519,
+        "Text": "Ứng dụng .NET",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103520,
+        "Text": "Tất cả đáp án đều đúng",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103521,
+        "Text": "Ứng dụng Java",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103522,
+        "Text": "Ứng dụng Visual Basic 6",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 24961,
+    "Text": "Phát biểu nào sau đây ĐÚNG về T-SQL?",
+    "Marks": 1,
+    "AnswerId": 103524,
+    "Answers": [
+      {
+        "Id": 103523,
+        "Text": "Có thể sử dụng T-SQL để thao tác trên mọi hệ quản trị CSDL quan hệ",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103524,
+        "Text": "T-SQL là ngôn ngữ mở rộng của SQL chuẩn, cung cấp thêm các tính năng lập trình",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103525,
+        "Text": "T-SQL là tên gọi khác của ngôn ngữ SQL",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103526,
+        "Text": "Tất cả các đáp án đều sai",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 24962,
+    "Text": "Nếu quá trình thực thi một câu lệnh SQL xảy ra lỗi cú pháp. SQL Server sẽ thông báo lỗi đó bằng cách",
+    "Marks": 1,
+    "AnswerId": 103529,
+    "Answers": [
+      {
+        "Id": 103527,
+        "Text": "Hiển thị đường màu xanh lượn sóng gạch chân phần câu lệnh nhập sai và hiển thị một thông báo lỗi trong Tab Message",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103528,
+        "Text": "Hiển thị đường màu xanh lượn sóng gạch chân phần câu lệnh nhập sai và hiển thị một thông báo lỗi trong Tab Systax Error",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103529,
+        "Text": "Hiển thị đường màu đỏ lượn sóng gạch chân phần câu lệnh nhập sai và hiển thị một thông báo lỗi trong Tab Message",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103530,
+        "Text": "Hiển thị đường màu đỏ lượn sóng gạch chân phần câu lệnh nhập sai và hiển thị một thông báo lỗi trong Tab Systax Error",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 24963,
+    "Text": "Các lỗi cú pháp nào sau đây thường gặp khi thực thi câu lệnh SQL A. Quên hoặc lựa chọn sai CSDL B. Viết sai tên bảng hoặc tên cột C. Viết sai từ khóa D. Bỏ sót dấu đóng ngoặc với một chuỗi ký tự.",
+    "Marks": 1,
+    "AnswerId": 103532,
+    "Answers": [
+      {
+        "Id": 103531,
+        "Text": "B, C , D Đúng",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103532,
+        "Text": "Cả A, B, C, D đều đúng",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103533,
+        "Text": "A, D Đúng",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103534,
+        "Text": "A, B, C Đúng",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 24964,
+    "Text": "Thao tác nào sau đây có thể thực hiện trên lược đồ CSDL?",
+    "Marks": 1,
+    "AnswerId": 103537,
+    "Answers": [
+      {
+        "Id": 103535,
+        "Text": "Định nghĩa độ rộng của cột",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103536,
+        "Text": "Tất cả đáp án đều đúng",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103537,
+        "Text": "Thêm cột",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103538,
+        "Text": "Thêm dữ liệu cho một bảng CSDL",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 24965,
+    "Text": "Khi kết nối tới CSDL SQL Server, tại hộp thoại Connect to Server của SQL Management Studio, chế độ xác thực nào sau đây người dùng phải nhập User Name và Password",
+    "Marks": 1,
+    "AnswerId": 103540,
+    "Answers": [
+      {
+        "Id": 103539,
+        "Text": "Windows Authentication",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103540,
+        "Text": "SQL Server Authentication",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103541,
+        "Text": "Windows Authentication và SQL Server Authentication",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103542,
+        "Text": "Tất cả đáp án đều sai",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 24966,
+    "Text": "Nên sử dụng kiểu dữ liệu nào sau đây để lưu chuỗi với độ dài cố định hỗ trợ UNICODE",
+    "Marks": 1,
+    "AnswerId": 103545,
+    "Answers": [
+      {
+        "Id": 103543,
+        "Text": "Varchar",
+        "color": "btn-success",
+        "status": ""
+      },
+      { "Id": 103544, "Text": "Char", "color": "btn-success", "status": "" },
+      { "Id": 103545, "Text": "Nchar", "color": "btn-success", "status": "" },
+      {
+        "Id": 103546,
+        "Text": "Nvarchar",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 24967,
+    "Text": "Đâu là chú thích sử dụng trong T-SQL",
+    "Marks": 1,
+    "AnswerId": 103548,
+    "Answers": [
+      {
+        "Id": 103547,
+        "Text": "*/ Chú thích dung */",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103548,
+        "Text": "--Chú thích đúng",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103549,
+        "Text": "/* Chú thích đúng /*",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103550,
+        "Text": "//Chú thích đúng",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 24968,
+    "Text": "Lựa chọn nào sau đây không phải là kiểu dữ liệu của SQL Server:",
+    "Marks": 1,
+    "AnswerId": 103554,
+    "Answers": [
+      {
+        "Id": 103551,
+        "Text": "datetime2",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103552,
+        "Text": "datetime",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103553,
+        "Text": "numeric",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103554,
+        "Text": "Tất cả đáp án đều sai",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 24969,
+    "Text": "Có đoạn mã sau đây. DECLARE @a int, @b nchar(50) Đâu là câu lệnh gán giá trị cho @a và @b không gây lỗi định dạng dữ liệu",
+    "Marks": 1,
+    "AnswerId": 103557,
+    "Answers": [
+      {
+        "Id": 103555,
+        "Text": "SELECT @a = 1, @b = 'kí tự Unicode'",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103556,
+        "Text": "SET @a = 1, @b = 'kí tự Unicode'",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103557,
+        "Text": "SET @a = 1, @b = N'kí tự Unicode'",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103558,
+        "Text": "SELECT @a = 1, @b = N'kí tự Unicode'",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 24970,
+    "Text": "Để chỉnh sửa thuộc tính của các cột trong bảng sử dụng Management Studio, Click chuột phải vào tên bảng và chọn _______",
+    "Marks": 1,
+    "AnswerId": 103561,
+    "Answers": [
+      {
+        "Id": 103559,
+        "Text": "Column Modify",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103560,
+        "Text": "Column Designer",
+        "color": "btn-success",
+        "status": ""
+      },
+      { "Id": 103561, "Text": "Design", "color": "btn-success", "status": "" },
+      {
+        "Id": 103562,
+        "Text": "Table Design",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 24971,
+    "Text": "Khi làm việc với hệ thống đa ngôn ngữ, kiểu dữ liệu nào sau đây thường được dùng để lưu trữ chuỗi",
+    "Marks": 1,
+    "AnswerId": 103564,
+    "Answers": [
+      {
+        "Id": 103563,
+        "Text": "Char hoặc Varchar",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103564,
+        "Text": "Nchar hoặc Nvarchar",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103565,
+        "Text": "Varchar hoặc Nvarchar",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103566,
+        "Text": "Char hoặc Nchar",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 24972,
+    "Text": "Phát biểu nào sau đây đúng về biến bảng",
+    "Marks": 1,
+    "AnswerId": 103567,
+    "Answers": [
+      {
+        "Id": 103567,
+        "Text": "Có thể sử dụng câu lệnh UPDATE với biến bảng",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103568,
+        "Text": "Không thể sử dụng câu lệnh UPDATE và INSERT với biến bảng",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103569,
+        "Text": "Có thể sử dụng câu lệnh mọi câu lệnh INSERT, UPDATE, DELETE… với biến bảng",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103570,
+        "Text": "Có thể sử dụng câu lệnh SELECT INTO với biến bảng",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 24973,
+    "Text": "SQL Server cung cấp bao nhiêu kiểu dữ liệu đơn",
+    "Marks": 1,
+    "AnswerId": 103572,
+    "Answers": [
+      { "Id": 103571, "Text": "25", "color": "btn-success", "status": "" },
+      { "Id": 103572, "Text": "26", "color": "btn-success", "status": "" },
+      { "Id": 103573, "Text": "30", "color": "btn-success", "status": "" },
+      { "Id": 103574, "Text": "20", "color": "btn-success", "status": "" }
+    ]
+  },
+  {
+    "Id": 24974,
+    "Text": "Để gán giá trị cho một biến bảng. Sử dụng câu lệnh nào sau đây",
+    "Marks": 1,
+    "AnswerId": 103576,
+    "Answers": [
+      {
+        "Id": 103575,
+        "Text": "Tất cả đáp án đều sai",
+        "color": "btn-success",
+        "status": ""
+      },
+      { "Id": 103576, "Text": "INSERT", "color": "btn-success", "status": "" },
+      { "Id": 103577, "Text": "SET", "color": "btn-success", "status": "" },
+      {
+        "Id": 103578,
+        "Text": "SELECT INTO",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 24975,
+    "Text": "T- SQL hỗ trợ các loại biến nào sau đây:",
+    "Marks": 1,
+    "AnswerId": 103582,
+    "Answers": [
+      {
+        "Id": 103579,
+        "Text": "Biến vô hướng",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103580,
+        "Text": "Tất cả đáp án đều sai",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103581,
+        "Text": "Biến bảng",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103582,
+        "Text": "Biến vô hướng và biến bảng",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 24976,
+    "Text": "Giả sử biến @String được khai báo như sau DECLARE @String varchar.Mã kịch bản sau trả về kết quả là SET @String = 'SQL Server 2008' SELECT LEN(@String)",
+    "Marks": 1,
+    "AnswerId": 103586,
+    "Answers": [
+      { "Id": 103583, "Text": "15", "color": "btn-success", "status": "" },
+      { "Id": 103584, "Text": "13", "color": "btn-success", "status": "" },
+      { "Id": 103585, "Text": "Lỗi", "color": "btn-success", "status": "" },
+      { "Id": 103586, "Text": "1", "color": "btn-success", "status": "" }
+    ]
+  },
+  {
+    "Id": 24977,
+    "Text": "Cột InvoiceDate có kiểu dữ liệu SmallDatetime. Hàm CONVERT(varchar, InvoiceDate, a) trả lại kết quả cột InvoiceDate có định dạng dd-mm-yyyy. Vậy a có giá trị là bao nhiêu?",
+    "Marks": 1,
+    "AnswerId": 103590,
+    "Answers": [
+      { "Id": 103587, "Text": "107", "color": "btn-success", "status": "" },
+      { "Id": 103588, "Text": "101", "color": "btn-success", "status": "" },
+      { "Id": 103589, "Text": "103", "color": "btn-success", "status": "" },
+      { "Id": 103590, "Text": "105", "color": "btn-success", "status": "" }
+    ]
+  },
+  {
+    "Id": 24978,
+    "Text": "Biểu thức sau đây thực hiện phép nhân giữa dữ liệu lưu trong cột InvoiceTotal của bảng Invoices: InvoiceTotal * .0775. Nếu cột InvoiceTotal có kiểu money thì SQL sẽ thực hiện phép chuyển đổi ngầm nào sau đây:",
+    "Marks": 1,
+    "AnswerId": 103593,
+    "Answers": [
+      {
+        "Id": 103591,
+        "Text": "Tất cả đáp án đều sai",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103592,
+        "Text": "Không thực hiện chuyển đổi ngầm",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103593,
+        "Text": "InvoiceTotal kiểu money bị chuyển thành kiểu Decimal",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103594,
+        "Text": "Giá trị .0775 kiểu Decimal bị chuyển thành kiểu money",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 24979,
+    "Text": "Lệnh gán giá trị cho cột PaymentDate có kiểu SmallDatetime sau đây có thực hiện phép chuyển đổi ngầm không PaymentDate = '2008-08-05'",
+    "Marks": 1,
+    "AnswerId": 103597,
+    "Answers": [
+      {
+        "Id": 103595,
+        "Text": "Không thực hiện chuyển đổi ngầm",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103596,
+        "Text": "Thực hiện phép chuyển đổi ngầm, giá trị chuỗi 2008-08-05 sẽ bị chuyển thành kiểu Datetime",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103597,
+        "Text": "Thực hiện phép chuyển đổi ngầm, giá trị chuỗi 2008-08-05 sẽ bị chuyển thành kiểu SmallDatetime",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103598,
+        "Text": "Thực hiện phép chuyển đổi ngầm, PaymentDate sẽ bị chuyển thành kiểu varchar",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 24980,
+    "Text": "Cột InvoiceDate có kiểu dữ liệu SmallDatetime. Hàm CONVERT(varchar, InvoiceDate, 1) trả lại kết quả cột InvoiceDate có định dạng nào sau đây.",
+    "Marks": 1,
+    "AnswerId": 103601,
+    "Answers": [
+      {
+        "Id": 103599,
+        "Text": "dd/mm/yyyy",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103600,
+        "Text": "yy/dd/mm",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103601,
+        "Text": "mm/dd/yy",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103602,
+        "Text": "mm/dd/yyyy",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 24981,
+    "Text": "Đoạn mã kịch bản nào sau đây thực hiện khai báo một biến và gán giá trị cho biến đó bằng 1 A. DECLARE @a int = 1 B. DECLARE @a int SET @a = 1 C. DECLARE @a int SELECT @a = 1 D. DECLARE a int SET a = 1",
+    "Marks": 1,
+    "AnswerId": 103603,
+    "Answers": [
+      {
+        "Id": 103603,
+        "Text": "Chỉ A, B, C đúng",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103604,
+        "Text": "Chỉ B đúng",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103605,
+        "Text": "Cả A, B, C , D đều đúng",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103606,
+        "Text": "Chỉ D đúng",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 24982,
+    "Text": "Câu lệnh SELECT DATEDIFF(month, '2008-09-30', '2007-12-01') sau đây trả về kết quả là:",
+    "Marks": 1,
+    "AnswerId": 103609,
+    "Answers": [
+      { "Id": 103607, "Text": "9", "color": "btn-success", "status": "" },
+      { "Id": 103608, "Text": "304", "color": "btn-success", "status": "" },
+      { "Id": 103609, "Text": "-9", "color": "btn-success", "status": "" },
+      { "Id": 103610, "Text": "-304", "color": "btn-success", "status": "" }
+    ]
+  },
+  {
+    "Id": 24983,
+    "Text": "Cột StartDate của bảng DateSample có kiểu dữ liệu datetime. Câu lệnh SELECT nào sau đây trả về tất cả các cột của bảng DateSample có StartDate là ngày 28-02-2012 A. SELECT * FROM DateSample WHERE StartDate = '2012-02-28' B. SELECT * FROM DateSample WHERE ",
+    "Marks": 1,
+    "AnswerId": 103612,
+    "Answers": [
+      {
+        "Id": 103611,
+        "Text": "B, C đúng",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103612,
+        "Text": "B, C, D đúng",
+        "color": "btn-success",
+        "status": ""
+      },
+      { "Id": 103613, "Text": "B đúng", "color": "btn-success", "status": "" },
+      {
+        "Id": 103614,
+        "Text": "Cả A, B, C, D đều đúng",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 24984,
+    "Text": "Cột InvoiceDate có kiểu dữ liệu SmallDatetime. Hàm CONVERT(varchar, InvoiceDate, a) trả lại kết quả cột InvoiceDate có định dạng dd/mm/yy. Vậy a có giá trị là bao nhiêu?",
+    "Marks": 1,
+    "AnswerId": 103617,
+    "Answers": [
+      { "Id": 103615, "Text": "101", "color": "btn-success", "status": "" },
+      { "Id": 103616, "Text": "2", "color": "btn-success", "status": "" },
+      { "Id": 103617, "Text": "3", "color": "btn-success", "status": "" },
+      { "Id": 103618, "Text": "7", "color": "btn-success", "status": "" }
+    ]
+  },
+  {
+    "Id": 24985,
+    "Text": "Câu lệnh SELECT CHARINDEX('SQL', 'HELLO SQL Server') trả về kết quả là",
+    "Marks": 1,
+    "AnswerId": 103622,
+    "Answers": [
+      { "Id": 103619, "Text": "6", "color": "btn-success", "status": "" },
+      { "Id": 103620, "Text": "TRUE", "color": "btn-success", "status": "" },
+      { "Id": 103621, "Text": "3", "color": "btn-success", "status": "" },
+      { "Id": 103622, "Text": "7", "color": "btn-success", "status": "" }
+    ]
+  },
+  {
+    "Id": 24986,
+    "Text": "Để câu lệnh ROLLBACK TRAN quay lui giao dịch đến điểm lưu trữ xác định, thực hiện như sau",
+    "Marks": 1,
+    "AnswerId": 103623,
+    "Answers": [
+      {
+        "Id": 103623,
+        "Text": "Viết câu lệnh ROLLBACK TRAN kèm theo tên điểm lưu trữ",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103624,
+        "Text": "Tạo điểm lưu trữ sử dụng câu lệnh SAVE AS",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103625,
+        "Text": "Tạo điểm lưu trữ sử dụng câu lệnh SAVE",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103626,
+        "Text": "Viết câu lệnh ROLL TRAN kèm theo tên điểm lưu trữ",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 24987,
+    "Text": "Chọn đáp án ĐÚNG điền vào chỗ trống Khi không khai báo điểm bắt đầu cho một giao dịch, SQL Server coi ________ và tự động COMMIT câu lệnh lên Server. Nếu câu lệnh gây lỗi sẽ tự động ROLLBACK ĐÚNG hay SAI?",
+    "Marks": 1,
+    "AnswerId": 103627,
+    "Answers": [
+      {
+        "Id": 103627,
+        "Text": "Từng câu lệnh riêng lẻ là một giao dịch",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103628,
+        "Text": "Toàn bộ mã kịch bản là một giao dịch",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103629,
+        "Text": "Tất cả đáp án đều sai",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103630,
+        "Text": "Một nhóm câu lệnh là một giao dịch",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 24988,
+    "Text": "Truyền giá trị tham số cho một Stored Procedure bằng cách nào sau đây?",
+    "Marks": 1,
+    "AnswerId": 103633,
+    "Answers": [
+      {
+        "Id": 103631,
+        "Text": "Cả hai đáp án đều sai",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103632,
+        "Text": "Truyền theo tên",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103633,
+        "Text": "Cả hai đáp án đều đúng",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103634,
+        "Text": "Truyền theo vị trí",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 24989,
+    "Text": "Các trường hợp nào sau đây nên sử dụng giao dịch",
+    "Marks": 1,
+    "AnswerId": 103636,
+    "Answers": [
+      {
+        "Id": 103635,
+        "Text": "Bất cứ mã kịch bản nào cũng nên sử dụng Transaction",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103636,
+        "Text": "Khi sự thất bại của tập câu lệnh SQL nào đó sẽ vi phạm tính toàn vẹn dữ liệu",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103637,
+        "Text": "Tất cả đáp án đều sai",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103638,
+        "Text": "Một mã kịch bản sử dụng nhiều câu lệnh SELECT",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 24990,
+    "Text": "Phát biểu nào sau đây ĐÚNG về hàm @@TRANCOUNT",
+    "Marks": 1,
+    "AnswerId": 103641,
+    "Answers": [
+      {
+        "Id": 103639,
+        "Text": "Khi thực thi câu lệnh COMMIT TRAN, nếu @@TRANCOUNT = 0, mọi thay đổi đã được thực hiện trên CSDL trong suốt giao dịch sẽ được commit.",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103640,
+        "Text": "Khi thực thi câu lệnh COMMIT TRAN, nếu @@TRANCOUNT > 1, mọi thay đổi đã được thực hiện trên CSDL trong suốt giao dịch sẽ được commit.",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103641,
+        "Text": "Khi thực thi câu lệnh COMMIT TRAN, nếu @@TRANCOUNT > 1, các thay đổi sẽ không được commit. Thay vào đó @@TRANCOUNT giảm đi 1.",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103642,
+        "Text": "Tất cả đáp án đều sai",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 24991,
+    "Text": "Nên sử dụng giao dịch trong trường hợp nào sau đây?",
+    "Marks": 1,
+    "AnswerId": 103644,
+    "Answers": [
+      {
+        "Id": 103643,
+        "Text": "Khi viết mã hai hay nhiều trigger",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103644,
+        "Text": "Khi cập nhật tham chiếu khóa ngoại",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103645,
+        "Text": "Khi chuyển hàng từ cột này sang cột khác",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103646,
+        "Text": "Khi sự thất bại của tập câu lệnh SQL nào đó sẽ vi phạm function",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 24992,
+    "Text": "Phát biểu nào sau đây đúng về Stored Procedure sau: CREATE PROC spParameters @a int = 0, @b int OUT, @String Nvarchar(50) = '%' AS",
+    "Marks": 1,
+    "AnswerId": 103650,
+    "Answers": [
+      {
+        "Id": 103647,
+        "Text": "Giá trị của tham số @a và @String luôn luôn là 0 và %",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103648,
+        "Text": "Lời gọi Stored Procedure này không cần truyền giá trị cho các tham số @a, @String, @b",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103649,
+        "Text": "Tất cả đáp án đều sai",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103650,
+        "Text": "@a và @String là tham số đầu vào tùy chọn, @b là tham số đầu ra",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 24993,
+    "Text": "Chọn phát biểu ĐÚNG?",
+    "Marks": 1,
+    "AnswerId": 103651,
+    "Answers": [
+      {
+        "Id": 103651,
+        "Text": "Để khai báo điểm bắt đầu của một giao dịch có thể sử dụng từ khóa BEGIN TRAN hoặc BEGIN TRANSACTION",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103652,
+        "Text": "Bắt buộc phải viết từ khóa TRAN khi viết câu lệnh BEGIN, COMMIT hoặc ROLLBACK.",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103653,
+        "Text": "Câu lệnh ROLLBACK chỉ sử dụng để quay lui về thời điểm bắt đầu giao dịch",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103654,
+        "Text": "Tất cả phát biểu đều sai",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 24994,
+    "Text": "Đâu là phát biểu đúng về Stored Procedure",
+    "Marks": 1,
+    "AnswerId": 103658,
+    "Answers": [
+      {
+        "Id": 103655,
+        "Text": "Một Stored Procedure không có tham số đầu ra",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103656,
+        "Text": "Một Stored Procedure có thể chứ nhiều nhóm câu lệnh (Batch)",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103657,
+        "Text": "Một Stored Procedure không có tham số đầu vào",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103658,
+        "Text": "Stored Procedure là một tập các câu lệnh T-SQL thực hiện một nhiệm vụ cụ thể, được đặt tên và lưu trữ trong CSDL dưới dạng đã biên dịch.",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 24995,
+    "Text": "Mã kịch bản sau sẽ làm gì khi được thực thi IF OBJECT_ID('spCopyInvoices') IS NOT NULL DROP PROC spCopyInvoices CREATE PROC spCopyInvoices AS SELECT * INTO InvoiceCopy FROM Invoices",
+    "Marks": 1,
+    "AnswerId": 103660,
+    "Answers": [
+      {
+        "Id": 103659,
+        "Text": "Tất cả đáp án đều sai",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103660,
+        "Text": "Xóa spCopyInvoices nếu Stored Procedure này đã tồn tại và tạo spCopyInvoices mới",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103661,
+        "Text": "Xóa spCopyInvoices nếu Stored Procedure này đã tồn tại nhưng không tạo spCopyInvoices mới",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103662,
+        "Text": "Lỗi cú pháp",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 24996,
+    "Text": "Phát biều nào sau đây đúng về tên cột của một VIEW A. Trong mọi trường hợp, có thể không đặt tên các cột của VIEW trong câu lệnh CRETE VIEW. B. Cột chứa giá trị được tính toán từ nhiều cột khác phải được đặt tên. C. Nếu cột không được đặt tên, tên cột sẽ ",
+    "Marks": 1,
+    "AnswerId": 103663,
+    "Answers": [
+      {
+        "Id": 103663,
+        "Text": "B, C Đúng",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103664,
+        "Text": "C, D Đúng",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103665,
+        "Text": "D, A Đúng",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103666,
+        "Text": "A, B Đúng",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 24997,
+    "Text": "Câu lệnh nào sau đây thực hiện xóa View Vendors_SW",
+    "Marks": 1,
+    "AnswerId": 103668,
+    "Answers": [
+      {
+        "Id": 103667,
+        "Text": "DROP 'Vendors_SW'",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103668,
+        "Text": "DROP VIEW Vendors_SW",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103669,
+        "Text": "DROP VIEW 'Vendors_SW'",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103670,
+        "Text": "DROP Vendors_SW",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 24998,
+    "Text": "Mã kịch bản nào sau đây khai báo thành công một hàm tính tổng hai số",
+    "Marks": 1,
+    "AnswerId": 103671,
+    "Answers": [
+      {
+        "Id": 103671,
+        "Text": "CREATE FUNCTION fnTonghaiso( @a int = 0, @b int = 0) RETURNS int BEGIN RETURN (@a+@b)END",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103672,
+        "Text": "CREATE FUNCTION fnTonghaiso( @a int = 0, @b int = 0) RETURN int BEGIN RETURN (@a+@b)END",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103673,
+        "Text": "CREATE FUNCTION fnTonghaiso @a int = 0, @b int = 0 RETURN int BEGIN RETURN (@a+@b)END",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103674,
+        "Text": "Tất cả đáp án đều sai",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 24999,
+    "Text": "Để chỉnh sửa một VIEW sử dụng chế độ đồ họa View Designer của Management Studio, Click chuột phải vào tên View trong cửa sổ Objects Explorer chọn ___________",
+    "Marks": 1,
+    "AnswerId": 103676,
+    "Answers": [
+      {
+        "Id": 103675,
+        "Text": "View Modifier",
+        "color": "btn-success",
+        "status": ""
+      },
+      { "Id": 103676, "Text": "Design", "color": "btn-success", "status": "" },
+      {
+        "Id": 103677,
+        "Text": "View Designer",
+        "color": "btn-success",
+        "status": ""
+      },
+      { "Id": 103678, "Text": "Modify", "color": "btn-success", "status": "" }
+    ]
+  },
+  {
+    "Id": 25000,
+    "Text": "Có mấy loại hàm người dùng định nghĩa",
+    "Marks": 1,
+    "AnswerId": 103681,
+    "Answers": [
+      { "Id": 103679, "Text": "2", "color": "btn-success", "status": "" },
+      { "Id": 103680, "Text": "1", "color": "btn-success", "status": "" },
+      { "Id": 103681, "Text": "3", "color": "btn-success", "status": "" },
+      { "Id": 103682, "Text": "4", "color": "btn-success", "status": "" }
+    ]
+  },
+  {
+    "Id": 25001,
+    "Text": "Phát biểu nào ĐÚNG về đoạn mã sau: CREATE VIEW VendorsDESC AS SELECT VendorID, VendorName FROM vendors ORDER BY VendorName DESC",
+    "Marks": 1,
+    "AnswerId": 103683,
+    "Answers": [
+      {
+        "Id": 103683,
+        "Text": "Xảy ra lỗi khi thực thi đoạn mã này",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103684,
+        "Text": "View được tạo ra bởi đoạn mã này là View có thể cập nhật",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103685,
+        "Text": "View được tạo ra bởi đoạn mã này là View chỉ đọc",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103686,
+        "Text": "Tất cả đáp án đều sai",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25002,
+    "Text": "Phát biểu nào ĐÚNG về đoạn mã dưới đây? CREATE VIEW OutstandingInvoices AS SELECT InvoiceNumber, InvoiceDate, InvoiceTotal, InvoiceTotal - PaymentTotal – CreditTotal AS BalanceDue FROM Invoices WHERE InvoiceTotal - PaymentTotal - CreditTotal > 0",
+    "Marks": 1,
+    "AnswerId": 103689,
+    "Answers": [
+      {
+        "Id": 103687,
+        "Text": "Tất cả đáp án đều sai",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103688,
+        "Text": "View tạo ra bởi đoạn mã này là View có thể cập nhật",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103689,
+        "Text": "View tạo ra bởi đoạn mã này là View chỉ đọc",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103690,
+        "Text": "Xảy ra lỗi cú pháp khi thực thi đoạn mã",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25003,
+    "Text": "Phát biểu nào sau đây đúng về VIEW?",
+    "Marks": 1,
+    "AnswerId": 103694,
+    "Answers": [
+      {
+        "Id": 103691,
+        "Text": "Một View chỉ có thể truy xuất dữ liệu từ một bảng trong CSDL",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103692,
+        "Text": "Có thể tạo một View trùng tên với tên một bảng đã tồn tại",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103693,
+        "Text": "Tất cả đáp án đều sai",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103694,
+        "Text": "Sử dụng View có thể che dấu và bảo mật dữ liệu",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25004,
+    "Text": "Một hàm người dùng định nghĩa có thể trả về giá trị nào sau đây",
+    "Marks": 1,
+    "AnswerId": 103696,
+    "Answers": [
+      {
+        "Id": 103695,
+        "Text": "Một bảng dữ liệu",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103696,
+        "Text": "Tất cả đáp án đều đúng",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103697,
+        "Text": "Giá trị kiểu int",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103698,
+        "Text": "Giá trị kiểu char",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25005,
+    "Text": "Để trả về giá trị cho một hàm người dùng định nghĩa, có thể sử dụng cách nào sau đây?",
+    "Marks": 1,
+    "AnswerId": 103699,
+    "Answers": [
+      {
+        "Id": 103699,
+        "Text": "Sử dụng câu lệnh RETURN",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103700,
+        "Text": "Sử dụng tham số đầu ra",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103701,
+        "Text": "Tất cả đáp án đều sai",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103702,
+        "Text": "Sử dụng tham số đầu ra hoặc câu lệnh RETURN",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25006,
+    "Text": "Phát biểu nào sau đây ĐÚNG:",
+    "Marks": 1,
+    "AnswerId": 103705,
+    "Answers": [
+      {
+        "Id": 103703,
+        "Text": "Câu lệnh tạo Login ID sử dụng tùy chọn DEFAULT_DATABASE để thiết lập CSDL mặc định cho Login ID phải được thực thi trong ngữ cảnh CSDL mặc định đó",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103704,
+        "Text": "Mỗi CSDL duy trì một danh sách Login ID của riêng CSDL đó.",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103705,
+        "Text": "Để tạo database user cho một CSDL cụ thể, câu lệnh CREATE USER phải được thực thi trong ngữ cảnh CSDL đó",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103706,
+        "Text": "Mỗi Login ID chỉ tạo được một database User",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25007,
+    "Text": "Lựa chọn nào sau đây là vai trò CSDL mặc định",
+    "Marks": 1,
+    "AnswerId": 103710,
+    "Answers": [
+      {
+        "Id": 103707,
+        "Text": "dbcreator",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103708,
+        "Text": "DbDatawriter",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103709,
+        "Text": "DbOwner",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103710,
+        "Text": "Tất cả đáp án đều sai",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25008,
+    "Text": "Chế độ xác thực nào sau đây phải nhập UserName và Password khi đăng nhập SQL Server",
+    "Marks": 1,
+    "AnswerId": 103711,
+    "Answers": [
+      {
+        "Id": 103711,
+        "Text": "SQL Server Authentication",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103712,
+        "Text": "Windows Authenticaion",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103713,
+        "Text": "Tất cả đáp án đều sai",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103714,
+        "Text": "Mixed Mode",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25009,
+    "Text": "Sau khi tạo một Database User cho một CSDL thì người dùng có thể thực hiện các quyền nào sau đây?",
+    "Marks": 1,
+    "AnswerId": 103716,
+    "Answers": [
+      {
+        "Id": 103715,
+        "Text": "Thêm một bảng vào CSDL",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103716,
+        "Text": "Chọn CSDL trên combo box chọn ngữ cảnh CSDL",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103717,
+        "Text": "Xóa một bảng trong CSDL",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103718,
+        "Text": "Truy vấn một bảng trong một CSDL trên Server",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25010,
+    "Text": "Quyền SELECT có thể tác động lên các đối tượng nào dưới đây:",
+    "Marks": 1,
+    "AnswerId": 103719,
+    "Answers": [
+      {
+        "Id": 103719,
+        "Text": "Tất cả đáp án đều đúng",
+        "color": "btn-success",
+        "status": ""
+      },
+      { "Id": 103720, "Text": "View", "color": "btn-success", "status": "" },
+      {
+        "Id": 103721,
+        "Text": "Hàm giá trị bảng",
+        "color": "btn-success",
+        "status": ""
+      },
+      { "Id": 103722, "Text": "Bảng", "color": "btn-success", "status": "" }
+    ]
+  },
+  {
+    "Id": 25011,
+    "Text": "Đoạn mã kịch bản nào sau đây thực thi thành công:",
+    "Marks": 1,
+    "AnswerId": 103723,
+    "Answers": [
+      {
+        "Id": 103723,
+        "Text": "CREATE LOGIN JohnDoe WITH PASSWORD = 'pt8806FG$B', DEFAULT_DATABASE = AP USE APCREATE USER JohnDoe FOR LOGIN JohnDoe",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103724,
+        "Text": "CREATE LOGIN ID JohnDoe WITH PASSWORD = 'pt8806FG$B', DEFAULT_DATABASE = AP USE APCREATE USER JohnDoe",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103725,
+        "Text": "CREATE LOGIN ID JohnDoe WITH PASSWORD = 'pt8806FG$B', DEFAULT_DATABASE = AP USE APCREATE USER JohnDoe FOR LOGIN ID JohnDoe",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103726,
+        "Text": "CREATE LOGIN JohnDoe WITH PASSWORD = 'pt8806FG$B', DEFAULT_DATABASE = AP USE APCREATE DATABASE USER JohnDoe FOR LOGIN JohnDoe",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25012,
+    "Text": "Quyền EXECUTE có thể tác động lên các đối tượng nào sau đây:",
+    "Marks": 1,
+    "AnswerId": 103727,
+    "Answers": [
+      {
+        "Id": 103727,
+        "Text": "Stored Procedure",
+        "color": "btn-success",
+        "status": ""
+      },
+      { "Id": 103728, "Text": "Bảng", "color": "btn-success", "status": "" },
+      {
+        "Id": 103729,
+        "Text": "Tất cả các đối tượng CSDL",
+        "color": "btn-success",
+        "status": ""
+      },
+      { "Id": 103730, "Text": "View", "color": "btn-success", "status": "" }
+    ]
+  },
+  {
+    "Id": 25013,
+    "Text": "Vai trò dbcreator có thể thực hiện các thao tác nào sau đây?",
+    "Marks": 1,
+    "AnswerId": 103733,
+    "Answers": [
+      {
+        "Id": 103731,
+        "Text": "Phục hồi một CSDL",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103732,
+        "Text": "Truy vấn các bảng trong một CSDL do người dùng tạo trên server",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103733,
+        "Text": "Tạo một bảng mới trên một CSDL, do người dùng tạo trên server",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103734,
+        "Text": "Tất cả đáp án đều đúng",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25014,
+    "Text": "Password của một SQL Login ID phải thỏa mãn điều kiện nào sau đây để có tính bảo mật cao?",
+    "Marks": 1,
+    "AnswerId": 103735,
+    "Answers": [
+      {
+        "Id": 103735,
+        "Text": "Tất cả đáp án đều đúng",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103736,
+        "Text": "Không sử dụng các giá trị \"sysadmin\", \"sa\", \"administrator\"",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103737,
+        "Text": "Không sử dụng tên máy hoặc tên người dùng hiện thời",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103738,
+        "Text": "Phải chứa ít nhất ba trong số các kí tự sau: chữ cái viết hoa, chữ cái viết thường, kí tự số, các kí tự đặc biệt (#, %, $...)",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25015,
+    "Text": "Lựa chọn đáp án đúng? SQL Server dựa vào _________cấp cho người dùng/nhóm người dùng để xác định các đối tượng, câu lệnh SQL… người đùng được phép tác động trên CSDL",
+    "Marks": 1,
+    "AnswerId": 103742,
+    "Answers": [
+      { "Id": 103739, "Text": "Quyền", "color": "btn-success", "status": "" },
+      {
+        "Id": 103740,
+        "Text": "Tất cả đáp án đều sai",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103741,
+        "Text": "Vai trò",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103742,
+        "Text": "Quyền và vai trò",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25016,
+    "Text": "Invoices là tên một bảng trong CSDL. Câu lệnh sp_Help 'Invoices' trả về___________",
+    "Marks": 1,
+    "AnswerId": 103743,
+    "Answers": [
+      {
+        "Id": 103743,
+        "Text": "Câu lệnh tạo bảng Invoices",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103744,
+        "Text": "Tất cả các thông tin liên quan đến bảng Invoices bao gồm thông tin các cột của bảng, indexes, ràng buộc, khóa ngoại.",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103745,
+        "Text": "Cả A, B, C đều sai",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103746,
+        "Text": "Tất cả các thông tin liên quan đến bảng Invoices bao gồm thông tin các cột của bảng, indexes, ràng buộc, khóa ngoại, các Stored Procedure, View, Trigger tham chiếu đến bảng.",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25017,
+    "Text": "System Stored Procedure nào sau đây đùng để xem danh sách các Stored Procedure, View mà tham chiếu đến bảng Invoices trong CSDL?",
+    "Marks": 1,
+    "AnswerId": 103750,
+    "Answers": [
+      {
+        "Id": 103747,
+        "Text": "sp_help Invoices",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103748,
+        "Text": "sp_relationship Invoices",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103749,
+        "Text": "Tất cả đáp án đều sai",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103750,
+        "Text": "sp_depends Invoices",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25018,
+    "Text": "Người dùng phải đăng nhạp bằng Login ID có vai trò nào sau đây, để có thể tạo lịch sao lưu tự động cho một CSDL?",
+    "Marks": 1,
+    "AnswerId": 103751,
+    "Answers": [
+      {
+        "Id": 103751,
+        "Text": "sysadmin",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103752,
+        "Text": "db_owner",
+        "color": "btn-success",
+        "status": ""
+      },
+      { "Id": 103753, "Text": "admin", "color": "btn-success", "status": "" },
+      {
+        "Id": 103754,
+        "Text": "dbcreator",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25019,
+    "Text": "Tùy chọn chế độ sao lưu nào sau đây có thể tạo ra nhiều bản sao CSDL, được lưu trong cùng một File .bak?",
+    "Marks": 1,
+    "AnswerId": 103758,
+    "Answers": [
+      {
+        "Id": 103755,
+        "Text": "Duplicate",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103756,
+        "Text": "Overwrite all existing backup sets",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103757,
+        "Text": "Multiple copies",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103758,
+        "Text": "Append to the existing backup set",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25020,
+    "Text": "Để tạo lịch sao lưu CSDL tự động trong SQL Server 2008, nhấn chuột phải vào Maintenance Plans trong thư mục Management trên cửa sổ Solution Explorer, chọn ________",
+    "Marks": 1,
+    "AnswerId": 103759,
+    "Answers": [
+      {
+        "Id": 103759,
+        "Text": "New Maintenance Plan",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103760,
+        "Text": "Tất cả đáp án đều sai",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103761,
+        "Text": "New backup Schedule",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103762,
+        "Text": "New backup plan",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25021,
+    "Text": "Phát biểu nào sau đây ĐÚNG?",
+    "Marks": 1,
+    "AnswerId": 103764,
+    "Answers": [
+      {
+        "Id": 103763,
+        "Text": "Kiểu sao lưu Full backup tốn ít dung lượng bộ nhớ hơn kiểu sao lưu Differential backup",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103764,
+        "Text": "Kiểu sao lưu Differential backup chỉ sao lưu các dữ liệu mới được cập nhật (thay đổi) kể từ lần full backup trước đó",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103765,
+        "Text": "Kiểu sao lưu Differential backup sao lưu toàn bộ dữ liệu trong CSDL cùng với bản ghi transaction log ghi nhận các thao tác được thực hiện từ lần sao lưu Full backup gần nhất",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103766,
+        "Text": "Tất cả đáp án đều sai",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25022,
+    "Text": "Để thực hiện phục hồi CSDL từ một bản sao Full backup và sau đó tiếp tục phục hồi CSDL sử dụng bản sao Differential backup, ở mục recovery state của trang option trong hộp thoại Restore database của lần phục hồi từ bản sao Full backup phải chọn radio butt",
+    "Marks": 1,
+    "AnswerId": 103769,
+    "Answers": [
+      {
+        "Id": 103767,
+        "Text": "radio button thứ ba",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103768,
+        "Text": "radio button thứ nhất",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103769,
+        "Text": "radio button thứ hai",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103770,
+        "Text": "Tất cả đáp án đều sai",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25023,
+    "Text": "Các cấu hình thường phải thực hiện cho một Back Up Database Task trong hộp thoại Back Up Database Task là:A. Ấn định thời gian thực hiện sao lưu CSDLB. Chọn kiểu sao lưu CSDL trong mục Database(s)C. Chọn đường dẫn lưu bản sao CSDL",
+    "Marks": 1,
+    "AnswerId": 103773,
+    "Answers": [
+      {
+        "Id": 103771,
+        "Text": "A, B đúng",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103772,
+        "Text": "Tất cả đáp án đều đúng",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103773,
+        "Text": "A, C đúng",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103774,
+        "Text": "B, C đúng",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25024,
+    "Text": "Lựa chọn nào sau đây là một system stored procedure?",
+    "Marks": 1,
+    "AnswerId": 103777,
+    "Answers": [
+      { "Id": 103775, "Text": "sp_who", "color": "btn-success", "status": "" },
+      {
+        "Id": 103776,
+        "Text": "sp_column",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103777,
+        "Text": "sp_table",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 103778,
+        "Text": "sp_relationship",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25025,
+    "Text": "File sử dụng để phục hồi cơ sở dữ liệu có phần mở rộng làA. MdfB. bakC. LdfD. Sử dụng cả ba loại file trên",
+    "Marks": 1,
+    "AnswerId": 103779,
+    "Answers": [
+      { "Id": 103779, "Text": "B Đúng", "color": "btn-success", "status": "" },
+      { "Id": 103780, "Text": "A Đúng", "color": "btn-success", "status": "" },
+      { "Id": 103781, "Text": "D Đúng", "color": "btn-success", "status": "" },
+      { "Id": 103782, "Text": "C Đúng", "color": "btn-success", "status": "" }
+    ]
+  }
+]

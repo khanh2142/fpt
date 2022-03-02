@@ -1,0 +1,2253 @@
+[
+  {
+    "Id": 25183,
+    "Text": "System Bar bao gồm các thành phần nào?",
+    "Marks": 1,
+    "AnswerId": 104411,
+    "Answers": [
+      {
+        "Id": 104408,
+        "Text": "Navigation Bar",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104409,
+        "Text": "Status Bar",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104410,
+        "Text": "Notification Bar",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104411,
+        "Text": "Status Bar và Navigation Bar",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25184,
+    "Text": "Câu nào sau đây đúng khi nói về Frame layout?",
+    "Marks": 1,
+    "AnswerId": 104412,
+    "Answers": [
+      {
+        "Id": 104412,
+        "Text": "Frame layout là loại layout luôn lấy tọa độ gốc là top- left và nó xếp chồng view sau lên view trước",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104413,
+        "Text": "Frame layout sắp xếp các view ở chính xác tọa độ mong muốn thông qua các thuộc tính layout_x và layout_y",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104414,
+        "Text": "Frame layout sắp xếp các view theo hàng ngang hoặc hàng dọc, trong một cột hoặc một dòng",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104415,
+        "Text": "Frame layout sắp xếp các view thành các cột và dòng. Mỗi view trong 1 tableRow sẽ là 1 cột",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25185,
+    "Text": "Trong android, interface được tạo từ các điều khiển gì?",
+    "Marks": 1,
+    "AnswerId": 104416,
+    "Answers": [
+      {
+        "Id": 104416,
+        "Text": "View và View group",
+        "color": "btn-success",
+        "status": ""
+      },
+      { "Id": 104417, "Text": "View", "color": "btn-success", "status": "" },
+      { "Id": 104418, "Text": "Button", "color": "btn-success", "status": "" },
+      {
+        "Id": 104419,
+        "Text": "View group",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25186,
+    "Text": "Điều khiển nào sau đây không phải là một layout?",
+    "Marks": 1,
+    "AnswerId": 104420,
+    "Answers": [
+      {
+        "Id": 104420,
+        "Text": "LeftAlignLayout",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104421,
+        "Text": "RelativeLayout",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104422,
+        "Text": "AbsoluteLayout",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104423,
+        "Text": "RelativeLayout",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25187,
+    "Text": "Các điều khiển nào sau đây hiển thị trên Navigation Bar?",
+    "Marks": 1,
+    "AnswerId": 104425,
+    "Answers": [
+      { "Id": 104424, "Text": "Recent", "color": "btn-success", "status": "" },
+      {
+        "Id": 104425,
+        "Text": "Tất cả các phương án đều đúng",
+        "color": "btn-success",
+        "status": ""
+      },
+      { "Id": 104426, "Text": "Home", "color": "btn-success", "status": "" },
+      { "Id": 104427, "Text": "Back", "color": "btn-success", "status": "" }
+    ]
+  },
+  {
+    "Id": 25188,
+    "Text": "Loại layout nào sau đây luôn dùng để gắn các control ở góc bên trái trên cùng màn hình và không cho phép thay đổi vị trí của các control?",
+    "Marks": 1,
+    "AnswerId": 104428,
+    "Answers": [
+      {
+        "Id": 104428,
+        "Text": "Frame layout",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104429,
+        "Text": "Table layout",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104430,
+        "Text": "Relative layout",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104431,
+        "Text": "Linear layout",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25189,
+    "Text": "Khi viết code, ta có thể thiết lập hướng các control trên Linear layout bằng hàm nào?",
+    "Marks": 1,
+    "AnswerId": 104435,
+    "Answers": [
+      {
+        "Id": 104432,
+        "Text": "setVertical()",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104433,
+        "Text": "setHorizontal()",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104434,
+        "Text": "setDirection()",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104435,
+        "Text": "setOrientation()",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25190,
+    "Text": "Màn hình Home Screen là màn hình như thế nào?",
+    "Marks": 1,
+    "AnswerId": 104437,
+    "Answers": [
+      {
+        "Id": 104436,
+        "Text": "Màn hình cung cấp cho người dùng truy cập đến các ứng dụng Mail được cài trên thiết bị",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104437,
+        "Text": "Chứa các folder, widgets hoặc các app shortcuts tùy theo ý người dùng",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104438,
+        "Text": "Màn hình cung cấp cho người dùng truy cập đến các ứng dụng đang chạy gần đây một cách nhanh nhất",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104439,
+        "Text": "Hiển thị toàn bộ ứng dụng được cài trên máy từ Amazon Store, và có thể đưa một ứng dụng bất kỳ ra màn hình Home",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25191,
+    "Text": "Câu nào đúng khi nói về AutoCompleteTextView?",
+    "Marks": 1,
+    "AnswerId": 104443,
+    "Answers": [
+      {
+        "Id": 104440,
+        "Text": "Vừa là layout vừa là widget",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104441,
+        "Text": "Thực chất là một Menu",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104442,
+        "Text": "Là một layout",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104443,
+        "Text": "Là một widget",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25192,
+    "Text": "Đơn vị đo lường không dùng trong Android là?",
+    "Marks": 1,
+    "AnswerId": 104446,
+    "Answers": [
+      {
+        "Id": 104444,
+        "Text": "Db/dip (Density- independent pixel)",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104445,
+        "Text": "Px (Pixel)",
+        "color": "btn-success",
+        "status": ""
+      },
+      { "Id": 104446, "Text": "Ptx", "color": "btn-success", "status": "" },
+      {
+        "Id": 104447,
+        "Text": "Pt (Point)",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25193,
+    "Text": "Để thêm font vào ứng dụng trong android, khi bạn cần copy thêm fonts thì phải thêm font vào thư mục nào?",
+    "Marks": 1,
+    "AnswerId": 104451,
+    "Answers": [
+      {
+        "Id": 104448,
+        "Text": "/layout/fonts",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104449,
+        "Text": "/menu/fonts",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104450,
+        "Text": "/value/fonts",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104451,
+        "Text": "/assets/fonts",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25194,
+    "Text": "Khi thiết kế bố trí các control trên màn hình, khoảng cách các control nên là bao nhiêu?",
+    "Marks": 1,
+    "AnswerId": 104455,
+    "Answers": [
+      { "Id": 104452, "Text": "10dp", "color": "btn-success", "status": "" },
+      { "Id": 104453, "Text": "7dp", "color": "btn-success", "status": "" },
+      { "Id": 104454, "Text": "9dp", "color": "btn-success", "status": "" },
+      { "Id": 104455, "Text": "8dp", "color": "btn-success", "status": "" }
+    ]
+  },
+  {
+    "Id": 25195,
+    "Text": "Trong Relative layout, để chỉ ra rằng widget phải được đặt ở bên dưới của widget tham chiếu. ta sử dụng thuộc tính nào?",
+    "Marks": 1,
+    "AnswerId": 104458,
+    "Answers": [
+      {
+        "Id": 104456,
+        "Text": "android:layout_above",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104457,
+        "Text": "android:layout_toRightOf",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104458,
+        "Text": "android:layout_below",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104459,
+        "Text": "android:layout_toLeftOf",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25196,
+    "Text": "Trong table layout ta dùng thuộc tính nào để giãn đều các control, các cell ?",
+    "Marks": 1,
+    "AnswerId": 104461,
+    "Answers": [
+      {
+        "Id": 104460,
+        "Text": "android:stretchColumns=\"1\"",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104461,
+        "Text": "android:stretchColumns=\"*\"",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104462,
+        "Text": "android:stretchColumns=\"+\"",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104463,
+        "Text": "android:stretchColumns=\"0\"",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25197,
+    "Text": "Để sử dụng font copy trong file xml, ta sử dụng thuộc tính sau?",
+    "Marks": 1,
+    "AnswerId": 104466,
+    "Answers": [
+      {
+        "Id": 104464,
+        "Text": "android:face=‘”serif”",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104465,
+        "Text": "android:type=‘”serif”",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104466,
+        "Text": "android:typeface=‘”serif”",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104467,
+        "Text": "android:font=‘”serif”",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25198,
+    "Text": "Trong Relative layout, để chỉ ra rằng widget phải được đặt ở bên trái của widget tham chiếu. ta sử dụng thuộc tính nào?",
+    "Marks": 1,
+    "AnswerId": 104471,
+    "Answers": [
+      {
+        "Id": 104468,
+        "Text": "android:layout_toRightOf",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104469,
+        "Text": "android:layout_alignParentLeft",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104470,
+        "Text": "android:layout_alignParentRight",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104471,
+        "Text": "android:layout_toLeftOf",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25199,
+    "Text": "Layout nào cho phép sắp xếp các control dưới dạng lưới (cột và hàng)?",
+    "Marks": 1,
+    "AnswerId": 104472,
+    "Answers": [
+      {
+        "Id": 104472,
+        "Text": "Table layout",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104473,
+        "Text": "Relative layout",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104474,
+        "Text": "Frame layout",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104475,
+        "Text": "Absolute layout",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25200,
+    "Text": "Style có thể được kế thừa bằng cách thêm thuộc tính parent = “@android: style/…” đúng hay sai?",
+    "Marks": 1,
+    "AnswerId": 104476,
+    "Answers": [
+      { "Id": 104476, "Text": "Đúng", "color": "btn-success", "status": "" },
+      { "Id": 104477, "Text": "Sai", "color": "btn-success", "status": "" }
+    ]
+  },
+  {
+    "Id": 25201,
+    "Text": "Điều khiển nào không phải là một layout?",
+    "Marks": 1,
+    "AnswerId": 104481,
+    "Answers": [
+      {
+        "Id": 104478,
+        "Text": "Absolute layout",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104479,
+        "Text": "Table layout",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104480,
+        "Text": "Table layout và Absolute layout",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104481,
+        "Text": "ListView",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25202,
+    "Text": "Trong Relative layout, để chỉ ra rằng widget phải được đặt ở đầu của layout mà nó nằm ta sử dụng thuộc tính?",
+    "Marks": 1,
+    "AnswerId": 104482,
+    "Answers": [
+      {
+        "Id": 104482,
+        "Text": "android:layout_alignParentTop",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104483,
+        "Text": "android:layout_above",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104484,
+        "Text": "android:layout_alignParentBottom",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104485,
+        "Text": "android:layout_below",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25203,
+    "Text": "Với CheckBox để thiết lập trạng thái checked hay unchecked ta dùng lệnh sau?",
+    "Marks": 1,
+    "AnswerId": 104486,
+    "Answers": [
+      {
+        "Id": 104486,
+        "Text": "setChecked()",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104487,
+        "Text": "clearChecked()",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104488,
+        "Text": "getCheckedRadioButtonId()",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104489,
+        "Text": "isChecked()",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25204,
+    "Text": "Thuộc tính sau có thể áp dụng cho những widget nào? android:src=\"@drawable/icon\"",
+    "Marks": 1,
+    "AnswerId": 104493,
+    "Answers": [
+      {
+        "Id": 104490,
+        "Text": "ImageButtion",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104491,
+        "Text": "ImageView",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104492,
+        "Text": "EditText",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104493,
+        "Text": "Cả ImageButtion và ImageView",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25205,
+    "Text": "Với RadioButton để thiết lập trạng thái checked hay unchecked ta dùng lệnh sau?",
+    "Marks": 1,
+    "AnswerId": 104494,
+    "Answers": [
+      {
+        "Id": 104494,
+        "Text": "isChecked()",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104495,
+        "Text": "clearChecked()",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104496,
+        "Text": "getCheckedRadioButtonId()",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104497,
+        "Text": "setChecked()",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25206,
+    "Text": "Trong những câu sau, câu nào đúng khi nói về RadioButton?",
+    "Marks": 1,
+    "AnswerId": 104499,
+    "Answers": [
+      {
+        "Id": 104498,
+        "Text": "Những RadioButton cùng nằm trong một RadioGroup thì tại 1 thời điểm có nhiều RadioButton được checked.",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104499,
+        "Text": "Những RadioButton cùng nằm trong một RadioGroup thì tại 1 thời điểm chỉ có 1 RadioButton được checked mà thôi",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104500,
+        "Text": "Những RadioButton không cùng nằm trong một RadioGroup thì tại 1 thời điểm chỉ có 1 RadioButton được checked mà thôi",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104501,
+        "Text": "Không phương án nào đúng.",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25207,
+    "Text": "Để lấy dữ liệu bên trong EditText ta thực hiện lệnh sau?",
+    "Marks": 1,
+    "AnswerId": 104503,
+    "Answers": [
+      {
+        "Id": 104502,
+        "Text": "doText()",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104503,
+        "Text": "getText()",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104504,
+        "Text": "setText()",
+        "color": "btn-success",
+        "status": ""
+      },
+      { "Id": 104505, "Text": "Text()", "color": "btn-success", "status": "" }
+    ]
+  },
+  {
+    "Id": 25208,
+    "Text": "Với RadioButton để xóa bỏ checked trong group, ta dùng lệnh sau?",
+    "Marks": 1,
+    "AnswerId": 104509,
+    "Answers": [
+      {
+        "Id": 104506,
+        "Text": "setChecked()",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104507,
+        "Text": "isChecked()",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104508,
+        "Text": "getCheckedRadioButtonId()",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104509,
+        "Text": "clearChecked()",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25209,
+    "Text": "Trong ImageView và ImageButton khi khai báo thuộc tínhandroid:src=\"@drawable/icon\", thì icon sẽ được lưu ở đâu?",
+    "Marks": 1,
+    "AnswerId": 104511,
+    "Answers": [
+      {
+        "Id": 104510,
+        "Text": "/res/menu",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104511,
+        "Text": "/res/drawable/",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104512,
+        "Text": "/res/values",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104513,
+        "Text": "/res/layout",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25210,
+    "Text": "Trong EditText để nhập một hoặc nhiều dòng dữ liệu ta sử dụng thuộc tính?",
+    "Marks": 1,
+    "AnswerId": 104516,
+    "Answers": [
+      {
+        "Id": 104514,
+        "Text": "android:capitalize",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104515,
+        "Text": "android:textSize",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104516,
+        "Text": "android:singleLine",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104517,
+        "Text": "android:digits",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25211,
+    "Text": "Trong EditText để hiển thị thông tin gợi ý trong vùng nhập dữ liệu khi bạn chưa nhập bất kỳ dữ liệu nào vào và phần gợi ý sẽ tự động mất đi khi có dữ liệu nhập, người ta sử dụng thuộc tính nào?",
+    "Marks": 1,
+    "AnswerId": 104520,
+    "Answers": [
+      {
+        "Id": 104518,
+        "Text": "android: hint",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104519,
+        "Text": "android:textSize",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104520,
+        "Text": "android:autoText",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104521,
+        "Text": "android:capitalize",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25212,
+    "Text": "Để Button thực hiện một hành động click ta khai báo thuộc tính sau?",
+    "Marks": 1,
+    "AnswerId": 104525,
+    "Answers": [
+      {
+        "Id": 104522,
+        "Text": "android: input=\"\"",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104523,
+        "Text": "android: Click=\"\"",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104524,
+        "Text": "android:inClick=\"\"",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104525,
+        "Text": "android:onClick=\"\"",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25213,
+    "Text": "Trong ListView, các dòng dữ liệu có thể chứa những loại nào sau đây?",
+    "Marks": 1,
+    "AnswerId": 104526,
+    "Answers": [
+      {
+        "Id": 104526,
+        "Text": "Tất cả các phương án đều đúng",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104527,
+        "Text": "multi-line items",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104528,
+        "Text": "custom items",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104529,
+        "Text": "simple single-line items",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25214,
+    "Text": "Để hiển thị thanh cuốn theo chiều dọc người ta dùng điều khiển nào?",
+    "Marks": 1,
+    "AnswerId": 104533,
+    "Answers": [
+      { "Id": 104530, "Text": "Button", "color": "btn-success", "status": "" },
+      {
+        "Id": 104531,
+        "Text": "Textview",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104532,
+        "Text": "EditText",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104533,
+        "Text": "Gridview",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25215,
+    "Text": "Trong các dòng dữ liệu ở ListView, ta có thể đặt điều khiển nào?",
+    "Marks": 1,
+    "AnswerId": 104536,
+    "Answers": [
+      {
+        "Id": 104534,
+        "Text": "Button action",
+        "color": "btn-success",
+        "status": ""
+      },
+      { "Id": 104535, "Text": "Icons", "color": "btn-success", "status": "" },
+      {
+        "Id": 104536,
+        "Text": "Tất cả các phương án đều đúng",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104537,
+        "Text": "Checkbox",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25216,
+    "Text": "Để người sử dụng có thể nhập từ mới (không có trong danh sách) hoặc có thể lựa chọn từ ở trong danh sách hiển thị, ta dùng widget nào?",
+    "Marks": 1,
+    "AnswerId": 104539,
+    "Answers": [
+      {
+        "Id": 104538,
+        "Text": "Spinner",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104539,
+        "Text": "AutoCompleteTextView",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104540,
+        "Text": "GridView",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104541,
+        "Text": "Textview",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25217,
+    "Text": "Trong Gridview để hiển thị 4 cột, phải dùng khai báo nào sau đây?",
+    "Marks": 1,
+    "AnswerId": 104542,
+    "Answers": [
+      {
+        "Id": 104542,
+        "Text": "android:numColumns = \"4\"",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104543,
+        "Text": "android:Columns = \"4\"",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104544,
+        "Text": "android:Col = \"4\"",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104545,
+        "Text": "android:numCol= \"4\"",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25218,
+    "Text": "Trong những widget sau đây, đâu không phải là widget lựa chọn?",
+    "Marks": 1,
+    "AnswerId": 104546,
+    "Answers": [
+      {
+        "Id": 104546,
+        "Text": "Textview",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104547,
+        "Text": "ListView",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104548,
+        "Text": "AutocomplexTextview",
+        "color": "btn-success",
+        "status": ""
+      },
+      { "Id": 104549, "Text": "Spinner", "color": "btn-success", "status": "" }
+    ]
+  },
+  {
+    "Id": 25219,
+    "Text": "Để chỉ ra số cột sẽ hiển thị trong GridView, phải sử dụng thuộc tính nào?",
+    "Marks": 1,
+    "AnswerId": 104552,
+    "Answers": [
+      {
+        "Id": 104550,
+        "Text": "android:verticalSpacing",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104551,
+        "Text": "android:columnWidth",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104552,
+        "Text": "android:numColumns",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104553,
+        "Text": "android:horizontalSpacing",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25220,
+    "Text": "Trong Android, điều khiển nào là một widget chọn dạng drop-down?",
+    "Marks": 1,
+    "AnswerId": 104554,
+    "Answers": [
+      {
+        "Id": 104554,
+        "Text": "Spinner",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104555,
+        "Text": "Listview và Gridview",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104556,
+        "Text": "Gridview",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104557,
+        "Text": "Listwiew",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25221,
+    "Text": "Trong AutoCompleteTextView thuộc tính nào chỉ ra số ký tự tối thiểu mà người dùng có thể nhập để hiển thị ra danh sách từ gợi ý tương tự?",
+    "Marks": 1,
+    "AnswerId": 104561,
+    "Answers": [
+      {
+        "Id": 104558,
+        "Text": "android:completionHintView",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104559,
+        "Text": "android:dropDownSelector",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104560,
+        "Text": "android:completionHint",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104561,
+        "Text": "android:completionThreshold",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25222,
+    "Text": "Phương thức sử dụng để gọi ngày tháng năm trong DatePickerDialog là?",
+    "Marks": 1,
+    "AnswerId": 104565,
+    "Answers": [
+      {
+        "Id": 104562,
+        "Text": "OnTimeChangedListene",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104563,
+        "Text": "OnDateChangedListener và OnDateSetListener",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104564,
+        "Text": "OnDateChangedListener",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104565,
+        "Text": "OnDateSetListener",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25223,
+    "Text": "SlidingDrawer chỉ được sử dụng bên trong layout nào?",
+    "Marks": 1,
+    "AnswerId": 104569,
+    "Answers": [
+      {
+        "Id": 104566,
+        "Text": "Absolute Layout",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104567,
+        "Text": "Relative Layout",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104568,
+        "Text": "Frame layout",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104569,
+        "Text": "Frame layout và Relative Layout",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25224,
+    "Text": "Trong Android, loại tab nào cố định không thể cuộn được?",
+    "Marks": 1,
+    "AnswerId": 104572,
+    "Answers": [
+      {
+        "Id": 104570,
+        "Text": "Home Tabs",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104571,
+        "Text": "Scrollalbe Tabs",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104572,
+        "Text": "Fixed Tabs",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104573,
+        "Text": "Không có tab nào có thể cuộn được",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25225,
+    "Text": "Phải sử dụng phương thức OnDateChangedListener khi người dùng thay đổi ngày tháng năm trên điều khiển DatePicker?",
+    "Marks": 1,
+    "AnswerId": 104575,
+    "Answers": [
+      { "Id": 104574, "Text": "Sai", "color": "btn-success", "status": "" },
+      { "Id": 104575, "Text": "Đúng", "color": "btn-success", "status": "" }
+    ]
+  },
+  {
+    "Id": 25226,
+    "Text": "Tab Selector có những loại sau?",
+    "Marks": 1,
+    "AnswerId": 104577,
+    "Answers": [
+      {
+        "Id": 104576,
+        "Text": "Scrollalbe Tabs",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104577,
+        "Text": "Scrollalbe Tabs và Fixed Tabs",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104578,
+        "Text": "Fixed Tabs",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104579,
+        "Text": "Tất cả các phương án đều sai",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25227,
+    "Text": "Các thành phần của Tab Selector gồm có?",
+    "Marks": 1,
+    "AnswerId": 104581,
+    "Answers": [
+      {
+        "Id": 104580,
+        "Text": "TabHost",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104581,
+        "Text": "Tất cả các phương án đều đúng",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104582,
+        "Text": "TabWidget",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104583,
+        "Text": "FrameLayout",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25228,
+    "Text": "Phải sử dụng phương thức OnTimeChangedListener khi người dùng thay đổi thời gian giờ phút giây?",
+    "Marks": 1,
+    "AnswerId": 104584,
+    "Answers": [
+      { "Id": 104584, "Text": "Đúng", "color": "btn-success", "status": "" },
+      { "Id": 104585, "Text": "Sai", "color": "btn-success", "status": "" }
+    ]
+  },
+  {
+    "Id": 25229,
+    "Text": "Để hiển thị ngày, tháng năm trong Android, ta có thể dùng điều khiển nào?",
+    "Marks": 1,
+    "AnswerId": 104589,
+    "Answers": [
+      {
+        "Id": 104586,
+        "Text": "DatePicker",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104587,
+        "Text": "DatePickerDialog",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104588,
+        "Text": "TimePicker",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104589,
+        "Text": "DatePicker và DatePickerDialog",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25230,
+    "Text": "Để thiết lập giờ, phút, giây trong Android, ta có thể dùng điều khiển nào?",
+    "Marks": 1,
+    "AnswerId": 104593,
+    "Answers": [
+      {
+        "Id": 104590,
+        "Text": "TimePicker",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104591,
+        "Text": "DatePicker",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104592,
+        "Text": "TimePickerDialog",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104593,
+        "Text": "TimePicker và TimePickerDialog",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25231,
+    "Text": "Layout được sử dụng trong Tab content là?",
+    "Marks": 1,
+    "AnswerId": 104594,
+    "Answers": [
+      {
+        "Id": 104594,
+        "Text": "Frame Layout",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104595,
+        "Text": "Relative Layout",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104596,
+        "Text": "Linear Layout",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104597,
+        "Text": "Table layout",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25232,
+    "Text": "EditText cho phép hiển thị action như Send ngay trên bàn phím, hỗ trợ nhanh thao tác gửi tin nhắn bằng cách khai báo thuộc tính như thế nào?",
+    "Marks": 1,
+    "AnswerId": 104600,
+    "Answers": [
+      {
+        "Id": 104598,
+        "Text": "android:imeOptions=\"actionNone\"",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104599,
+        "Text": "android:imeOptions=\"actionSearch\"",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104600,
+        "Text": "android:imeOptions=\"actionSend\"",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104601,
+        "Text": "android:imeOptions=\"actionSend\" và android:imeOptions=\"actionSearch\"",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25233,
+    "Text": "Khi thực hiện chức năng Search để tạo một truy vấn sử dụng những từ đã truy cập gần đây cần thực hiện bước nào đầu tiên?",
+    "Marks": 1,
+    "AnswerId": 104603,
+    "Answers": [
+      {
+        "Id": 104602,
+        "Text": "Tạo một content provider để chứa nội dung search, được kế thừa từ SearchRecentSuggestionsProvider và được khai báo trong manifest",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104603,
+        "Text": "Tạo một searchable activity",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104604,
+        "Text": "Lưu chuỗi truy vấn vào content provider mỗi lần thực hiện lệnh search",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104605,
+        "Text": "Chỉnh sửa cấu hình searchable",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25234,
+    "Text": "Để hiển thị thông báo ta có thể sử dụng điều khiển nào?",
+    "Marks": 1,
+    "AnswerId": 104609,
+    "Answers": [
+      {
+        "Id": 104606,
+        "Text": "Alert Dialog",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104607,
+        "Text": "Message",
+        "color": "btn-success",
+        "status": ""
+      },
+      { "Id": 104608, "Text": "Toast", "color": "btn-success", "status": "" },
+      {
+        "Id": 104609,
+        "Text": "Toast và Alert Dialog",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25235,
+    "Text": "Trong EditText để nhập text có chứa dạng số cần nhập giá trị nào vào thuộc tính android:inputType?",
+    "Marks": 1,
+    "AnswerId": 104612,
+    "Answers": [
+      { "Id": 104610, "Text": "text", "color": "btn-success", "status": "" },
+      {
+        "Id": 104611,
+        "Text": "textEmailAddress",
+        "color": "btn-success",
+        "status": ""
+      },
+      { "Id": 104612, "Text": "number", "color": "btn-success", "status": "" },
+      { "Id": 104613, "Text": "textUri", "color": "btn-success", "status": "" }
+    ]
+  },
+  {
+    "Id": 25236,
+    "Text": "Để hiển thị thông báo trong các mục thiết lập thông số cấu hình, hay đơn giản chỉ là hiển thị lên để xem thông tin tạm thời nào đó mà không cho phép người sử dụng tương tác ta dùng lớp nào?",
+    "Marks": 1,
+    "AnswerId": 104616,
+    "Answers": [
+      {
+        "Id": 104614,
+        "Text": "Notification",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104615,
+        "Text": "Alert Dialog",
+        "color": "btn-success",
+        "status": ""
+      },
+      { "Id": 104616, "Text": "Toast", "color": "btn-success", "status": "" },
+      {
+        "Id": 104617,
+        "Text": "Tất cả các phương án đều đúng",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25237,
+    "Text": "Để hiển thị Toast trong 2 giây ta sử dụng giá trị sau?",
+    "Marks": 1,
+    "AnswerId": 104620,
+    "Answers": [
+      {
+        "Id": 104618,
+        "Text": "Toast.LENGTH_LONG",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104619,
+        "Text": "Toast.LONG",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104620,
+        "Text": "Toast.LENGTH_SHORT",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104621,
+        "Text": "Toast.SHORT",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25238,
+    "Text": "Để hiển thị Dialog ta dùng phương thức nào?",
+    "Marks": 1,
+    "AnswerId": 104625,
+    "Answers": [
+      { "Id": 104622, "Text": "hide()", "color": "btn-success", "status": "" },
+      {
+        "Id": 104623,
+        "Text": "onDialog()",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104624,
+        "Text": "create()",
+        "color": "btn-success",
+        "status": ""
+      },
+      { "Id": 104625, "Text": "show()", "color": "btn-success", "status": "" }
+    ]
+  },
+  {
+    "Id": 25239,
+    "Text": "Trong EditText để nhập text có chứa dạng số điện thoại cần nhập giá trị nào vào thuộc tính android:inputType?",
+    "Marks": 1,
+    "AnswerId": 104629,
+    "Answers": [
+      {
+        "Id": 104626,
+        "Text": "android:inputType =\"textUri\"",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104627,
+        "Text": "android:inputType =\"number\"",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104628,
+        "Text": "android:inputType =\"textEmailAddress\"",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104629,
+        "Text": "android:inputType =\"phone”",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25240,
+    "Text": "Khi cấu hình một thẻ Searchable để gán các thuộc tính như: voice search, search suggestion hoặc hint text cho hộp thoại search, người ta tạo một file searchable.xml trong thư mục nào?",
+    "Marks": 1,
+    "AnswerId": 104632,
+    "Answers": [
+      {
+        "Id": 104630,
+        "Text": "/res/values",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104631,
+        "Text": "/res/layout",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104632,
+        "Text": "/res/xml",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104633,
+        "Text": "/res/menu",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25241,
+    "Text": "Để xóa lịch sửa truy vấn sử dụng phương thức nào của SearchRecentSuggestions?",
+    "Marks": 1,
+    "AnswerId": 104635,
+    "Answers": [
+      {
+        "Id": 104634,
+        "Text": ".hide()",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104635,
+        "Text": ".clearHistory()",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104636,
+        "Text": ".clear()",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104637,
+        "Text": ".hideHistory()",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25242,
+    "Text": "Phương thức nào của WebView dùng để xóa cache trên trình duyệt?",
+    "Marks": 1,
+    "AnswerId": 104641,
+    "Answers": [
+      {
+        "Id": 104638,
+        "Text": "clearCacheBrowner()",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104639,
+        "Text": "clear()",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104640,
+        "Text": "clearCaches()",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104641,
+        "Text": "clearCache()",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25243,
+    "Text": "Loại menu nào trong Android được kích hoạt bằng cách nhấn vào nút Menu?",
+    "Marks": 1,
+    "AnswerId": 104645,
+    "Answers": [
+      {
+        "Id": 104642,
+        "Text": "Popup menu",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104643,
+        "Text": "Không có loại menu nào",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104644,
+        "Text": "Context menu",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104645,
+        "Text": "Option menu",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25244,
+    "Text": "Phương thức nào dùng để xử lý sự kiện, để tìm ra xem menu nào được lựa chọn?",
+    "Marks": 1,
+    "AnswerId": 104648,
+    "Answers": [
+      {
+        "Id": 104646,
+        "Text": "registerForContextMenu()",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104647,
+        "Text": "getResources().getColor()",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104648,
+        "Text": "onContextItemSelected()",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104649,
+        "Text": "onCreateContextMenu()",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25245,
+    "Text": "Thực hiện phương thức nào dùng để nạp Context Menu XML vào ứng dụng. phương thức sẽ được gọi mỗi khi context menu được yêu cầu?",
+    "Marks": 1,
+    "AnswerId": 104652,
+    "Answers": [
+      {
+        "Id": 104650,
+        "Text": "registerForContextMenu()",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104651,
+        "Text": "onContextItemSelected()",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104652,
+        "Text": "onCreateContextMenu()",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104653,
+        "Text": "getResources().getColor()",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25246,
+    "Text": "Câu nào là đúng đối với menu trong Android?",
+    "Marks": 1,
+    "AnswerId": 104654,
+    "Answers": [
+      {
+        "Id": 104654,
+        "Text": "Phải đăng ký Popup Menu cho đối tượng sau đó muốn hiển thị lên thì ta nhấn thật lâu vào đối tượng (long click )",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104655,
+        "Text": "Không thể tạo Context menu trong code",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104656,
+        "Text": "Phải đăng ký Option Menu cho đối tượng sau đó muốn hiển thị lên thì ta nhấn thật lâu vào đối tượng (long click )",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104657,
+        "Text": "Có thể tạo Menu động trong code",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25247,
+    "Text": "Để bật Javascript, gọi : myWebView.setSettings().setJavaScriptEnabled(true); đối với đối tượng WebView>, điều này đúng hay sai?",
+    "Marks": 1,
+    "AnswerId": 104659,
+    "Answers": [
+      { "Id": 104658, "Text": "Sai", "color": "btn-success", "status": "" },
+      { "Id": 104659, "Text": "Đúng", "color": "btn-success", "status": "" }
+    ]
+  },
+  {
+    "Id": 25248,
+    "Text": "Để định nghĩa menu, tạo một file xml trong thư mục nào của dự án?",
+    "Marks": 1,
+    "AnswerId": 104662,
+    "Answers": [
+      {
+        "Id": 104660,
+        "Text": "res/values/",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104661,
+        "Text": "res/layout/",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104662,
+        "Text": "res/menu/",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104663,
+        "Text": "res/xml/",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25249,
+    "Text": "Sử dụng thuộc tính android:showAsAction=\"always\" cho item của menu có nghĩa là item sẽ luôn xuất hiện trên thanh action bar, điều này đúng hay sai?",
+    "Marks": 1,
+    "AnswerId": 104665,
+    "Answers": [
+      { "Id": 104664, "Text": "Đúng", "color": "btn-success", "status": "" },
+      { "Id": 104665, "Text": "Sai", "color": "btn-success", "status": "" }
+    ]
+  },
+  {
+    "Id": 25250,
+    "Text": "Để tải trang web cần hiển thị lên WebView ta sử dụng phương thức sau?",
+    "Marks": 1,
+    "AnswerId": 104667,
+    "Answers": [
+      {
+        "Id": 104666,
+        "Text": ".loadView(….)",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104667,
+        "Text": ".loadUrl(...)",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104668,
+        "Text": ".loadData(….)",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104669,
+        "Text": ".loadWeb(…)",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25251,
+    "Text": "Trong android có mấy loại menu?",
+    "Marks": 1,
+    "AnswerId": 104671,
+    "Answers": [
+      { "Id": 104670, "Text": "4", "color": "btn-success", "status": "" },
+      { "Id": 104671, "Text": "3", "color": "btn-success", "status": "" },
+      { "Id": 104672, "Text": "5", "color": "btn-success", "status": "" },
+      { "Id": 104673, "Text": "2", "color": "btn-success", "status": "" }
+    ]
+  },
+  {
+    "Id": 25252,
+    "Text": "Để Navigation Drawer được gọi từ trái qua phải ta sẽ khai báo như thế nào?",
+    "Marks": 1,
+    "AnswerId": 104677,
+    "Answers": [
+      {
+        "Id": 104674,
+        "Text": "android:layout_gravity=”right”",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104675,
+        "Text": "android:layout_gravity=”left”",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104676,
+        "Text": "android:layout_gravity=”end”",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104677,
+        "Text": "android:layout_gravity=”start”",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25253,
+    "Text": "Chiều cao của mỗi item trên Navigation Drawer không nên nhỏ hơn bao nhiêu?",
+    "Marks": 1,
+    "AnswerId": 104679,
+    "Answers": [
+      { "Id": 104678, "Text": "47dp", "color": "btn-success", "status": "" },
+      { "Id": 104679, "Text": "48dp", "color": "btn-success", "status": "" },
+      { "Id": 104680, "Text": "49dp", "color": "btn-success", "status": "" },
+      { "Id": 104681, "Text": "46dp", "color": "btn-success", "status": "" }
+    ]
+  },
+  {
+    "Id": 25254,
+    "Text": "Thông thường ta có thể đặt action bar ở những vị trí nào sau đây?",
+    "Marks": 1,
+    "AnswerId": 104685,
+    "Answers": [
+      {
+        "Id": 104682,
+        "Text": "Main action bar",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104683,
+        "Text": "Top bar",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104684,
+        "Text": "Bottom bar",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104685,
+        "Text": "Tất cả các phương án đều đúng",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25255,
+    "Text": "Để chứa các action ít thực hiện dưới dạng các menu ta sẽ thiết kế vùng action bar nào?",
+    "Marks": 1,
+    "AnswerId": 104686,
+    "Answers": [
+      {
+        "Id": 104686,
+        "Text": "Action Overflow",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104687,
+        "Text": "App icon",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104688,
+        "Text": "View Control",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104689,
+        "Text": "Action Button",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25256,
+    "Text": "Thay đổi một Action Bar Icon bằng một icon khác ta sử dụng phương thức nào?",
+    "Marks": 1,
+    "AnswerId": 104693,
+    "Answers": [
+      {
+        "Id": 104690,
+        "Text": "actionBar.getIcon(R.drawable.ico_actionbar)",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104691,
+        "Text": "actionBar.hideIcon(R.drawable.ico_actionbar)",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104692,
+        "Text": "actionBar.showIcon(R.drawable.ico_actionbar)",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104693,
+        "Text": "actionBar.setIcon(R.drawable.ico_actionbar)",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25257,
+    "Text": "Khởi tạo sự kiện mở, đóng navigation drawer bằng phương thức nào?",
+    "Marks": 1,
+    "AnswerId": 104694,
+    "Answers": [
+      {
+        "Id": 104694,
+        "Text": "onDrawerClosed(view)   và onDrawerOpened(drawerView)",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104695,
+        "Text": "onDrawerClose(view)   và onDrawerOpene(drawerView)",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104696,
+        "Text": "onClosedDrawer(view)   và onOpenedDrawer(drawerView",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104697,
+        "Text": "onClosed(view)   và onOpened(drawerView)",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25258,
+    "Text": "Khi khai báo một Action item, để hiển thị icon của action nếu không gian màn hình cho phép ta dùng?",
+    "Marks": 1,
+    "AnswerId": 104699,
+    "Answers": [
+      {
+        "Id": 104698,
+        "Text": "android:showAsAction=\"Always\"",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104699,
+        "Text": "android:showAsAction=\"ifRoom\"",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104700,
+        "Text": "android:showAsAction=\"Never\"",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104701,
+        "Text": "android:showAsAction=\"withText\"",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25259,
+    "Text": "Trong những vùng sau, đâu là vùng chức năng của Action bar?",
+    "Marks": 1,
+    "AnswerId": 104704,
+    "Answers": [
+      {
+        "Id": 104702,
+        "Text": "Button Overflow",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104703,
+        "Text": "Label Overflow",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104704,
+        "Text": "View Control",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104705,
+        "Text": "Text Overflow",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25260,
+    "Text": "Navigation Drawer là một bảng điều hướng xuất hiện khi nào ?",
+    "Marks": 1,
+    "AnswerId": 104706,
+    "Answers": [
+      {
+        "Id": 104706,
+        "Text": "Vuốt từ trên xuống",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104707,
+        "Text": "Bật ứng dụng Gmail",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104708,
+        "Text": "Nhìn bằng mắt vào điện thoại",
+        "color": "btn-success",
+        "status": ""
+      },
+      {
+        "Id": 104709,
+        "Text": "Lắc điện thoại",
+        "color": "btn-success",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "Id": 25261,
+    "Text": "Action Buttons có phải là một vùng chức năng của Action Bar?",
+    "Marks": 1,
+    "AnswerId": 104711,
+    "Answers": [
+      { "Id": 104710, "Text": "Sai", "color": "btn-success", "status": "" },
+      { "Id": 104711, "Text": "Đúng", "color": "btn-success", "status": "" }
+    ]
+  }
+]

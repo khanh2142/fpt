@@ -1,0 +1,65 @@
+<div class="card">
+  <div class="card-body">
+    <div class="row">
+      <form action="">
+        <label for="gop-y">Góp ý<span class="text-danger">*</span> </label>
+        <textarea class="form-control mt-2" id="gop-y" rows="4"></textarea>
+
+        <label for="fullname">Họ tên <span class="text-danger">*</span></label>
+        <input type="text" name="fullname" class="form-control" id="fullname" />
+
+        <label for="email" class="col-2"
+          >Email <span class="text-danger">*</span></label
+        >
+        <input type="email" name="email" class="form-control" id="email" />
+
+        <label for="sdt"
+          >Số điện thoại <span class="text-danger">*</span></label
+        >
+        <input type="text" name="sdt" class="form-control" id="sdt" />
+      </form>
+    </div>
+  </div>
+  <button
+    class="btn btn-outline-primary col-3 ms-3 mb-3"
+    type="button"
+    data-bs-toggle="modal"
+    data-bs-target="#send"
+  >
+    Gửi
+  </button>
+  <div
+    class="modal fade"
+    id="send"
+    tabindex="-1"
+    aria-labelledby="send"
+    aria-hidden="true"
+  >
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h6 class="modal-title" id="send">Thông báo</h6>
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="modal"
+            aria-label="Close"
+          ></button>
+        </div>
+        <div class="modal-body">
+          Cảm ơn bạn đã đóng góp ý kiến để chúng tôi ngày một hoàn thiện, ý kiến
+          của bạn sẽ được phản hồi trong thời gian sớm nhất!
+        </div>
+        <div class="modal-footer">
+          <button
+            type="button"
+            class="btn btn-secondary"
+            data-bs-dismiss="modal"
+          >
+            Close
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
