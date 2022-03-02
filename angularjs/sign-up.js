@@ -21,7 +21,7 @@ const signUp = ($scope, $http) => {
 
     const fee = $scope.fee;
 
-    const marks = $scope.marks;
+    const marks = 0;
 
     console.log(birthday);
 
@@ -56,6 +56,7 @@ const signUp = ($scope, $http) => {
               birthday: birthday,
               fee: fee,
               marks: marks,
+              role: "sv",
             }),
           })
             .then((res) => {
@@ -77,7 +78,7 @@ const signUp = ($scope, $http) => {
                   role: "sv",
                 })
               );
-              window.location.replace("trang-chu.html");
+              window.location.replace("dang-nhap.html");
             });
         }
       });

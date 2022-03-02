@@ -143,28 +143,41 @@
               ng-controller="login"
             >
               <li>
-                <a class="dropdown-item login-btn" href="./dang-ky.html"
+                <a
+                  class="dropdown-item login-btn"
+                  ng-Show="showBtn"
+                  href="./dang-ky.html"
                   >Đăng kí</a
                 >
               </li>
               <li>
-                <a class="dropdown-item login-btn" href="./dang-nhap.html"
+                <a
+                  class="dropdown-item login-btn"
+                  ng-Show="showBtn"
+                  href="./dang-nhap.html"
                   >Đăng nhập</a
                 >
               </li>
               <li>
-                <a class="dropdown-item login-btn" href="#">Quên mật khẩu</a>
+                <a class="dropdown-item login-btn" ng-Show="showBtn" href="#"
+                  >Quên mật khẩu</a
+                >
               </li>
               <li>
                 <a
                   href="#"
                   class="dropdown-item user-profile"
                   id="fullname-user"
+                  ng-Show="userprof"
                   >{{fullname}}</a
                 >
               </li>
               <li>
-                <a href="#" class="dropdown-item user-profile" id="score-user"
+                <a
+                  href="#"
+                  class="dropdown-item userprof"
+                  id="score-user"
+                  ng-Show="userprof"
                   >{{score}}</a
                 >
               </li>
@@ -174,16 +187,20 @@
                   class="dropdown-item user-setting"
                   href="#"
                   ng-click="logout()"
+                  ng-Show="userset"
                   >Đăng xuất</a
                 >
               </li>
               <li>
-                <a class="dropdown-item user-setting" href="doi-pass.html"
+                <a
+                  class="dropdown-item user-setting"
+                  href="doi-pass.html"
+                  ng-Show="userset"
                   >Đổi mật khẩu</a
                 >
               </li>
               <li>
-                <a class="dropdown-item user-setting" href="#"
+                <a class="dropdown-item user-setting" href="#" ng-Show="userset"
                   >Cập nhật tài khoản</a
                 >
               </li>

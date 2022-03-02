@@ -1,22 +1,3 @@
-let userSetting = document.querySelectorAll(".user-setting");
-let loginBtn = document.querySelectorAll(".login-btn");
-let userProfile = document.querySelectorAll(".user-profile");
-let fullname = document.getElementById("fullname-user");
-let score = document.getElementById("score-user");
-const user = JSON.parse(localStorage.getItem("currentUser"));
-if (user === null) {
-  userSetting.forEach((item) => {
-    item.style.display = "none";
-  });
-  userProfile.forEach((item) => {
-    item.style.display = "none";
-  });
-} else {
-  loginBtn.forEach((item) => {
-    item.style.display = "none";
-  });
-}
-
 const app = angular.module("myApp", ["ngRoute"]);
 
 const logout = function ($scope) {
@@ -27,15 +8,27 @@ const logout = function ($scope) {
 };
 
 app.controller("appController", ($scope, $http) => {
+  const user = JSON.parse(localStorage.getItem("currentUser"));
+
+  if (user === null) {
+    $scope.userset = false;
+    $scope.userprof = false;
+    $scope.showBtn = true;
+    $scope.fullname = "";
+    $scope.score = "";
+  } else {
+    $scope.showBtn = false;
+    $scope.userprof = true;
+    $scope.userset = true;
+    $scope.fullname = JSON.parse(localStorage.getItem("currentUser")).fullname;
+    $scope.score =
+      "Điểm : " + JSON.parse(localStorage.getItem("currentUser")).marks;
+  }
+
   $scope.take_id = (sub_id) => {
     console.log(sub_id);
     $scope.sub_id = sub_id;
   };
-
-  $scope.fullname = JSON.parse(localStorage.getItem("currentUser")).fullname;
-
-  $scope.score =
-    "Điểm : " + JSON.parse(localStorage.getItem("currentUser")).marks;
 });
 
 app.controller("admin", ($scope) => {

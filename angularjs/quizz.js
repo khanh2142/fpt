@@ -10,7 +10,26 @@ app.controller("quizzController", function ($scope, $http) {
   };
 });
 
-app.controller("testController", function ($scope, $http, $timeout) {
+app.controller("testController", function ($scope, $http, $timeout, $interval) {
+  $scope.minute = 14;
+  $scope.second = 60;
+
+  timecal = $interval(function () {
+    if ($scope.minute >= 0) {
+      if ($scope.second > 0) {
+        $scope.second -= 1;
+      } else {
+        if ($scope.minute == 0) {
+          $scope.time = "Hết giờ !";
+        } else {
+          $scope.second = 60;
+          $scope.minute -= 1;
+        }
+      }
+      $scope.time = $scope.minute + ":" + $scope.second;
+    }
+  }, 1000);
+
   const currentSubId = JSON.parse(localStorage.getItem("sub_id"));
 
   localStorage.setItem("score", JSON.stringify({ score: 0, index: 0 }));
@@ -74,37 +93,31 @@ app.controller("testController", function ($scope, $http, $timeout) {
   };
 
   $scope.agree = function () {
-    $scope.totalScore = 0;
-    const api = "https://621394e389fad53b1ff9c97c.mockapi.io/api/sinhvien/diem";
-
     const userApi =
       "https://621394e389fad53b1ff9c97c.mockapi.io/api/sinhvien/sinhvien/";
     const userId = JSON.parse(localStorage.getItem("currentUser")).id;
+    const currentScore = JSON.parse(localStorage.getItem("currentUser")).marks;
 
-    $http.get(api).then((res) => {
-      let currentSubject = JSON.parse(localStorage.getItem("sub_id")).sub_id;
-      let score = JSON.parse(localStorage.getItem("score")).score;
-      res.data.forEach((item) => {
-        if (item.sub_id == currentSubject) {
-          if (score > item.score) {
-            $http.put(api + "/" + item.id, JSON.stringify({ score: score }));
-          }
-        }
-      });
+    const score = JSON.parse(localStorage.getItem("score")).score;
 
-      res.data.forEach((item) => {
-        $scope.totalScore += item.score;
-      });
+    console.log(currentScore, score);
 
-      console.log($scope.totalScore);
-
-      $http.put(userApi + userId, JSON.stringify({ marks: $scope.totalScore }));
-    });
+    $http
+      .put(userApi + userId, JSON.stringify({ marks: currentScore + score }))
+      .then();
 
     $http.get(userApi + userId).then((res) => {
       console.log(res.data);
       localStorage.setItem("currentUser", JSON.stringify(res.data));
     });
+
+    localStorage.setItem(
+      "time",
+      JSON.stringify({
+        minute: $scope.minute,
+        second: $scope.second,
+      })
+    );
 
     $timeout(function () {
       window.location.replace("#!ket-qua");
